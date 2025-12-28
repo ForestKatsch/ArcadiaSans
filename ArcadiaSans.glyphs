@@ -2,8 +2,9 @@
 .appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-"",
-"ABCDEFGHIJKLMNOPQRSTUVWXYZaæbcdefghijklmnopqrstuvwxyzΔ0123456789 /nbspace .,:;…!?•*#///backslash -–—_(){}[]“”‘’\"'@&©®™°|¦¢$+−×÷=><%↑→↓←↔↕/_part.3_bowl/_part.arrow_right/_part.asterisk_arm/_part.circle_big/_part.comma/_part.dash/_part.i_dot/_part.lowercase_bowl/_part.period/_part.quote_unsigned/_part.shoulder/_part.stem_down/_part.stem_up/_part.tail"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZaæbcdefghijklmnopqrstuvwxyzΔ0123456789 /nbspace .,:;…!?•*#///backslash -–—_(){}[]“”‘’\"'@&©®™°|¦¢$+−×÷=><%↑→↓←↔↕/_part.3_bowl/_part.arrow_right/_part.asterisk_arm/_part.circle_big/_part.comma/_part.dash/_part.i_dot/_part.lowercase_bowl/_part.period/_part.quote_unsigned/_part.shoulder/_part.stem_down/_part.stem_up/_part.tail",
+"¦",
+$
 );
 axes = (
 {
@@ -9487,7 +9488,7 @@ unicode = 162;
 glyphname = dollar;
 kernLeft = S;
 kernRight = S;
-lastChange = "2025-12-28 06:53:58 +0000";
+lastChange = "2025-12-28 15:24:04 +0000";
 layers = (
 {
 layerId = m01;
@@ -9499,10 +9500,10 @@ ref = S;
 {
 closed = 1;
 nodes = (
-(285,-80,l),
-(285,680,l),
-(247,680,l),
-(247,-80,l)
+(295,-80,l),
+(295,680,l),
+(237,680,l),
+(237,-80,l)
 );
 }
 );
@@ -9518,10 +9519,84 @@ ref = S;
 {
 closed = 1;
 nodes = (
-(296,-80,l),
-(296,680,l),
-(236,680,l),
-(236,-80,l)
+(336,-80,l),
+(336,680,l),
+(216,680,l),
+(216,-80,l)
+);
+}
+);
+width = 530;
+},
+{
+associatedMasterId = m01;
+attr = {
+axisRules = (
+{
+min = 600;
+}
+);
+};
+layerId = "3EC4A605-0B17-4384-8F19-2CC146919D8E";
+name = "Dec 28, 25 at 07:22";
+shapes = (
+{
+locked = 1;
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(285,-90,l),
+(285,20,l),
+(227,20,l),
+(227,-90,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(305,580,l),
+(305,690,l),
+(247,690,l),
+(247,580,l)
+);
+}
+);
+width = 532;
+},
+{
+associatedMasterId = m002;
+attr = {
+axisRules = (
+{
+min = 600;
+}
+);
+};
+layerId = "0655DEED-4012-42F8-8F60-9204CE9ED125";
+name = "Dec 28, 25 at 07:23";
+shapes = (
+{
+locked = 1;
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(316,-100,l),
+(316,20,l),
+(196,20,l),
+(196,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,580,l),
+(336,700,l),
+(216,700,l),
+(216,580,l)
 );
 }
 );
