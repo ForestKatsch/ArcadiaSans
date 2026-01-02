@@ -6,7 +6,10 @@ DisplayStrings = (
 "/_part.o o/_part.3_bowl &",
 "/_part.lowercase_bowl p®P",
 "®",
-"Ţ"
+"Ţ",
+$,
+"1¢",
+r
 );
 axes = (
 {
@@ -12575,7 +12578,7 @@ unicode = 113;
 glyphname = r;
 kernLeft = r;
 kernRight = r;
-lastChange = "2025-12-31 04:41:30 +0000";
+lastChange = "2026-01-02 00:38:22 +0000";
 layers = (
 {
 anchors = (
@@ -12718,6 +12721,13 @@ ref = _part.stem_up;
 {
 closed = 1;
 nodes = (
+(253,405,ls),
+(270,405,o),
+(283,401,o),
+(296,390,cs),
+(305,382,o),
+(314,374,o),
+(322,365,c),
 (349,379,l),
 (337,394,o),
 (327,404,o),
@@ -12738,14 +12748,7 @@ nodes = (
 (159,391,cs),
 (173,401,o),
 (186,405,o),
-(203,405,cs),
-(253,405,ls),
-(270,405,o),
-(283,401,o),
-(296,390,cs),
-(305,382,o),
-(314,374,o),
-(322,365,c)
+(203,405,cs)
 );
 }
 );
@@ -15643,7 +15646,7 @@ unicode = 48;
 },
 {
 glyphname = one;
-lastChange = "2026-01-01 22:42:43 +0000";
+lastChange = "2026-01-01 23:48:55 +0000";
 layers = (
 {
 layerId = m01;
@@ -15715,8 +15718,8 @@ nodes = (
 closed = 1;
 nodes = (
 (445,0,l),
-(445,31,l),
-(55,31,l),
+(445,30,l),
+(55,30,l),
 (55,0,l)
 );
 }
@@ -21381,7 +21384,7 @@ unicode = 166;
 glyphname = cent;
 kernLeft = c;
 kernRight = c;
-lastChange = "2026-01-01 21:35:49 +0000";
+lastChange = "2026-01-01 23:48:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -21510,10 +21513,10 @@ ref = c;
 {
 closed = 1;
 nodes = (
-(247,-80,l),
-(247,510,l),
-(215,510,l),
-(215,-80,l)
+(242,-80,l),
+(242,510,l),
+(210,510,l),
+(210,-80,l)
 );
 }
 );
@@ -21566,7 +21569,7 @@ unicode = 162;
 glyphname = dollar;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-01-01 22:53:24 +0000";
+lastChange = "2026-01-01 23:47:46 +0000";
 layers = (
 {
 layerId = m01;
@@ -21695,10 +21698,10 @@ ref = S;
 {
 closed = 1;
 nodes = (
-(252,-80,l),
-(252,680,l),
-(220,680,l),
-(220,-80,l)
+(251,-80,l),
+(251,680,l),
+(221,680,l),
+(221,-80,l)
 );
 }
 );
@@ -21724,19 +21727,19 @@ ref = S;
 {
 closed = 1;
 nodes = (
-(244,-90,l),
-(244,20,l),
-(220,20,l),
-(220,-90,l)
+(247,-90,l),
+(247,20,l),
+(217,20,l),
+(217,-90,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(252,580,l),
-(252,690,l),
-(228,690,l),
-(228,580,l)
+(255,580,l),
+(255,690,l),
+(225,690,l),
+(225,580,l)
 );
 }
 );
@@ -29208,6 +29211,38 @@ instances = (
 {
 name = Regular;
 type = variable;
+},
+{
+axesValues = (
+100
+);
+instanceInterpolations = {
+m003 = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+m003 = 0.66667;
+m01 = 0.33333;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+m003 = 0.33333;
+m01 = 0.66667;
+};
+name = Light;
+weightClass = 300;
 },
 {
 axesValues = (
