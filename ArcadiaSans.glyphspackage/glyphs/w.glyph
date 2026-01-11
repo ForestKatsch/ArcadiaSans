@@ -4,6 +4,12 @@ kernLeft = v;
 kernRight = v;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (830,1100);
+}
+);
 hints = (
 {
 name = _corner.letter_v;

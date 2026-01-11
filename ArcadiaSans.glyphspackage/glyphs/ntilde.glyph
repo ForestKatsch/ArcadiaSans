@@ -1,0 +1,19 @@
+{
+glyphname = ntilde;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n;
+},
+{
+pos = (25,-400);
+ref = tildecomb;
+}
+);
+width = 1210;
+}
+);
+unicode = 241;
+}

@@ -4,6 +4,16 @@ kernLeft = t;
 kernRight = t;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (324,1500);
+},
+{
+name = topright;
+pos = (512,1200);
+}
+);
 hints = (
 {
 name = _corner.outside_md;

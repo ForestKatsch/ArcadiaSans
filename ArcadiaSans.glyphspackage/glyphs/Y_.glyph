@@ -2,6 +2,12 @@
 glyphname = Y;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (600,1500);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -29,8 +35,9 @@ nodes = (
 );
 }
 );
-width = 1140;
+width = 1200;
 }
 );
+metricRight = "=|Y";
 unicode = 89;
 }

@@ -2,21 +2,26 @@
 glyphname = dotaccentcomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (600,1500);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(155,1315,l),
-(340,1315,l),
-(340,1500,l),
-(155,1500,l)
+(510,1680,l),
+(690,1680,l),
+(690,1860,l),
+(510,1860,l)
 );
 }
 );
-width = 495;
+width = 1200;
 }
 );
-metricWidth = "=idotless";
 unicode = 775;
 }

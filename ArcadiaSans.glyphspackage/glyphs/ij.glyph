@@ -1,0 +1,21 @@
+{
+glyphname = ij;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (500,0);
+ref = j;
+}
+);
+width = 1000;
+}
+);
+metricLeft = "=i";
+metricRight = "=j";
+unicode = 307;
+}

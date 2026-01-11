@@ -4,6 +4,12 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (575,1100);
+}
+);
 hints = (
 {
 name = _corner.outside_md;
@@ -57,7 +63,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(218,641,l),
+(218,637,l),
 (218,472,l),
 (1025,472,l),
 (1025,1100,l),
@@ -68,7 +74,7 @@ nodes = (
 (300,170,l),
 (300,930,l),
 (850,930,l),
-(850,641,l)
+(850,637,l)
 );
 }
 );

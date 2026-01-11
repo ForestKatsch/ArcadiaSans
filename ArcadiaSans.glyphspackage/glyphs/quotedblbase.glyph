@@ -1,0 +1,20 @@
+{
+glyphname = quotedblbase;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-1420);
+ref = quoteright;
+}
+);
+width = 420;
+}
+);
+metricLeft = "=quotedbl";
+metricRight = "=quotedbl";
+unicode = 8222;
+}

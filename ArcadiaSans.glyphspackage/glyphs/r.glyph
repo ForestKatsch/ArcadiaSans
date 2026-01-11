@@ -4,6 +4,12 @@ kernLeft = n;
 kernRight = r;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (515,1100);
+}
+);
 hints = (
 {
 name = _cap.letter_n;

@@ -2,19 +2,25 @@
 glyphname = idotless;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (250,1100);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
 (160,0,l),
-(335,0,l),
-(335,1100,l),
+(340,0,l),
+(340,1100,l),
 (160,1100,l)
 );
 }
 );
-width = 495;
+width = 500;
 }
 );
 metricLeft = "=n";

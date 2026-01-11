@@ -8,11 +8,13 @@ shapes = (
 ref = jdotless;
 },
 {
+pos = (-350,-400);
 ref = dotaccentcomb;
 }
 );
-width = 495;
+width = 500;
 }
 );
+metricRight = "=idotless";
 unicode = 106;
 }

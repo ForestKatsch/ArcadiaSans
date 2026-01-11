@@ -4,6 +4,12 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (572,1100);
+}
+);
 hints = (
 {
 name = _corner.outside_md;
@@ -46,7 +52,7 @@ type = Corner;
 name = _cap.end_md;
 options = 10;
 origin = (1,2);
-scale = (1,-1);
+scale = (0.94118,-1);
 type = Cap;
 },
 {
@@ -58,7 +64,7 @@ type = Corner;
 name = _cap.shoulder_sm;
 options = 10;
 origin = (0,7);
-scale = (1,-1);
+scale = (0.97059,-1);
 type = Cap;
 }
 );

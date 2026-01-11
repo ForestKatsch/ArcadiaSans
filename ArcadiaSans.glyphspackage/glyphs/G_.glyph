@@ -4,6 +4,16 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (655,0);
+},
+{
+name = top;
+pos = (655,1500);
+}
+);
 hints = (
 {
 name = _corner.outside_lg;

@@ -4,6 +4,12 @@ kernLeft = h;
 kernRight = h;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (593,1100);
+}
+);
 layerId = m01;
 shapes = (
 {
