@@ -1,0 +1,60 @@
+{
+glyphname = U;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+hints = (
+{
+name = _corner.O_outside;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.O_outside;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.O_outside;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.O_inside;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.O_inside;
+origin = (0,6);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(130,1500,l),
+(130,-10,l),
+(1210,-10,l),
+(1210,1500,l),
+(1030,1500,l),
+(1030,160,l),
+(310,160,l),
+(310,1500,l)
+);
+}
+);
+width = 1340;
+}
+);
+metricLeft = "=O";
+metricRight = "=O";
+unicode = 85;
+}

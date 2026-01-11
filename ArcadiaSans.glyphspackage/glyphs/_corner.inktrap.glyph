@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = _corner.inktrap;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(45,0,l),
+(27,0,o),
+(0,27,o),
+(0,45,c)
+);
+}
+);
+width = 420;
+}
+);
+}

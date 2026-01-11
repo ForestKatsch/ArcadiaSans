@@ -1,0 +1,25 @@
+{
+glyphname = I;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,0,l),
+(360,0,l),
+(360,1500,l),
+(180,1500,l)
+);
+}
+);
+width = 540;
+}
+);
+metricLeft = "=H";
+metricRight = "=H";
+unicode = 73;
+}

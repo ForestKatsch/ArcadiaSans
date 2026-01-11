@@ -1,0 +1,54 @@
+{
+glyphname = w;
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+hints = (
+{
+name = _corner.v;
+options = 2;
+origin = (0,9);
+type = Corner;
+},
+{
+name = _corner.v;
+options = 2;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.v;
+options = 2;
+origin = (0,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(578,0,l),
+(830,834,l),
+(1082,0,l),
+(1277,0,l),
+(1620,1100,l),
+(1435,1100,l),
+(1183,284,l),
+(928,1100,l),
+(732,1100,l),
+(477,284,l),
+(225,1100,l),
+(40,1100,l),
+(383,0,l)
+);
+}
+);
+width = 1660;
+}
+);
+metricLeft = "=v";
+metricRight = "=v";
+unicode = 119;
+}

@@ -1,0 +1,43 @@
+{
+glyphname = N;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+hints = (
+{
+name = _corner.v;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.v;
+origin = (0,6);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,0,l),
+(360,1172,l),
+(1080,0,l),
+(1270,0,l),
+(1270,1500,l),
+(1090,1500,l),
+(1090,328,l),
+(370,1500,l),
+(180,1500,l),
+(180,0,l)
+);
+}
+);
+width = 1450;
+}
+);
+metricLeft = "=H";
+metricRight = "=H";
+unicode = 78;
+}

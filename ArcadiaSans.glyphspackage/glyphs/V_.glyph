@@ -1,0 +1,36 @@
+{
+glyphname = V;
+kernLeft = V;
+kernRight = V;
+layers = (
+{
+hints = (
+{
+name = _corner.v;
+options = 2;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(807,0,l),
+(1400,1500,l),
+(1208,1500,l),
+(720,261,l),
+(232,1500,l),
+(40,1500,l),
+(633,0,l)
+);
+}
+);
+width = 1440;
+}
+);
+metricLeft = "=40";
+metricRight = "=|V";
+unicode = 86;
+}

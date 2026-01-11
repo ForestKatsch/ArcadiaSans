@@ -1,0 +1,37 @@
+{
+glyphname = jdotless;
+layers = (
+{
+hints = (
+{
+name = _corner.o_inside;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.o_outside;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,-230,l),
+(-201,-230,l),
+(-201,-400,l),
+(335,-400,l),
+(335,1100,l),
+(160,1100,l)
+);
+}
+);
+width = 495;
+}
+);
+metricRight = "=idotless";
+metricWidth = "=idotless";
+unicode = 567;
+}

@@ -1,0 +1,28 @@
+{
+glyphname = Q;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+},
+{
+closed = 1;
+nodes = (
+(1118,-45,l),
+(1245,82,l),
+(902,425,l),
+(775,298,l)
+);
+}
+);
+width = 1340;
+}
+);
+metricLeft = O;
+metricRight = "=O-35";
+unicode = 81;
+}

@@ -1,0 +1,217 @@
+{
+.appVersion = "3509";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+date = "2015-12-22 01:38:45 +0000";
+familyName = Arcadia;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature ss01;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [dotaccentcomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "sub I by I.ss01;
+";
+labels = (
+{
+language = dflt;
+value = "Disambiguated forms";
+}
+);
+tag = ss01;
+}
+);
+fontMaster = (
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
+guides = (
+{
+lockAngle = 1;
+locked = 1;
+name = "p bottom";
+pos = (0,-420);
+}
+);
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 1900;
+},
+{
+pos = 1500;
+},
+{
+pos = 1100;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -500;
+}
+);
+name = Regular;
+stemValues = (
+180,
+170
+);
+}
+);
+kerningLTR = {
+m01 = {
+"@MMK_L_A" = {
+"@MMK_R_A" = 80;
+"@MMK_R_V" = -150;
+};
+"@MMK_L_C" = {
+"@MMK_R_v" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_n" = -150;
+"@MMK_R_o" = -150;
+"@MMK_R_p" = -150;
+"@MMK_R_u" = -150;
+"@MMK_R_v" = -120;
+"@MMK_R_x" = -100;
+z = -100;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -150;
+"@MMK_R_V" = 80;
+"@MMK_R_o" = -100;
+"@MMK_R_u" = -80;
+};
+"@MMK_L_k" = {
+"@MMK_R_o" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -40;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2026 Forest katsch";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Forest Katsch";
+}
+);
+},
+{
+key = designerURL;
+value = "https://x.com/forestkatsch";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+key = vendorID;
+value = ZLSA;
+}
+);
+stems = (
+{
+name = vertical;
+},
+{
+horizontal = 1;
+name = horizontal;
+}
+);
+unitsPerEm = 2048;
+userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+HH = "170";
+HV = "180";
+OH = "170";
+OV = "180";
+nV = "175";
+nd = "170";
+oH = "170";
+oV = "175";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

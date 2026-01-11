@@ -1,0 +1,35 @@
+{
+export = 0;
+glyphname = _cap.c_end;
+layers = (
+{
+anchors = (
+{
+name = node1;
+pos = (0,930);
+},
+{
+name = node2;
+pos = (0,1100);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-321,930,l),
+(-247,930,o),
+(-221,920,o),
+(-152,841,c),
+(0,924,l),
+(-115,1086,o),
+(-178,1100,o),
+(-331,1100,c)
+);
+}
+);
+width = 400;
+}
+);
+}

@@ -1,0 +1,30 @@
+{
+glyphname = A;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,1500);
+ref = V;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(277,460,l),
+(1163,460,l),
+(1103,640,l),
+(337,640,l)
+);
+}
+);
+width = 1440;
+}
+);
+metricLeft = "=40";
+metricRight = "=|V";
+unicode = 65;
+}

@@ -1,0 +1,36 @@
+{
+export = 0;
+glyphname = _cap.a_shoulder;
+layers = (
+{
+anchors = (
+{
+name = node1;
+pos = (0,1100);
+},
+{
+name = node2;
+pos = (0,930);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(60,1100,l),
+(8,1100,o),
+(-18,1095,o),
+(-46,1081,c),
+(-60,1088,l),
+(-60,862,l),
+(-60,899,o),
+(-31,930,o),
+(20,930,c)
+);
+}
+);
+width = 400;
+}
+);
+}

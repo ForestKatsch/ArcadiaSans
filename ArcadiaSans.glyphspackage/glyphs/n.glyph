@@ -1,0 +1,53 @@
+{
+glyphname = n;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+hints = (
+{
+name = _corner.o_inside;
+origin = (1,1);
+type = Corner;
+},
+{
+name = _corner.o_outside;
+origin = (1,4);
+type = Corner;
+},
+{
+name = _cap.n_shoulder;
+options = 9;
+origin = (1,5);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(335,0,l),
+(335,1100,l),
+(160,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(435,930,l),
+(875,930,l),
+(875,0,l),
+(1050,0,l),
+(1050,1100,l),
+(435,1100,l)
+);
+}
+);
+width = 1210;
+}
+);
+metricRight = "=|n";
+unicode = 110;
+}

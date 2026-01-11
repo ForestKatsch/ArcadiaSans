@@ -1,0 +1,21 @@
+{
+glyphname = d;
+kernLeft = o;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1195,0);
+ref = b;
+scale = (-1,1);
+}
+);
+width = 1195;
+}
+);
+metricLeft = "=h";
+metricRight = "=h";
+unicode = 100;
+}

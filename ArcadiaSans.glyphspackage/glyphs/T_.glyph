@@ -1,0 +1,32 @@
+{
+glyphname = T;
+kernRight = T;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(550,0,l),
+(730,0,l),
+(730,1500,l),
+(550,1500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,1325,l),
+(1210,1325,l),
+(1210,1500,l),
+(70,1500,l)
+);
+}
+);
+width = 1280;
+}
+);
+metricRight = "=|T";
+unicode = 84;
+}

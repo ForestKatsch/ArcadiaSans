@@ -1,0 +1,21 @@
+{
+export = 0;
+glyphname = _corner.S_outside;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,295,l),
+(0,85,o),
+(85,0,o),
+(295,0,c)
+);
+}
+);
+width = 420;
+}
+);
+}

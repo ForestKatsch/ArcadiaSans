@@ -1,0 +1,95 @@
+{
+glyphname = s;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+hints = (
+{
+name = _corner.o_outside_small;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.o_inside_small;
+options = 2;
+origin = (0,10);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.c_end;
+options = 10;
+origin = (0,11);
+type = Cap;
+},
+{
+name = _corner.o_outside_small;
+options = 2;
+origin = (0,7);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.o_inside_small;
+options = 2;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.c_end;
+options = 10;
+origin = (0,5);
+type = Cap;
+},
+{
+name = _corner.s_inside;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.s_inside;
+origin = (0,9);
+type = Corner;
+},
+{
+name = _corner.s_outside;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.s_outside;
+origin = (0,8);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1041,1100,l),
+(158,1100,l),
+(158,485,l),
+(873,452,l),
+(873,170,l),
+(125,170,l),
+(125,0,l),
+(1048,0,l),
+(1048,615,l),
+(333,648,l),
+(333,930,l),
+(1041,930,l)
+);
+}
+);
+width = 1173;
+}
+);
+metricLeft = "=o";
+metricRight = "=o";
+unicode = 115;
+}
