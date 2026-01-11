@@ -4,61 +4,61 @@ layers = (
 {
 hints = (
 {
-name = _corner.O_outside;
+name = _corner.outside_lg;
 origin = (0,2);
 type = Corner;
 },
 {
-name = _corner.O_outside;
+name = _corner.outside_lg;
 options = 2;
 origin = (0,3);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.O_outside;
+name = _corner.outside_lg;
 origin = (0,4);
 type = Corner;
 },
 {
-name = _corner.O_outside;
+name = _corner.outside_lg;
 options = 2;
 origin = (0,1);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.O_inside;
+name = _corner.inside_lg;
 origin = (0,7);
 type = Corner;
 },
 {
-name = _corner.O_inside;
+name = _corner.inside_lg;
 options = 2;
 origin = (0,8);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.O_inside;
+name = _corner.inside_lg;
 origin = (0,9);
 type = Corner;
 },
 {
-name = _corner.O_inside;
+name = _corner.inside_lg;
 options = 2;
 origin = (0,10);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.b_shoulder;
+name = _cap.shoulder_md;
 options = 10;
 origin = (0,5);
 type = Cap;
 },
 {
-name = _cap.C_end;
+name = _cap.end_lg;
 options = 2;
 origin = (0,11);
 type = Cap;
@@ -73,10 +73,10 @@ nodes = (
 (100,1510,l),
 (100,-10,l),
 (1100,-10,l),
-(1100,950,l),
-(380,950,l),
-(380,780,l),
-(920,780,l),
+(1100,930,l),
+(380,930,l),
+(380,760,l),
+(920,760,l),
 (920,160,l),
 (280,160,l),
 (280,1340,l),

@@ -6,34 +6,34 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 origin = (0,5);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 origin = (0,3);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 2;
 origin = (0,4);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (0,10);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (0,8);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (0,9);
 scale = (-1,1);
@@ -45,7 +45,7 @@ target = (0,9);
 type = Stem;
 },
 {
-name = _cap.c_end;
+name = _cap.end_md;
 options = 10;
 origin = (0,6);
 scale = (1,-1);

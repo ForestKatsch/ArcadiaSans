@@ -1,0 +1,32 @@
+{
+glyphname = less;
+layers = (
+{
+hints = (
+{
+name = _corner.letter_v;
+options = 2;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,563,l),
+(1050,200,l),
+(1050,388,l),
+(385,650,l),
+(1050,912,l),
+(1050,1100,l),
+(150,737,l)
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 60;
+}

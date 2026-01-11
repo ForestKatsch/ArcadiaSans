@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _corner.O_outside;
+glyphname = _corner.outside_lg;
 layers = (
 {
 layerId = m01;

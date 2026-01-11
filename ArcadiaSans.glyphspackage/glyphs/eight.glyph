@@ -6,72 +6,72 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (0,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (0,2);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (1,2);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 origin = (2,9);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (0,3);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (0,0);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (1,3);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (1,0);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 2;
 origin = (2,19);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 origin = (2,10);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 2;
 origin = (2,0);
 scale = (-1,1);
@@ -83,44 +83,44 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(280,1330,l),
-(910,1330,l),
-(910,835,l),
-(280,835,l)
+(260,1330,l),
+(930,1330,l),
+(930,835,l),
+(260,835,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(280,665,l),
-(920,665,l),
-(920,170,l),
-(280,170,l)
+(260,665,l),
+(940,665,l),
+(940,170,l),
+(260,170,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(1090,0,l),
-(1090,485,l),
-(1085,620,o),
-(1045,706,o),
-(823,824,c),
-(823,676,l),
-(1045,794,o),
-(1085,880,o),
-(1090,1015,c),
-(1090,1500,l),
-(110,1500,l),
-(110,1015,l),
-(115,880,o),
-(155,794,o),
-(377,676,c),
-(377,824,l),
-(155,706,o),
-(115,620,o),
-(110,485,c),
-(110,0,l)
+(1110,0,l),
+(1110,485,l),
+(1105,620,o),
+(1065,706,o),
+(843,824,c),
+(843,676,l),
+(1065,794,o),
+(1105,880,o),
+(1110,1015,c),
+(1110,1500,l),
+(90,1500,l),
+(90,1015,l),
+(95,880,o),
+(135,794,o),
+(357,676,c),
+(357,824,l),
+(135,706,o),
+(95,620,o),
+(90,485,c),
+(90,0,l)
 );
 }
 );

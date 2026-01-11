@@ -7,16 +7,15 @@ layers = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(100,580,l),
-(1800,580,l),
-(1800,760,l),
-(100,760,l)
-);
+alignment = -1;
+piece = {
+Width = 1620;
+};
+pos = (100,-100);
+ref = _part.dash;
 }
 );
-width = 1900;
+width = 1820;
 }
 );
 metricLeft = hyphen;

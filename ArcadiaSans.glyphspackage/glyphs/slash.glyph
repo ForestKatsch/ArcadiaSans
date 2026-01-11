@@ -1,0 +1,25 @@
+{
+glyphname = slash;
+kernLeft = A;
+kernRight = V;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,0,l),
+(233,0,l),
+(855,1500,l),
+(662,1500,l)
+);
+}
+);
+width = 895;
+}
+);
+metricLeft = "=A";
+metricRight = "=A";
+unicode = 47;
+}

@@ -1,5 +1,5 @@
 {
-glyphname = _corner.v;
+glyphname = _corner.letter_v;
 kernLeft = v;
 kernRight = v;
 layers = (

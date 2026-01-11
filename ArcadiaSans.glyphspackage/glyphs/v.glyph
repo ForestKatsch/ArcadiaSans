@@ -6,7 +6,7 @@ layers = (
 {
 hints = (
 {
-name = _corner.v;
+name = _corner.letter_v;
 options = 2;
 origin = (0,3);
 type = Corner;

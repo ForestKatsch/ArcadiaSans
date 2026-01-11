@@ -6,62 +6,62 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_outside_small;
+name = _corner.outside_md;
 options = 2;
 origin = (0,1);
-scale = (-1,1);
+scale = (-0.8,0.8);
 type = Corner;
 },
 {
-name = _corner.o_inside_small;
+name = _corner.inside_md;
 options = 2;
 origin = (0,10);
-scale = (-1,1);
+scale = (-0.6,0.6);
 type = Corner;
 },
 {
-name = _cap.c_end;
+name = _cap.end_md;
 options = 10;
 origin = (0,11);
 type = Cap;
 },
 {
-name = _corner.o_outside_small;
+name = _corner.outside_md;
 options = 2;
 origin = (0,7);
-scale = (-1,1);
+scale = (-0.8,0.8);
 type = Corner;
 },
 {
-name = _corner.o_inside_small;
+name = _corner.inside_md;
 options = 2;
 origin = (0,4);
-scale = (-1,1);
+scale = (-0.6,0.6);
 type = Corner;
 },
 {
-name = _cap.c_end;
+name = _cap.end_md;
 options = 10;
 origin = (0,5);
 type = Cap;
 },
 {
-name = _corner.s_inside;
+name = _corner.inside_sm;
 origin = (0,3);
 type = Corner;
 },
 {
-name = _corner.s_inside;
+name = _corner.inside_sm;
 origin = (0,9);
 type = Corner;
 },
 {
-name = _corner.s_outside;
+name = _corner.outside_sm;
 origin = (0,2);
 type = Corner;
 },
 {
-name = _corner.s_outside;
+name = _corner.outside_sm;
 origin = (0,8);
 type = Corner;
 }

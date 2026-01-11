@@ -6,21 +6,21 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 1;
 origin = (1,5);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 1;
 origin = (1,4);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.b_shoulder;
+name = _cap.shoulder_md;
 options = 10;
 origin = (1,2);
 scale = (-1,-1);
@@ -28,21 +28,21 @@ target = (1,1);
 type = Cap;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 1;
 origin = (1,1);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 1;
 origin = (1,0);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.b_shoulder;
+name = _cap.shoulder_md;
 options = 8;
 origin = (1,6);
 scale = (-1,1);
@@ -50,18 +50,18 @@ target = (1,1);
 type = Cap;
 },
 {
-name = _cap.c_end;
+name = _cap.end_md;
 options = 10;
 origin = (0,2);
 type = Cap;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (0,1);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 origin = (0,4);
 type = Corner;
 }

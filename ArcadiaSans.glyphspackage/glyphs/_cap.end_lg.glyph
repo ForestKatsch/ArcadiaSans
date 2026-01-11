@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _cap.C_end;
+glyphname = _cap.end_lg;
 layers = (
 {
 anchors = (

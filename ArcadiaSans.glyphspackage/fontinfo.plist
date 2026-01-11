@@ -7,6 +7,13 @@ name = Weight;
 tag = wght;
 }
 );
+classes = (
+{
+code = "zero one two three four five six seven eight nine
+";
+name = Numeral;
+}
+);
 date = "2015-12-22 01:38:45 +0000";
 familyName = Arcadia;
 featurePrefixes = (
@@ -42,7 +49,7 @@ code = "sub I by I.ss01;
 labels = (
 {
 language = dflt;
-value = "Disambiguated forms";
+value = "Strongly disambiguated forms";
 }
 );
 tag = ss01;
@@ -61,6 +68,10 @@ value = 0;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Master Icon Glyph Name";
+value = T;
 }
 );
 guides = (
@@ -105,12 +116,14 @@ kerningLTR = {
 m01 = {
 "@MMK_L_A" = {
 "@MMK_R_A" = 80;
+"@MMK_R_T" = -220;
 "@MMK_R_V" = -150;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
 };
 "@MMK_L_T" = {
+"@MMK_R_A" = -220;
 "@MMK_R_n" = -150;
 "@MMK_R_o" = -150;
 "@MMK_R_p" = -150;
@@ -130,6 +143,19 @@ Y = -100;
 };
 "@MMK_L_k" = {
 "@MMK_R_o" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_o" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_q" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -120;
 };
 "@MMK_L_v" = {
 "@MMK_R_o" = -40;

@@ -7,13 +7,12 @@ layers = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(100,580,l),
-(1300,580,l),
-(1300,760,l),
-(100,760,l)
-);
+alignment = -1;
+piece = {
+Width = 1200;
+};
+pos = (100,-100);
+ref = _part.dash;
 }
 );
 width = 1400;

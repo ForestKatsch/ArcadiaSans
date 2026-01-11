@@ -6,7 +6,7 @@ layers = (
 {
 hints = (
 {
-name = _corner.v;
+name = _corner.letter_v;
 options = 2;
 origin = (0,3);
 type = Corner;
@@ -17,17 +17,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(807,0,l),
-(1400,1500,l),
-(1208,1500,l),
-(720,261,l),
+(787,0,l),
+(1360,1500,l),
+(1168,1500,l),
+(700,261,l),
 (232,1500,l),
 (40,1500,l),
-(633,0,l)
+(613,0,l)
 );
 }
 );
-width = 1440;
+width = 1400;
 }
 );
 metricLeft = "=40";

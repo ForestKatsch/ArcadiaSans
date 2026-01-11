@@ -6,61 +6,63 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_outside;
+name = _corner.outside_lg;
 options = 2;
 origin = (0,1);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.S_outside;
+name = _corner.outside_sm;
 origin = (0,2);
 type = Corner;
 },
 {
-name = _corner.S_inside;
+name = _corner.inside_sm;
 origin = (0,3);
+scale = (1.4,1.4);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_lg;
 options = 2;
 origin = (0,4);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.C_end;
+name = _cap.end_lg;
 options = 10;
 origin = (0,5);
 type = Cap;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_lg;
 options = 2;
 origin = (0,7);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.S_outside;
+name = _corner.outside_sm;
 origin = (0,8);
 type = Corner;
 },
 {
-name = _corner.S_inside;
+name = _corner.inside_sm;
 origin = (0,9);
+scale = (1.4,1.4);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_lg;
 options = 2;
 origin = (0,10);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.C_end;
+name = _cap.end_lg;
 options = 10;
 origin = (0,11);
 type = Cap;
@@ -71,22 +73,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1196,1500,l),
+(1216,1500,l),
 (183,1500,l),
-(183,735,l),
-(1003,619,l),
-(1003,170,l),
+(183,755,l),
+(1023,599,l),
+(1023,170,l),
 (130,170,l),
 (130,0,l),
-(1183,0,l),
-(1183,765,l),
-(363,881,l),
+(1203,0,l),
+(1203,745,l),
+(363,901,l),
 (363,1330,l),
-(1196,1330,l)
+(1216,1330,l)
 );
 }
 );
-width = 1326;
+width = 1346;
 }
 );
 metricLeft = "=O";

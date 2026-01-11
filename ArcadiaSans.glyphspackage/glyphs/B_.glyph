@@ -6,36 +6,36 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 2;
 origin = (2,7);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 origin = (2,4);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (0,0);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (0,1);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 origin = (1,0);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (1,1);
 scale = (-1,1);

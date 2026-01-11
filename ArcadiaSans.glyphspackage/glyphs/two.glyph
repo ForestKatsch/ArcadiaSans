@@ -6,43 +6,45 @@ layers = (
 {
 hints = (
 {
-name = _corner.o_outside;
+name = _corner.outside_md;
 options = 2;
 origin = (0,1);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _corner.o_inside;
+name = _corner.inside_md;
 options = 2;
 origin = (0,4);
 scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.C_end;
+name = _cap.end_lg;
 options = 10;
 origin = (0,2);
 scale = (1,-1);
 type = Cap;
 },
 {
-name = _corner.S_inside;
+name = _corner.inside_sm;
 origin = (0,5);
+scale = (1.5,1.5);
 type = Corner;
 },
 {
-name = _corner.S_inside;
+name = _corner.inside_sm;
 origin = (0,11);
+scale = (1.5,1.5);
 type = Corner;
 },
 {
-name = _corner.S_outside;
+name = _corner.outside_sm;
 origin = (0,0);
 type = Corner;
 },
 {
-name = _corner.S_outside;
+name = _corner.outside_sm;
 origin = (0,6);
 type = Corner;
 }
@@ -52,18 +54,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1080,810,l),
-(1080,1510,l),
-(140,1510,l),
-(140,1340,l),
-(900,1340,l),
-(900,910,l),
-(150,550,l),
+(1090,790,l),
+(1090,1510,l),
+(120,1510,l),
+(120,1340,l),
+(910,1340,l),
+(910,910,l),
+(150,630,l),
 (150,0,l),
 (1080,0,l),
 (1080,170,l),
 (330,170,l),
-(330,450,l)
+(330,510,l)
 );
 }
 );

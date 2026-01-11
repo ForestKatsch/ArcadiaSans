@@ -10,11 +10,11 @@ shapes = (
 ref = comma;
 },
 {
-pos = (0,715);
+pos = (0,765);
 ref = period;
 }
 );
-width = 545;
+width = 540;
 }
 );
 metricLeft = period;

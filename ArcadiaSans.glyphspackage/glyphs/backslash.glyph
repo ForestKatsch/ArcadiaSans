@@ -1,0 +1,22 @@
+{
+glyphname = backslash;
+kernLeft = V;
+kernRight = A;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+pos = (895,0);
+ref = slash;
+scale = (-1,1);
+}
+);
+width = 895;
+}
+);
+metricLeft = "=slash";
+metricRight = "=slash";
+unicode = 92;
+}

@@ -1,0 +1,28 @@
+{
+glyphname = divide;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (330,260);
+ref = period;
+},
+{
+alignment = -1;
+piece = {
+Width = 1000;
+};
+pos = (100,-100);
+ref = _part.dash;
+},
+{
+pos = (330,860);
+ref = period;
+}
+);
+width = 1200;
+}
+);
+unicode = 247;
+}

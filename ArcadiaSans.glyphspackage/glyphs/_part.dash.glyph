@@ -1,0 +1,52 @@
+{
+glyphname = _part.dash;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = m01;
+partSelection = {
+Width = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,660,l),
+(2048,660,l),
+(2048,840,l),
+(0,840,l)
+);
+}
+);
+width = 2048;
+},
+{
+associatedMasterId = m01;
+layerId = "5FFD179F-2455-4998-91E6-6EA6A7A61CA5";
+name = Narrow;
+partSelection = {
+Width = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,660,l),
+(256,660,l),
+(256,840,l),
+(0,840,l)
+);
+}
+);
+width = 256;
+}
+);
+partsSettings = (
+{
+bottomValue = 256;
+name = Width;
+topValue = 2048;
+}
+);
+}

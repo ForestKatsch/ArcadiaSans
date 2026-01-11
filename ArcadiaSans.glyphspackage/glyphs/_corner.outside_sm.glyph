@@ -1,6 +1,6 @@
 {
 export = 0;
-glyphname = _corner.s_inside;
+glyphname = _corner.outside_sm;
 layers = (
 {
 layerId = m01;
@@ -8,10 +8,10 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(75,0,l),
-(25,0,o),
-(0,25,o),
-(0,75,c)
+(0,265,l),
+(0,95,o),
+(95,0,o),
+(265,0,c)
 );
 }
 );

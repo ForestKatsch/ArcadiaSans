@@ -6,12 +6,12 @@ layers = (
 {
 hints = (
 {
-name = _corner.v;
+name = _corner.letter_v;
 origin = (0,1);
 type = Corner;
 },
 {
-name = _corner.v;
+name = _corner.letter_v;
 origin = (0,6);
 type = Corner;
 }
