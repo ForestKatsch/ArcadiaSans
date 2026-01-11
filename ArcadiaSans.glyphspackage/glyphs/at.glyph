@@ -1,0 +1,113 @@
+{
+glyphname = at;
+layers = (
+{
+hints = (
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,1);
+scale = (-0.75,0.75);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,2);
+scale = (0.75,0.75);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,13);
+scale = (0.6,0.6);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,14);
+scale = (-0.6,0.6);
+type = Corner;
+},
+{
+name = _cap.shoulder_sm;
+options = 10;
+origin = (0,15);
+scale = (0.97059,-1);
+type = Cap;
+},
+{
+name = _corner.outside_md;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,11);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (0,9);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (0,10);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (0,12);
+scale = (-0.6,0.6);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (0,3);
+scale = (0.75,0.75);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(944,880,l),
+(465,880,l),
+(465,210,l),
+(1179,210,l),
+(1179,1340,l),
+(125,1340,l),
+(125,-230,l),
+(1079,-230,l),
+(1079,-50,l),
+(305,-50,l),
+(305,1180,l),
+(1004,1180,l),
+(1004,380,l),
+(640,380,l),
+(640,715,l),
+(944,715,l)
+);
+}
+);
+width = 1304;
+}
+);
+metricLeft = "=a";
+metricRight = "=a";
+unicode = 64;
+}

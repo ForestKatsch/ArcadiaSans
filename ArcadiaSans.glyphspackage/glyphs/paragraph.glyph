@@ -1,0 +1,42 @@
+{
+glyphname = paragraph;
+kernRight = H;
+layers = (
+{
+hints = (
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,1);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(931,1500,l),
+(130,1500,l),
+(130,610,l),
+(601,610,l),
+(601,1330,l),
+(751,1330,l),
+(751,0,l),
+(931,0,l)
+);
+}
+);
+width = 1111;
+}
+);
+metricLeft = "=|P";
+metricRight = "=|P";
+unicode = 182;
+}

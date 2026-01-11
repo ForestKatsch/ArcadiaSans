@@ -1,0 +1,71 @@
+{
+glyphname = Germandbls;
+kernLeft = H;
+kernRight = O;
+layers = (
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,7);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,10);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,11);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 2;
+origin = (0,8);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,0,l),
+(360,0,l),
+(360,1330,l),
+(1000,1330,l),
+(615,880,l),
+(615,695,l),
+(1130,695,l),
+(1130,170,l),
+(505,170,l),
+(505,0,l),
+(1300,0,l),
+(1300,860,l),
+(830,860,l),
+(1215,1310,l),
+(1215,1500,l),
+(180,1500,l)
+);
+}
+);
+width = 1430;
+}
+);
+metricLeft = "=D";
+metricRight = "=B";
+unicode = 7838;
+}

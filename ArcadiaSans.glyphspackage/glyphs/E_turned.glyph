@@ -1,0 +1,17 @@
+{
+glyphname = Eturned;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (1274,0);
+ref = E;
+scale = (-1,1);
+}
+);
+width = 1274;
+}
+);
+unicode = 398;
+}

@@ -1,0 +1,29 @@
+{
+glyphname = hbar;
+kernLeft = H;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (62,0);
+ref = h;
+},
+{
+closed = 1;
+nodes = (
+(112,1196,l),
+(662,1196,l),
+(662,1350,l),
+(112,1350,l)
+);
+}
+);
+width = 1272;
+}
+);
+metricLeft = "=h*0.7";
+metricRight = "=h";
+unicode = 295;
+}

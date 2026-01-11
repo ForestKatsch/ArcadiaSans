@@ -1,0 +1,28 @@
+{
+glyphname = cent;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c;
+},
+{
+closed = 1;
+nodes = (
+(660,-200,l),
+(660,1300,l),
+(486,1300,l),
+(486,-200,l)
+);
+}
+);
+width = 1044;
+}
+);
+metricLeft = "=c";
+metricRight = "=c";
+unicode = 162;
+}

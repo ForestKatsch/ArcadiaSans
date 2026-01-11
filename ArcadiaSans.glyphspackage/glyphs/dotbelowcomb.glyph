@@ -1,0 +1,22 @@
+{
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (600,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (330,-350);
+ref = period;
+}
+);
+width = 1200;
+}
+);
+unicode = 803;
+}

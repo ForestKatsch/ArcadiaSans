@@ -1,0 +1,30 @@
+{
+glyphname = percent;
+kernLeft = percent;
+kernRight = percent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (117,0);
+ref = _part.percent_slash;
+},
+{
+alignment = -1;
+pos = (-280,400);
+ref = _part.percent_circle;
+},
+{
+alignment = -1;
+pos = (515,-399);
+ref = _part.percent_circle;
+}
+);
+width = 1435;
+}
+);
+metricRight = "=|percent";
+unicode = 37;
+}

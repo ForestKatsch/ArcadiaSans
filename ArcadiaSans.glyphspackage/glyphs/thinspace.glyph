@@ -1,0 +1,11 @@
+{
+glyphname = thinspace;
+layers = (
+{
+layerId = m01;
+width = 360;
+}
+);
+metricWidth = "=space*0.6";
+unicode = 8201;
+}

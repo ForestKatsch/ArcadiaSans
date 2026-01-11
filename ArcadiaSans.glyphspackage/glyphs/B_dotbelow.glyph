@@ -1,0 +1,18 @@
+{
+glyphname = Bdotbelow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = B;
+},
+{
+ref = dotbelowcomb;
+}
+);
+width = 1310;
+}
+);
+unicode = 7684;
+}

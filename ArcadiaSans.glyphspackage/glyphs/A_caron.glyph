@@ -1,0 +1,19 @@
+{
+glyphname = Acaron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (100,0);
+ref = caroncomb;
+}
+);
+width = 1400;
+}
+);
+unicode = 461;
+}

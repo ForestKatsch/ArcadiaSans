@@ -1,0 +1,22 @@
+{
+glyphname = plusminus;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,200);
+ref = plus;
+},
+{
+pos = (0,-500);
+ref = minus;
+}
+);
+width = 1200;
+}
+);
+metricLeft = "=plus";
+metricRight = "=plus";
+unicode = 177;
+}

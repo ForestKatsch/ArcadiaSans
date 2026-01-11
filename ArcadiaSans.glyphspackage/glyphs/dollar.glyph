@@ -1,0 +1,28 @@
+{
+glyphname = dollar;
+kernLeft = S;
+kernRight = S;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(780,-200,l),
+(780,1700,l),
+(606,1700,l),
+(606,-200,l)
+);
+},
+{
+ref = S;
+}
+);
+width = 1386;
+}
+);
+metricLeft = "=S";
+metricRight = "=S";
+unicode = 36;
+}

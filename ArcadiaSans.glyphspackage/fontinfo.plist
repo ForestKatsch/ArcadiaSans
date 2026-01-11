@@ -20,6 +20,16 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn NLD;
 ";
 name = Languagesystems;
 }
@@ -27,14 +37,15 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ss01;
+code = "feature locl;
+feature tnum;
 ";
 tag = aalt;
 },
 {
 automatic = 1;
 code = "lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [dotaccentcomb];
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
@@ -44,15 +55,54 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "sub I by I.ss01;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language NLD;
+lookup locl_latn_2 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_2;
 ";
-labels = (
+tag = locl;
+},
 {
-language = dflt;
-value = "Strongly disambiguated forms";
-}
-);
-tag = ss01;
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+";
+tag = tnum;
 }
 );
 fontMaster = (
@@ -108,7 +158,7 @@ stemValues = (
 170
 );
 userData = {
-GSCornerRadius = 140;
+GSCornerRadius = 160;
 };
 }
 );

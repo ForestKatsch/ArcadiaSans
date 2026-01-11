@@ -1,0 +1,80 @@
+{
+glyphname = eth;
+layers = (
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,7);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,11);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,10);
+type = Corner;
+},
+{
+name = _cap.shoulder_md;
+options = 10;
+origin = (0,8);
+scale = (1,-1);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,12);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(281,1626,l),
+(762,1270,ls),
+(830,1219,o),
+(860,1161,o),
+(860,1075,cs),
+(860,175,l),
+(300,175,l),
+(300,930,l),
+(760,930,l),
+(760,1100,l),
+(125,1100,l),
+(125,0,l),
+(1035,0,l),
+(1035,1095,ls),
+(1035,1228,o),
+(989,1320,o),
+(882,1399,cs),
+(387,1767,l)
+);
+},
+{
+pos = (263,670);
+ref = _part.Lslash;
+}
+);
+width = 1195;
+}
+);
+metricLeft = "=d";
+metricRight = "=d";
+unicode = 240;
+}
