@@ -96,6 +96,9 @@ stemValues = (
 180,
 170
 );
+userData = {
+GSCornerRadius = 140;
+};
 }
 );
 kerningLTR = {
@@ -121,6 +124,9 @@ z = -100;
 "@MMK_R_V" = 80;
 "@MMK_R_o" = -100;
 "@MMK_R_u" = -80;
+};
+"@MMK_L_hyphen" = {
+Y = -100;
 };
 "@MMK_L_k" = {
 "@MMK_R_o" = -20;

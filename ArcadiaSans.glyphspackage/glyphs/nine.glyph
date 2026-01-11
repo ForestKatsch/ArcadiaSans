@@ -1,0 +1,17 @@
+{
+glyphname = nine;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1200,1500);
+ref = six;
+}
+);
+width = 1200;
+}
+);
+unicode = 57;
+}

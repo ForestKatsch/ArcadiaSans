@@ -1,0 +1,25 @@
+{
+glyphname = comma;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,-280,l),
+(280,-280,l),
+(365,0,l),
+(365,185,l),
+(180,185,l)
+);
+}
+);
+width = 545;
+}
+);
+metricWidth = "=period";
+unicode = 44;
+}

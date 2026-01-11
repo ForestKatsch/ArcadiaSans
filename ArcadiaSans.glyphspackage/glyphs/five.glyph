@@ -1,0 +1,61 @@
+{
+glyphname = five;
+layers = (
+{
+hints = (
+{
+name = _corner.o_inside;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.o_inside;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.o_outside;
+options = 2;
+origin = (0,8);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.o_outside;
+origin = (0,9);
+type = Corner;
+},
+{
+name = _cap.C_end;
+options = 2;
+origin = (0,6);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1060,1330,l),
+(1060,1500,l),
+(190,1500,l),
+(190,730,l),
+(930,730,l),
+(930,170,l),
+(110,170,l),
+(110,0,l),
+(1100,0,l),
+(1100,900,l),
+(370,900,l),
+(370,1330,l)
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 53;
+}
