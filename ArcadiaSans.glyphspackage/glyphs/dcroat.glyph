@@ -1,0 +1,28 @@
+{
+glyphname = dcroat;
+kernLeft = o;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = d;
+},
+{
+closed = 1;
+nodes = (
+(594,1196,l),
+(1144,1196,l),
+(1144,1350,l),
+(594,1350,l)
+);
+}
+);
+width = 1304;
+}
+);
+metricLeft = "=d";
+metricRight = "=d";
+unicode = 273;
+}

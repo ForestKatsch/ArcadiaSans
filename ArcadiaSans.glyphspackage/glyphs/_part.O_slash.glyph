@@ -1,0 +1,27 @@
+{
+export = 0;
+glyphname = _part.Oslash;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (670,1500);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(14,-34,l),
+(156,-136,l),
+(1326,1534,l),
+(1184,1636,l)
+);
+}
+);
+width = 1340;
+}
+);
+}

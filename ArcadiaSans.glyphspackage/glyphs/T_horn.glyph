@@ -1,0 +1,64 @@
+{
+glyphname = Thorn;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,6);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,1030,l),
+(1010,1030,l),
+(1010,470,l),
+(200,470,l),
+(200,300,l),
+(1180,300,l),
+(1180,1200,l),
+(200,1200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(180,0,l),
+(360,0,l),
+(360,1500,l),
+(180,1500,l)
+);
+}
+);
+width = 1310;
+}
+);
+metricLeft = "=H";
+metricRight = "=P";
+unicode = 222;
+}

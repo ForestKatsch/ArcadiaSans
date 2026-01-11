@@ -8,6 +8,7 @@ shapes = (
 ref = T;
 },
 {
+pos = (40,0);
 ref = caroncomb;
 }
 );

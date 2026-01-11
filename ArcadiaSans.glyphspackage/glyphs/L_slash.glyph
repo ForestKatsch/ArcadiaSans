@@ -1,0 +1,21 @@
+{
+glyphname = Lslash;
+kernLeft = H;
+kernRight = L;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = L;
+},
+{
+ref = _part.Lslash;
+}
+);
+width = 1194;
+}
+);
+metricRight = "=L";
+unicode = 321;
+}
