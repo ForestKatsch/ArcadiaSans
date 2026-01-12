@@ -8,48 +8,55 @@ hints = (
 {
 name = _corner.outside_lg;
 options = 2;
-origin = (0,1);
+origin = (1,1);
 scale = (-1,1);
 type = Corner;
 },
 {
 name = _corner.inside_lg;
 options = 2;
-origin = (0,6);
+origin = (1,13);
 scale = (-1,1);
 type = Corner;
 },
 {
 name = _cap.end_md;
 options = 10;
-origin = (0,7);
+origin = (1,14);
 type = Cap;
 }
 );
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1230,1510,l),
-(330,1510,l),
-(330,0,l),
-(1250,0,l),
-(1250,170,l),
-(510,170,l),
-(510,1340,l),
-(1230,1340,l)
-);
-},
-{
 piece = {
 Width = 800;
 };
 pos = (130,0);
 ref = _part.dash;
+},
+{
+closed = 1;
+nodes = (
+(1120,1510,l),
+(260,1510,l),
+(360,520,ls),
+(373,392,o),
+(288,279,o),
+(160,190,c),
+(160,0,l),
+(1200,0,l),
+(1200,170,l),
+(404,170,l),
+(491,251,o),
+(554,408,o),
+(539,529,cs),
+(440,1340,l),
+(1120,1340,l)
+);
 }
 );
-width = 1330;
+width = 1280;
 }
 );
 metricLeft = "=C";

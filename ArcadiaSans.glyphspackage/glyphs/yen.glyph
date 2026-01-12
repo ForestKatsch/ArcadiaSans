@@ -1,0 +1,35 @@
+{
+glyphname = yen;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Y;
+},
+{
+alignment = -1;
+piece = {
+Width = 800;
+};
+pos = (200,-200);
+ref = _part.dash;
+},
+{
+alignment = -1;
+piece = {
+Width = 800;
+};
+pos = (200,-500);
+ref = _part.dash;
+}
+);
+width = 1200;
+}
+);
+metricLeft = "=Y";
+metricRight = "=Y";
+unicode = 165;
+}

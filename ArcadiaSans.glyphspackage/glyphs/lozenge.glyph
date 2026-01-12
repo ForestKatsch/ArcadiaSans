@@ -1,0 +1,34 @@
+{
+glyphname = lozenge;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(694,208,l),
+(342,750,l),
+(694,1292,l),
+(1046,750,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(628,-18,l),
+(760,-18,l),
+(1258,750,l),
+(760,1518,l),
+(628,1518,l),
+(130,750,l)
+);
+}
+);
+width = 1388;
+}
+);
+metricLeft = "=O";
+metricRight = "=O";
+unicode = 9674;
+}
