@@ -14,6 +14,20 @@ ref = minus;
 }
 );
 width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,200);
+ref = plus;
+},
+{
+pos = (0,-500);
+ref = minus;
+}
+);
+width = 1200;
 }
 );
 metricLeft = "=plus";

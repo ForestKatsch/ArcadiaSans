@@ -8,6 +8,19 @@ shapes = (
 ref = jdotless;
 },
 {
+pos = (-410,-400);
+ref = circumflexcomb;
+}
+);
+width = 380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = jdotless;
+},
+{
 pos = (-350,-400);
 ref = circumflexcomb;
 }

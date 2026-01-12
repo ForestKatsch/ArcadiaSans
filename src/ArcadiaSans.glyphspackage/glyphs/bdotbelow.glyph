@@ -8,6 +8,19 @@ shapes = (
 ref = b;
 },
 {
+pos = (-65,0);
+ref = dotbelowcomb;
+}
+);
+width = 1080;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = b;
+},
+{
 pos = (50,0);
 ref = dotbelowcomb;
 }

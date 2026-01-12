@@ -8,6 +8,23 @@ shapes = (
 ref = O;
 },
 {
+pos = (90,0);
+ref = dieresiscomb;
+},
+{
+pos = (90,250);
+ref = macroncomb;
+}
+);
+width = 1380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = O;
+},
+{
 pos = (70,0);
 ref = dieresiscomb;
 },

@@ -10,6 +10,19 @@ shapes = (
 ref = L;
 },
 {
+pos = (-60,0);
+ref = _part.Lslash;
+}
+);
+width = 1094;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = L;
+},
+{
 ref = _part.Lslash;
 }
 );

@@ -18,6 +18,27 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
+pos = (1080,1100);
+ref = n;
+}
+);
+width = 1080;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (1050,0);
+},
+{
+name = top;
+pos = (605,1100);
+}
+);
+layerId = m002;
+shapes = (
+{
+angle = 180;
 pos = (1210,1100);
 ref = n;
 }

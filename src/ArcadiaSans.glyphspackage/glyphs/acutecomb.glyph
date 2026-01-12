@@ -11,6 +11,17 @@ scale = (-1,1);
 }
 );
 width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (1200,0);
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+width = 1200;
 }
 );
 unicode = 769;

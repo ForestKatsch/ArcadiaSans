@@ -29,12 +29,67 @@ type = Corner;
 },
 {
 name = _cap.end_lg;
-options = 2;
+options = 10;
 origin = (0,6);
 type = Cap;
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1060,1440,l),
+(1060,1500,l),
+(190,1500,l),
+(190,790,l),
+(1040,790,l),
+(1040,60,l),
+(110,60,l),
+(110,0,l),
+(1100,0,l),
+(1100,850,l),
+(260,850,l),
+(260,1440,l)
+);
+}
+);
+width = 1200;
+},
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,4);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,8);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,9);
+type = Corner;
+},
+{
+name = _cap.end_lg;
+options = 2;
+origin = (0,6);
+type = Cap;
+}
+);
+layerId = m002;
 shapes = (
 {
 closed = 1;

@@ -8,6 +8,19 @@ shapes = (
 ref = U;
 },
 {
+pos = (90,0);
+ref = ringcomb;
+}
+);
+width = 1380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = U;
+},
+{
 pos = (70,0);
 ref = ringcomb;
 }

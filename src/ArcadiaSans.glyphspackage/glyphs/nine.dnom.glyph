@@ -13,6 +13,17 @@ ref = six.dnom;
 }
 );
 width = 1000;
+},
+{
+layerId = m002;
+shapes = (
+{
+angle = 180;
+pos = (1000,1100);
+ref = six.dnom;
+}
+);
+width = 1000;
 }
 );
 }

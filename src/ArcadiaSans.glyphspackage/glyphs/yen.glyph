@@ -33,6 +33,37 @@ ref = _part.dash;
 }
 );
 width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = Y;
+},
+{
+alignment = -1;
+attr = {
+identifier = CA35AF62;
+};
+piece = {
+Width = 800;
+};
+pos = (200,-200);
+ref = _part.dash;
+},
+{
+alignment = -1;
+attr = {
+identifier = 352876E4;
+};
+piece = {
+Width = 800;
+};
+pos = (200,-500);
+ref = _part.dash;
+}
+);
+width = 1200;
 }
 );
 metricLeft = "=Y";

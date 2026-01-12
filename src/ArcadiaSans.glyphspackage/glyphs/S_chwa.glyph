@@ -52,6 +52,72 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(1207,768,l),
+(1207,828,l),
+(150,828,l),
+(150,0,l),
+(1250,0,l),
+(1250,1500,l),
+(157,1500,l),
+(157,1440,l),
+(1190,1440,l),
+(1190,60,l),
+(210,60,l),
+(210,768,l)
+);
+}
+);
+width = 1400;
+},
+{
+hints = (
+{
+name = _corner.outside_lg;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _cap.end_lg;
+options = 10;
+origin = (0,6);
+scale = (1,-1);
+type = Cap;
+},
+{
+name = _corner.inside_lg;
+origin = (0,8);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (0,9);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (0,10);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (1137,663,l),
 (1137,828,l),
 (130,828,l),

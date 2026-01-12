@@ -11,6 +11,27 @@ alignment = -1;
 attr = {
 identifier = 4BBF4628;
 };
+pos = (80,0);
+ref = W;
+},
+{
+piece = {
+Width = 2060;
+};
+pos = (80,0);
+ref = _part.dash;
+}
+);
+width = 2220;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 4BBF4628;
+};
 pos = (40,0);
 ref = W;
 },

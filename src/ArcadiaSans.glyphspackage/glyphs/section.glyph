@@ -11,6 +11,29 @@ alignment = -1;
 attr = {
 identifier = 17EEEA51;
 };
+pos = (113,160);
+ref = _part.section_s;
+},
+{
+alignment = -1;
+angle = 180;
+attr = {
+identifier = 6D137BC5;
+};
+pos = (1253,1340);
+ref = _part.section_s;
+}
+);
+width = 1366;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 17EEEA51;
+};
 pos = (93,160);
 ref = _part.section_s;
 },

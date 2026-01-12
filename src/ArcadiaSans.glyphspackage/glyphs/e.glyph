@@ -7,6 +7,87 @@ layers = (
 anchors = (
 {
 name = ogonek;
+pos = (746,5);
+},
+{
+name = top;
+pos = (555,1100);
+}
+);
+hints = (
+{
+name = _corner.outside_md;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,10);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,8);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,9);
+scale = (-1,1);
+type = Corner;
+},
+{
+origin = (0,4);
+target = (0,9);
+type = Stem;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,6);
+scale = (1,-1);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,587,l),
+(138,527,l),
+(985,527,l),
+(985,1100,l),
+(125,1100,l),
+(125,0,l),
+(978,0,l),
+(978,60,l),
+(185,60,l),
+(185,1040,l),
+(925,1040,l),
+(925,587,l)
+);
+}
+);
+width = 1110;
+},
+{
+anchors = (
+{
+name = ogonek;
 pos = (815,10);
 },
 {
@@ -62,7 +143,7 @@ scale = (1,-1);
 type = Cap;
 }
 );
-layerId = m01;
+layerId = m002;
 shapes = (
 {
 closed = 1;

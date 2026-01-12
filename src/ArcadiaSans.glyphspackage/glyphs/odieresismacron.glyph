@@ -12,6 +12,23 @@ pos = (-25,-400);
 ref = dieresiscomb;
 },
 {
+pos = (-25,-150);
+ref = macroncomb;
+}
+);
+width = 1150;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (-25,-400);
+ref = dieresiscomb;
+},
+{
 pos = (-25,-100);
 ref = macroncomb;
 }

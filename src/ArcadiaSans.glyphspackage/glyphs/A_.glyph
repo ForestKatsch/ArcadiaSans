@@ -11,7 +11,7 @@ pos = (700,0);
 },
 {
 name = ogonek;
-pos = (1360,0);
+pos = (1320,0);
 },
 {
 name = top;
@@ -19,6 +19,40 @@ pos = (700,1500);
 }
 );
 layerId = m01;
+shapes = (
+{
+pos = (0,1500);
+ref = V;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(327,560,l),
+(1073,560,l),
+(1053,620,l),
+(347,620,l)
+);
+}
+);
+width = 1400;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (700,0);
+},
+{
+name = ogonek;
+pos = (1360,0);
+},
+{
+name = top;
+pos = (700,1500);
+}
+);
+layerId = m002;
 shapes = (
 {
 pos = (0,1500);
@@ -38,7 +72,6 @@ nodes = (
 width = 1400;
 }
 );
-metricLeft = "=40";
-metricRight = "=|V";
+metricRight = "=|A";
 unicode = 65;
 }

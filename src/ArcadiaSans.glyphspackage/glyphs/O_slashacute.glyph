@@ -8,6 +8,19 @@ shapes = (
 ref = Oslash;
 },
 {
+pos = (90,0);
+ref = acutecomb;
+}
+);
+width = 1380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = Oslash;
+},
+{
 pos = (70,0);
 ref = acutecomb;
 }

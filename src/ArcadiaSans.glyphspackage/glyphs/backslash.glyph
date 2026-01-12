@@ -11,6 +11,21 @@ alignment = 1;
 attr = {
 identifier = DCD89B18;
 };
+pos = (848,0);
+ref = slash;
+scale = (-1,1);
+}
+);
+width = 848;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = DCD89B18;
+};
 pos = (895,0);
 ref = slash;
 scale = (-1,1);

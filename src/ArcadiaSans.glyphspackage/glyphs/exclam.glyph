@@ -12,6 +12,24 @@ ref = period;
 {
 closed = 1;
 nodes = (
+(241,500,l),
+(301,500,l),
+(301,1500,l),
+(241,1500,l)
+);
+}
+);
+width = 540;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = period;
+},
+{
+closed = 1;
+nodes = (
 (183,500,l),
 (358,500,l),
 (358,1500,l),

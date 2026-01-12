@@ -30,6 +30,40 @@ closed = 1;
 nodes = (
 (107,0,l),
 (1293,0,l),
+(1263,60,l),
+(137,60,l)
+);
+}
+);
+width = 1400;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (700,0);
+},
+{
+name = ogonek;
+pos = (1360,0);
+},
+{
+name = top;
+pos = (700,1500);
+}
+);
+layerId = m002;
+shapes = (
+{
+pos = (0,1500);
+ref = V;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(107,0,l),
+(1293,0,l),
 (1233,180,l),
 (167,180,l)
 );

@@ -5,6 +5,17 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (1214,0);
+ref = E;
+scale = (-1,1);
+}
+);
+width = 1214;
+},
+{
+layerId = m002;
+shapes = (
+{
 pos = (1274,0);
 ref = E;
 scale = (-1,1);

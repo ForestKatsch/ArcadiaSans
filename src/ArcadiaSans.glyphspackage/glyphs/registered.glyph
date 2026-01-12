@@ -37,6 +37,98 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(893,640,o),
+(1120,867,o),
+(1120,1150,cs),
+(1120,1433,o),
+(893,1660,o),
+(610,1660,cs),
+(327,1660,o),
+(100,1433,o),
+(100,1150,cs),
+(100,867,o),
+(327,640,o),
+(610,640,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(365,700,o),
+(160,905,o),
+(160,1150,cs),
+(160,1400,o),
+(365,1600,o),
+(610,1600,cs),
+(860,1600,o),
+(1060,1400,o),
+(1060,1150,cs),
+(1060,905,o),
+(860,700,o),
+(610,700,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(460,860,l),
+(460,1390,l),
+(795,1390,l),
+(795,1140,l),
+(429,1140,l),
+(429,1080,l),
+(855,1080,l),
+(855,1450,l),
+(400,1450,l),
+(400,860,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(767,860,l),
+(830,860,l),
+(734,1110,l),
+(671,1110,l)
+);
+}
+);
+width = 1220;
+},
+{
+hints = (
+{
+name = _corner.inside_sm;
+origin = (2,2);
+scale = (0.8,0.8);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (2,3);
+scale = (-0.8,0.8);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+options = 2;
+origin = (2,6);
+scale = (-0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (2,7);
+scale = (0.7,0.7);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (986,580,o),
 (1240,834,o),
 (1240,1150,cs),
@@ -97,6 +189,6 @@ width = 1340;
 }
 );
 metricLeft = "=trademark";
-metricRight = "t=trademark";
+metricRight = "=trademark";
 unicode = 174;
 }

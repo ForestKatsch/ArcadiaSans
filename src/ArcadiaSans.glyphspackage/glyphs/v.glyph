@@ -17,6 +17,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(607,0,l),
+(1050,1100,l),
+(985,1100,l),
+(570,68,l),
+(155,1100,l),
+(90,1100,l),
+(533,0,l)
+);
+}
+);
+width = 1140;
+},
+{
+hints = (
+{
+name = _corner.letter_v;
+options = 2;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (657,0,l),
 (1100,1100,l),
 (912,1100,l),

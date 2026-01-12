@@ -8,6 +8,7 @@ hints = (
 {
 name = _corner.outside_sm;
 origin = (2,1);
+scale = (0.9,0.9);
 type = Corner;
 },
 {
@@ -17,6 +18,53 @@ type = Corner;
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(342,0,l),
+(402,0,l),
+(402,1080,l),
+(342,1080,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,1040,l),
+(1100,1040,l),
+(1100,1100,l),
+(160,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(847,1080,l),
+(847,0,l),
+(1068,0,l),
+(1068,60,l),
+(907,60,l),
+(907,1080,l)
+);
+}
+);
+width = 1260;
+},
+{
+hints = (
+{
+name = _corner.outside_sm;
+origin = (2,1);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (2,4);
+type = Corner;
+}
+);
+layerId = m002;
 shapes = (
 {
 closed = 1;

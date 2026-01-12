@@ -8,6 +8,19 @@ shapes = (
 ref = S;
 },
 {
+pos = (93,0);
+ref = circumflexcomb;
+}
+);
+width = 1383;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = S;
+},
+{
 pos = (103,0);
 ref = circumflexcomb;
 }

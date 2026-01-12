@@ -36,6 +36,56 @@ shapes = (
 closed = 1;
 nodes = (
 (180,0,l),
+(1180,0,l),
+(1180,1500,l),
+(180,1500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1120,1440,l),
+(1120,60,l),
+(240,60,l),
+(240,1440,l)
+);
+}
+);
+width = 1330;
+},
+{
+hints = (
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,0,l),
 (1190,0,l),
 (1190,1500,l),
 (180,1500,l)

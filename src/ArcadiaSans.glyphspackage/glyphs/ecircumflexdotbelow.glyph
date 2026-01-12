@@ -11,6 +11,22 @@ ref = e;
 ref = dotbelowcomb;
 },
 {
+pos = (-45,-400);
+ref = circumflexcomb;
+}
+);
+width = 1110;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = e;
+},
+{
+ref = dotbelowcomb;
+},
+{
 pos = (-25,-400);
 ref = circumflexcomb;
 }

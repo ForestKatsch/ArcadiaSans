@@ -29,6 +29,35 @@ ref = _part.dash;
 }
 );
 width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 4296CE03;
+};
+piece = {
+Width = 1000;
+};
+pos = (100,-100);
+ref = _part.dash;
+},
+{
+alignment = -1;
+angle = -90;
+attr = {
+identifier = 9CA6320E;
+};
+piece = {
+Width = 1000;
+};
+pos = (-150,1150);
+ref = _part.dash;
+}
+);
+width = 1200;
 }
 );
 unicode = 43;

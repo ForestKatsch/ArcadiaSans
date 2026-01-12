@@ -8,15 +8,16 @@ Python 3.9 or later
 
 ## Build Process
 
-1. **Export UFO files from Glyphs:**
-   - Open `src/ArcadiaSans.glyphspackage` in Glyphs.app
-   - File → Export → UFO
-   - Export to `build/ufo/`
+```bash
+make              # Build everything
+```
 
-2. **Build fonts:**
-   ```bash
-   make              # Build everything (creates venv automatically)
-   ```
+The Makefile handles everything automatically:
+- Creates Python virtual environment (if needed)
+- Installs dependencies (if needed)
+- Generates UFO files from Glyphs source
+- Generates designspace for variable fonts
+- Builds fonts with reproducible timestamps
 
 You can also build specific formats:
 
@@ -26,8 +27,6 @@ make otf          # Static OTF instances
 make variable     # Variable font
 make webfonts     # WOFF/WOFF2
 ```
-
-The Makefile handles all dependencies automatically - venv creation, package installation, etc.
 
 ## Cleaning
 

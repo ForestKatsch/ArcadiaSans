@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = node1;
-pos = (0,930);
+pos = (0,1040);
 },
 {
 name = node2;
@@ -14,6 +14,35 @@ pos = (0,1100);
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(-135,1040,l),
+(-37,1040,o),
+(23,1022,o),
+(90,965,c),
+(130,1010,l),
+(42,1091,o),
+(-35,1100,o),
+(-155,1100,c)
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = node1;
+pos = (0,930);
+},
+{
+name = node2;
+pos = (0,1100);
+}
+);
+layerId = m002;
 shapes = (
 {
 closed = 0;

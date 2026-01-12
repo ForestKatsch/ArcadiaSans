@@ -12,6 +12,19 @@ pos = (27,0);
 ref = caroncomb;
 }
 );
+width = 1380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (27,0);
+ref = caroncomb;
+}
+);
 width = 1360;
 }
 );

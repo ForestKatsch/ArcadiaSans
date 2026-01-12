@@ -16,6 +16,22 @@ ref = macroncomb;
 }
 );
 width = 1200;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (600,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+pos = (0,-2000);
+ref = macroncomb;
+}
+);
+width = 1200;
 }
 );
 unicode = 817;

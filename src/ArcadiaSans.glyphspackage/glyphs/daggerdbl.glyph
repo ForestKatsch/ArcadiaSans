@@ -23,6 +23,29 @@ ref = _part.dash;
 }
 );
 width = 1080;
+},
+{
+layerId = m002;
+shapes = (
+{
+piece = {
+Group = 1;
+};
+ref = dagger;
+},
+{
+alignment = -1;
+attr = {
+identifier = 2B0C3F17;
+};
+piece = {
+Width = 940;
+};
+pos = (70,-300);
+ref = _part.dash;
+}
+);
+width = 1080;
 }
 );
 metricLeft = "=dagger";

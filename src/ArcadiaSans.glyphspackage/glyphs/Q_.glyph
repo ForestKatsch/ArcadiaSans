@@ -12,6 +12,24 @@ ref = O;
 {
 closed = 1;
 nodes = (
+(1220,-63,l),
+(1263,-20,l),
+(920,323,l),
+(877,280,l)
+);
+}
+);
+width = 1343;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = O;
+},
+{
+closed = 1;
+nodes = (
 (1118,-45,l),
 (1245,82,l),
 (902,425,l),
@@ -23,6 +41,5 @@ width = 1340;
 }
 );
 metricLeft = O;
-metricRight = "=O-35";
 unicode = 81;
 }

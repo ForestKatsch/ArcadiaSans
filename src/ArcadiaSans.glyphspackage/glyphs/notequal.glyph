@@ -14,6 +14,28 @@ ref = equal;
 {
 closed = 1;
 nodes = (
+(263,120,l),
+(316,90,l),
+(938,1180,l),
+(885,1210,l)
+);
+}
+);
+width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 5AE1FB50;
+};
+ref = equal;
+},
+{
+closed = 1;
+nodes = (
 (213,150,l),
 (366,60,l),
 (988,1150,l),

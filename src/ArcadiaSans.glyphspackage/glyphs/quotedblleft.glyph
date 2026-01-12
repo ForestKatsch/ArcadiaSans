@@ -17,6 +17,22 @@ pos = (720,2790);
 ref = quoteright;
 }
 );
+width = 670;
+},
+{
+layerId = m002;
+shapes = (
+{
+angle = 180;
+pos = (420,2790);
+ref = quoteright;
+},
+{
+angle = 180;
+pos = (720,2790);
+ref = quoteright;
+}
+);
 width = 720;
 }
 );

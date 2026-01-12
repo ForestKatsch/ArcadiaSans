@@ -19,6 +19,23 @@ ref = _part.dash;
 }
 );
 width = 1820;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = D47D3097;
+};
+piece = {
+Width = 1620;
+};
+pos = (100,-100);
+ref = _part.dash;
+}
+);
+width = 1820;
 }
 );
 metricLeft = hyphen;

@@ -12,6 +12,19 @@ pos = (450,0);
 ref = ogonekcomb;
 }
 );
+width = 1080;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (450,0);
+ref = ogonekcomb;
+}
+);
 width = 1210;
 }
 );

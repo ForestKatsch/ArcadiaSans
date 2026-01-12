@@ -46,6 +46,78 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(319,1677,l),
+(741,1348,ls),
+(825,1282,o),
+(860,1210,o),
+(860,1104,cs),
+(860,60,l),
+(185,60,l),
+(185,1040,l),
+(760,1040,l),
+(760,1100,l),
+(125,1100,l),
+(125,0,l),
+(920,0,l),
+(920,1104,ls),
+(920,1231,o),
+(877,1318,o),
+(777,1396,cs),
+(355,1724,l)
+);
+},
+{
+pos = (263,670);
+ref = _part.Lslash;
+}
+);
+width = 1080;
+},
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,7);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,11);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,10);
+type = Corner;
+},
+{
+name = _cap.shoulder_md;
+options = 10;
+origin = (0,8);
+scale = (1,-1);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,12);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (281,1626,l),
 (762,1270,ls),
 (830,1219,o),

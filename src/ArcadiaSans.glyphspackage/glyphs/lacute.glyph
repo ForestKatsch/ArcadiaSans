@@ -8,6 +8,19 @@ shapes = (
 ref = l;
 },
 {
+pos = (-410,0);
+ref = acutecomb;
+}
+);
+width = 576;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = l;
+},
+{
 pos = (-353,0);
 ref = acutecomb;
 }

@@ -100,6 +100,138 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(848,576,l),
+(848,516,l),
+(1595,516,l),
+(1595,1100,l),
+(830,1100,l),
+(830,0,l),
+(1588,0,l),
+(1588,60,l),
+(890,60,l),
+(890,1040,l),
+(1535,1040,l),
+(1535,576,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,0,l),
+(890,0,l),
+(890,1100,l),
+(125,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(830,1040,l),
+(830,60,l),
+(185,60,l),
+(185,1040,l)
+);
+}
+);
+width = 1720;
+},
+{
+hints = (
+{
+name = _corner.outside_md;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,6);
+scale = (1,-1);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+origin = (0,8);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,9);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,10);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (2,0);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (2,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (2,2);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (2,3);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (923,636,l),
 (923,471,l),
 (1710,471,l),

@@ -22,6 +22,39 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(871,1500,l),
+(150,1500,l),
+(150,610,l),
+(621,610,l),
+(621,1440,l),
+(811,1440,l),
+(811,0,l),
+(871,0,l)
+);
+}
+);
+width = 1051;
+},
+{
+hints = (
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,1);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (931,1500,l),
 (130,1500,l),
 (130,610,l),

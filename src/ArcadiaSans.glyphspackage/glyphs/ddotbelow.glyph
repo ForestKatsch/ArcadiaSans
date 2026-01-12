@@ -12,6 +12,19 @@ pos = (-55,0);
 ref = dotbelowcomb;
 }
 );
+width = 1080;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = d;
+},
+{
+pos = (-55,0);
+ref = dotbelowcomb;
+}
+);
 width = 1195;
 }
 );

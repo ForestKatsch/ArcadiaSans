@@ -7,10 +7,27 @@ layers = (
 anchors = (
 {
 name = topright;
-pos = (1132,1050);
+pos = (1622,1050);
 }
 );
 layerId = m01;
+shapes = (
+{
+pos = (1080,0);
+ref = b;
+scale = (-1,1);
+}
+);
+width = 1080;
+},
+{
+anchors = (
+{
+name = topright;
+pos = (1132,1050);
+}
+);
+layerId = m002;
 shapes = (
 {
 pos = (1195,0);

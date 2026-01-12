@@ -8,6 +8,19 @@ shapes = (
 ref = C;
 },
 {
+pos = (72,0);
+ref = cedillacomb;
+}
+);
+width = 1270;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = C;
+},
+{
 pos = (52,0);
 ref = cedillacomb;
 }

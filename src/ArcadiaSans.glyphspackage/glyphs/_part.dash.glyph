@@ -12,6 +12,44 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(0,720,l),
+(2048,720,l),
+(2048,780,l),
+(0,780,l)
+);
+}
+);
+width = 2048;
+},
+{
+associatedMasterId = m01;
+layerId = "5FFD179F-2455-4998-91E6-6EA6A7A61CA5";
+name = Narrow;
+partSelection = {
+Width = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,720,l),
+(256,720,l),
+(256,780,l),
+(0,780,l)
+);
+}
+);
+width = 256;
+},
+{
+layerId = m002;
+partSelection = {
+Width = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
 (0,663,l),
 (2048,663,l),
 (2048,837,l),
@@ -22,8 +60,8 @@ nodes = (
 width = 2048;
 },
 {
-associatedMasterId = m01;
-layerId = "5FFD179F-2455-4998-91E6-6EA6A7A61CA5";
+associatedMasterId = m002;
+layerId = "F6541317-D5E8-40A3-9797-14EB7F9BEC75";
 name = Narrow;
 partSelection = {
 Width = 1;

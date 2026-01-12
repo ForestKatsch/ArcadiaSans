@@ -11,6 +11,17 @@ ref = upArrow;
 }
 );
 width = 1596;
+},
+{
+layerId = m002;
+shapes = (
+{
+angle = 180;
+pos = (1596,1500);
+ref = upArrow;
+}
+);
+width = 1596;
 }
 );
 metricLeft = "=upArrow";

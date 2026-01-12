@@ -10,6 +10,32 @@ attr = {
 identifier = B7098C6B;
 };
 piece = {
+Width = 2060;
+};
+pos = (190,0);
+ref = _part.dash;
+},
+{
+pos = (1100,0);
+ref = _part.arrow_head;
+},
+{
+pos = (1350,0);
+ref = _part.arrow_head;
+scale = (-1,1);
+}
+);
+width = 2450;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = B7098C6B;
+};
+piece = {
 Width = 2000;
 };
 pos = (320,0);

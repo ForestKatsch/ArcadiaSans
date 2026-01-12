@@ -6,6 +6,17 @@ layerId = m01;
 shapes = (
 {
 angle = -90;
+pos = (-26,1400);
+ref = northEastArrow;
+}
+);
+width = 1610;
+},
+{
+layerId = m002;
+shapes = (
+{
+angle = -90;
 pos = (-1,1400);
 ref = northEastArrow;
 }

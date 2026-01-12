@@ -9,6 +9,21 @@ alignment = 1;
 attr = {
 identifier = 8C8AE789;
 };
+pos = (927,0);
+ref = guillemetleft;
+scale = (-1,1);
+}
+);
+width = 927;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 8C8AE789;
+};
 pos = (1190,0);
 ref = guillemetleft;
 scale = (-1,1);

@@ -5,6 +5,19 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (400,0);
+ref = guilsinglleft;
+},
+{
+ref = guilsinglleft;
+}
+);
+width = 927;
+},
+{
+layerId = m002;
+shapes = (
+{
 pos = (500,0);
 ref = guilsinglleft;
 },

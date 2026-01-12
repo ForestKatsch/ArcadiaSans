@@ -8,6 +8,22 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
+pos = (370,1370);
+ref = quoteleft;
+},
+{
+angle = 180;
+pos = (670,1370);
+ref = quoteleft;
+}
+);
+width = 670;
+},
+{
+layerId = m002;
+shapes = (
+{
+angle = 180;
 pos = (420,1370);
 ref = quoteleft;
 },

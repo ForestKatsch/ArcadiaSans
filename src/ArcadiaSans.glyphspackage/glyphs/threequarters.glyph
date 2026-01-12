@@ -17,6 +17,23 @@ ref = four.dnom;
 }
 );
 width = 2454;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (1000,0);
+ref = fraction;
+},
+{
+pos = (1454,0);
+ref = four.dnom;
+}
+);
+width = 2454;
 }
 );
 metricLeft = three.numr;

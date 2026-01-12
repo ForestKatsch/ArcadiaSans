@@ -32,6 +32,61 @@ shapes = (
 piece = {
 Width = 800;
 };
+pos = (150,0);
+ref = _part.dash;
+},
+{
+closed = 1;
+nodes = (
+(1140,1510,l),
+(280,1510,l),
+(380,520,ls),
+(404,285,o),
+(321,172,o),
+(180,80,c),
+(180,0,l),
+(1220,0,l),
+(1220,60,l),
+(254,60,l),
+(351,128,o),
+(468,247,o),
+(439,528,cs),
+(343,1450,l),
+(1140,1450,l)
+);
+}
+);
+width = 1330;
+},
+{
+hints = (
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (1,13);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (1,14);
+type = Cap;
+}
+);
+layerId = m002;
+shapes = (
+{
+piece = {
+Width = 800;
+};
 pos = (130,0);
 ref = _part.dash;
 },

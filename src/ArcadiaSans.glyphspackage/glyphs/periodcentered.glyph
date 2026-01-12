@@ -10,6 +10,16 @@ ref = period;
 }
 );
 width = 540;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,550);
+ref = period;
+}
+);
+width = 540;
 }
 );
 metricLeft = "=period";

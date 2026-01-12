@@ -9,10 +9,35 @@ pos = (600,1500);
 },
 {
 name = top;
-pos = (600,1800);
+pos = (600,1720);
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(325,1650,l),
+(875,1650,l),
+(875,1710,l),
+(325,1710,l)
+);
+}
+);
+width = 1200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (600,1500);
+},
+{
+name = top;
+pos = (600,1800);
+}
+);
+layerId = m002;
 shapes = (
 {
 closed = 1;

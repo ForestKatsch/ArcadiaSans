@@ -9,6 +9,15 @@ ref = seven;
 }
 );
 width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = seven;
+}
+);
+width = 1200;
 }
 );
 }

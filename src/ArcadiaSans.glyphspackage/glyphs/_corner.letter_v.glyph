@@ -14,6 +14,29 @@ shapes = (
 {
 closed = 0;
 nodes = (
+(4,22,l),
+(3,16,o),
+(1,6,o),
+(0,0,c),
+(-1,6,o),
+(-3,16,o),
+(-4,22,c)
+);
+}
+);
+width = 1140;
+},
+{
+anchors = (
+{
+name = corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 0;
+nodes = (
 (111,372,l),
 (60,195,o),
 (37,112,o),

@@ -56,6 +56,76 @@ ref = period;
 {
 closed = 1;
 nodes = (
+(630,320,l),
+(630,600,l),
+(1080,820,l),
+(1080,1500,l),
+(120,1500,l),
+(120,1440,l),
+(1020,1440,l),
+(1020,858,l),
+(570,638,l),
+(570,320,l)
+);
+}
+);
+width = 1200;
+},
+{
+hints = (
+{
+name = _corner.outside_md;
+options = 2;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.end_lg;
+options = 10;
+origin = (1,4);
+scale = (1,-1);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (1,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (1,8);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (1,1);
+scale = (1.5,1.5);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (1,7);
+scale = (1.5,1.5);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+pos = (330,0);
+ref = period;
+},
+{
+closed = 1;
+nodes = (
 (690,420,l),
 (690,610,l),
 (1080,830,l),

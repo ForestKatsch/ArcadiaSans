@@ -8,6 +8,23 @@ shapes = (
 ref = E;
 },
 {
+pos = (30,0);
+ref = dotbelowcomb;
+},
+{
+pos = (30,0);
+ref = circumflexcomb;
+}
+);
+width = 1214;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = E;
+},
+{
 pos = (60,0);
 ref = dotbelowcomb;
 },

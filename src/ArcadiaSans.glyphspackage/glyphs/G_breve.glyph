@@ -8,6 +8,19 @@ shapes = (
 ref = G;
 },
 {
+pos = (65,0);
+ref = brevecomb;
+}
+);
+width = 1330;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = G;
+},
+{
 pos = (55,0);
 ref = brevecomb;
 }

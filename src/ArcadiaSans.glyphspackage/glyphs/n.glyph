@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (625,1100);
+pos = (515,1100);
 }
 );
 hints = (
@@ -29,6 +29,56 @@ type = Cap;
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(220,0,l),
+(220,1100,l),
+(160,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,1040,l),
+(860,1040,l),
+(860,0,l),
+(920,0,l),
+(920,1100,l),
+(320,1100,l)
+);
+}
+);
+width = 1080;
+},
+{
+anchors = (
+{
+name = top;
+pos = (625,1100);
+}
+);
+hints = (
+{
+name = _corner.inside_md;
+origin = (1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (1,4);
+type = Corner;
+},
+{
+name = _cap.letter_n;
+options = 9;
+origin = (1,5);
+type = Cap;
+}
+);
+layerId = m002;
 shapes = (
 {
 closed = 1;

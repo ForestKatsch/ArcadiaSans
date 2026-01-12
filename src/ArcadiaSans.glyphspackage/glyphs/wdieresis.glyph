@@ -8,6 +8,19 @@ shapes = (
 ref = w;
 },
 {
+pos = (200,-400);
+ref = dieresiscomb;
+}
+);
+width = 1600;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = w;
+},
+{
 pos = (230,-400);
 ref = dieresiscomb;
 }

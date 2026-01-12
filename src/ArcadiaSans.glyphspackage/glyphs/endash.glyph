@@ -19,6 +19,23 @@ ref = _part.dash;
 }
 );
 width = 1400;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 2B165AF6;
+};
+piece = {
+Width = 1200;
+};
+pos = (100,-100);
+ref = _part.dash;
+}
+);
+width = 1400;
 }
 );
 metricLeft = "=hyphen";

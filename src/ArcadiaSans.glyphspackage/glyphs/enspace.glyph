@@ -4,6 +4,10 @@ layers = (
 {
 layerId = m01;
 width = 1024;
+},
+{
+layerId = m002;
+width = 1024;
 }
 );
 metricWidth = "=emspace/2";

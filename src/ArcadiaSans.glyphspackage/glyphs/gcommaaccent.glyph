@@ -12,6 +12,19 @@ pos = (-35,0);
 ref = commaturnedabovecomb;
 }
 );
+width = 1080;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (-35,0);
+ref = commaturnedabovecomb;
+}
+);
 width = 1195;
 }
 );

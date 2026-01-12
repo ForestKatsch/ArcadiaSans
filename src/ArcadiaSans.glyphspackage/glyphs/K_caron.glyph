@@ -8,6 +8,20 @@ shapes = (
 ref = K;
 },
 {
+pos = (-80,0);
+ref = caroncomb;
+}
+);
+width = 1092;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = K;
+},
+{
+pos = (-20,0);
 ref = caroncomb;
 }
 );

@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (670,1500);
+pos = (690,1500);
 }
 );
 hints = (
@@ -66,6 +66,91 @@ type = Corner;
 }
 );
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,-10,l),
+(1230,-10,l),
+(1230,1510,l),
+(150,1510,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1170,1450,l),
+(1170,50,l),
+(210,50,l),
+(210,1450,l)
+);
+}
+);
+width = 1380;
+},
+{
+anchors = (
+{
+name = top;
+pos = (670,1500);
+}
+);
+hints = (
+{
+name = _corner.outside_lg;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m002;
 shapes = (
 {
 closed = 1;

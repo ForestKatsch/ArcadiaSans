@@ -8,6 +8,19 @@ shapes = (
 ref = idotless;
 },
 {
+pos = (-410,-400);
+ref = tildecomb;
+}
+);
+width = 380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = idotless;
+},
+{
 pos = (-350,-400);
 ref = tildecomb;
 }

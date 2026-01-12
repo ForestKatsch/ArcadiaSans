@@ -14,6 +14,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(34,722,l),
+(60,668,l),
+(650,943,l),
+(624,997,l)
+);
+}
+);
+width = 1194;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (270,1500);
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
 (10,779,l),
 (82,620,l),
 (672,895,l),

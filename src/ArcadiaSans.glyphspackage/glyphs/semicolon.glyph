@@ -7,6 +7,20 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (50,0);
+ref = comma;
+},
+{
+pos = (50,765);
+ref = period;
+}
+);
+width = 640;
+},
+{
+layerId = m002;
+shapes = (
+{
 ref = comma;
 },
 {
@@ -19,6 +33,5 @@ width = 540;
 );
 metricLeft = period;
 metricRight = period;
-metricWidth = period;
 unicode = 59;
 }

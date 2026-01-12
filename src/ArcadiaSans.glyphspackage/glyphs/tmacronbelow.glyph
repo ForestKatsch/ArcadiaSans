@@ -12,6 +12,19 @@ pos = (-88,0);
 ref = macronbelowcomb;
 }
 );
+width = 883;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-88,0);
+ref = macronbelowcomb;
+}
+);
 width = 923;
 }
 );

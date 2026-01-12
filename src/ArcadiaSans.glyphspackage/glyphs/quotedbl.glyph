@@ -18,6 +18,27 @@ alignment = -1;
 attr = {
 identifier = F8DA20C4;
 };
+pos = (210,0);
+ref = quotesingle;
+}
+);
+width = 510;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = A515D51F;
+};
+ref = quotesingle;
+},
+{
+alignment = -1;
+attr = {
+identifier = F8DA20C4;
+};
 pos = (300,0);
 ref = quotesingle;
 }

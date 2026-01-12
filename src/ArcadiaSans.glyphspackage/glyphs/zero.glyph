@@ -68,6 +68,89 @@ nodes = (
 {
 closed = 1;
 nodes = (
+(1050,1450,l),
+(1050,50,l),
+(150,50,l),
+(150,1450,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(232,170,l),
+(278,130,l),
+(968,1330,l),
+(922,1370,l)
+);
+}
+);
+width = 1200;
+},
+{
+hints = (
+{
+name = _corner.outside_lg;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (1,0);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = m002;
+shapes = (
+{
+closed = 1;
+nodes = (
+(90,-10,l),
+(1110,-10,l),
+(1110,1510,l),
+(90,1510,l)
+);
+},
+{
+closed = 1;
+nodes = (
 (930,1340,l),
 (930,160,l),
 (270,160,l),

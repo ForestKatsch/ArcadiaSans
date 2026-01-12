@@ -190,7 +190,7 @@ tag = liga;
 fontMaster = (
 {
 axesValues = (
-400
+100
 );
 customParameters = (
 {
@@ -234,6 +234,61 @@ over = -64;
 pos = -640;
 }
 );
+name = Thin;
+stemValues = (
+180,
+170
+);
+userData = {
+GSCornerRadius = 190;
+};
+},
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = "Master Icon Glyph Name";
+value = T;
+}
+);
+guides = (
+{
+lockAngle = 1;
+locked = 1;
+name = "p bottom";
+pos = (0,-420);
+}
+);
+id = m002;
+metricValues = (
+{
+over = 32;
+pos = 2000;
+},
+{
+pos = 1500;
+},
+{
+pos = 1100;
+},
+{
+over = -16;
+},
+{
+over = -64;
+pos = -640;
+}
+);
 name = Regular;
 stemValues = (
 180,
@@ -246,6 +301,61 @@ GSCornerRadius = 240;
 );
 kerningLTR = {
 m01 = {
+"@MMK_L_A" = {
+"@MMK_R_A" = 80;
+"@MMK_R_T" = -220;
+"@MMK_R_V" = -150;
+};
+"@MMK_L_C" = {
+"@MMK_R_v" = -50;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -220;
+"@MMK_R_n" = -150;
+"@MMK_R_o" = -150;
+"@MMK_R_p" = -150;
+"@MMK_R_u" = -150;
+"@MMK_R_v" = -120;
+"@MMK_R_x" = -100;
+z = -100;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -150;
+"@MMK_R_V" = 80;
+"@MMK_R_o" = -100;
+"@MMK_R_u" = -80;
+};
+"@MMK_L_fraction" = {
+four.dnom = -180;
+};
+"@MMK_L_hyphen" = {
+Y = -100;
+};
+"@MMK_L_k" = {
+"@MMK_R_o" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_o" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_q" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -120;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -40;
+};
+seven.numr = {
+"@MMK_R_fraction" = -240;
+fraction = -320;
+};
+};
+m002 = {
 "@MMK_L_A" = {
 "@MMK_R_A" = 80;
 "@MMK_R_T" = -220;
@@ -372,14 +482,14 @@ unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
 m01 = {
-HH = "170";
-HV = "180";
-OH = "170";
-OV = "180";
-nV = "176";
-nd = "170";
-oH = "170";
-oV = "175";
+HH = "60";
+HV = "60";
+OH = "60";
+OV = "60";
+nV = "60";
+nd = "60";
+oH = "60";
+oV = "60";
 };
 };
 };

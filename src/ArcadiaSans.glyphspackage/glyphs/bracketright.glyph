@@ -11,6 +11,21 @@ alignment = 1;
 attr = {
 identifier = EA85BE19;
 };
+pos = (664,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 664;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = EA85BE19;
+};
 pos = (784,0);
 ref = bracketleft;
 scale = (-1,1);

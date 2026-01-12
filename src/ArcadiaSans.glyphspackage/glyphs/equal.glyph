@@ -28,6 +28,34 @@ ref = _part.dash;
 }
 );
 width = 1200;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 412385C8;
+};
+piece = {
+Width = 1000;
+};
+pos = (100,-300);
+ref = _part.dash;
+},
+{
+alignment = -1;
+attr = {
+identifier = C7116CFE;
+};
+piece = {
+Width = 1000;
+};
+pos = (100,100);
+ref = _part.dash;
+}
+);
+width = 1200;
 }
 );
 unicode = 61;

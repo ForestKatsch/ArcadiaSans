@@ -22,6 +22,27 @@ pos = (60,0);
 ref = _part.dash;
 }
 );
+width = 1390;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 88C41584;
+};
+pos = (60,0);
+ref = D;
+},
+{
+piece = {
+Width = 720;
+};
+pos = (60,0);
+ref = _part.dash;
+}
+);
 width = 1380;
 }
 );

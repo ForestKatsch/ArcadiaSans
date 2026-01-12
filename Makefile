@@ -1,4 +1,4 @@
-.PHONY: all clean ttf otf variable webfonts check-ufo
+.PHONY: all clean ttf otf variable webfonts
 
 # Paths
 UFO_DIR = build/ufo
@@ -18,15 +18,15 @@ $(VENV): pyproject.toml
 	venv/bin/pip install -q -e .
 	@echo "✓ Virtual environment ready!"
 
-# Check for UFO sources
-check-ufo:
-	@test -d $(UFO_DIR) || (echo "Error: $(UFO_DIR) not found" && \
-		echo "Export your Glyphs source to $(UFO_DIR)/" && exit 1)
-	@test -n "$$(ls -A $(UFO_DIR)/*.ufo 2>/dev/null)" || \
-		(echo "Error: No UFO files in $(UFO_DIR)/" && exit 1)
+# Generate UFO files from Glyphs source
+$(UFO_DIR): src/ArcadiaSans.glyphspackage $(VENV)
+	@echo "Generating UFO files from Glyphs source..."
+	@mkdir -p $(UFO_DIR)
+	@venv/bin/python3 scripts/generate_ufo.py src/ArcadiaSans.glyphspackage $(UFO_DIR) 2>&1 | grep -v "Non-existent glyph" || true
+	@echo "✓ UFO files generated (components decomposed)"
 
 # Build TTF
-ttf: $(VENV) check-ufo
+ttf: $(UFO_DIR)
 	@echo "Building TTF..."
 	@mkdir -p $(EXPORT_DIR)/ttf
 	venv/bin/fontmake -u $(UFO_DIR)/*.ufo -o ttf \
@@ -34,7 +34,7 @@ ttf: $(VENV) check-ufo
 		--overlaps-backend pathops
 
 # Build OTF
-otf: $(VENV) check-ufo
+otf: $(UFO_DIR)
 	@echo "Building OTF..."
 	@mkdir -p $(EXPORT_DIR)/otf
 	venv/bin/fontmake -u $(UFO_DIR)/*.ufo -o otf \
@@ -42,18 +42,17 @@ otf: $(VENV) check-ufo
 		--overlaps-backend pathops
 
 # Build variable font
-variable: $(VENV) check-ufo
+variable: $(UFO_DIR)
+	@echo "Generating designspace..."
+	@venv/bin/python3 -c "from glyphsLib import GSFont, to_designspace; \
+		font = GSFont('src/ArcadiaSans.glyphspackage'); \
+		ds = to_designspace(font); \
+		ds.write('$(UFO_DIR)/Arcadia.designspace')" 2>&1 | grep -v "Non-existent glyph" || true
 	@echo "Building variable..."
 	@mkdir -p $(EXPORT_DIR)/variable
-	@if [ -n "$$(ls $(UFO_DIR)/*.designspace 2>/dev/null)" ]; then \
-		venv/bin/fontmake -m $(UFO_DIR)/*.designspace -o variable \
-			--output-dir $(EXPORT_DIR)/variable --no-production-names \
-			--overlaps-backend pathops; \
-	else \
-		echo "Error: No .designspace file found in $(UFO_DIR)/"; \
-		echo "Export from Glyphs with multiple masters to build variable fonts"; \
-		exit 1; \
-	fi
+	venv/bin/fontmake -m $(UFO_DIR)/*.designspace -o variable \
+		--output-dir $(EXPORT_DIR)/variable --no-production-names \
+		--overlaps-backend pathops
 
 # Build webfonts
 webfonts: variable
@@ -61,8 +60,10 @@ webfonts: variable
 	@mkdir -p $(EXPORT_DIR)/webfonts
 	@for ttf in $(EXPORT_DIR)/variable/*.ttf; do \
 		base=$$(basename $$ttf .ttf); \
+		echo "  $$base => woff2"; \
 		venv/bin/fonttools ttLib.woff2 compress -o $(EXPORT_DIR)/webfonts/$$base.woff2 $$ttf; \
-		venv/bin/fonttools ttLib.woff2 compress --flavor woff -o $(EXPORT_DIR)/webfonts/$$base.woff $$ttf; \
+		echo "  $$base => woff"; \
+		venv/bin/python3 -c "from fontTools.ttLib import TTFont; f=TTFont('$$ttf'); f.flavor='woff'; f.save('$(EXPORT_DIR)/webfonts/$$base.woff')"; \
 	done
 
 # Clean

@@ -8,6 +8,19 @@ shapes = (
 ref = O;
 },
 {
+pos = (20,0);
+ref = _part.Oslash;
+}
+);
+width = 1380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = O;
+},
+{
 ref = _part.Oslash;
 }
 );

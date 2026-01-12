@@ -17,6 +17,23 @@ ref = _part.dash;
 }
 );
 width = 1024;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 6B8091BB;
+};
+piece = {
+Width = 824;
+};
+pos = (100,-790);
+ref = _part.dash;
+}
+);
+width = 1024;
 }
 );
 unicode = 95;

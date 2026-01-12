@@ -7,6 +7,66 @@ layers = (
 anchors = (
 {
 name = ogonek;
+pos = (907,-1);
+},
+{
+name = top;
+pos = (690,1500);
+}
+);
+hints = (
+{
+name = _corner.outside_lg;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (0,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (0,6);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,1500,l),
+(150,-10,l),
+(1230,-10,l),
+(1230,1500,l),
+(1170,1500,l),
+(1170,50,l),
+(210,50,l),
+(210,1500,l)
+);
+}
+);
+width = 1380;
+},
+{
+anchors = (
+{
+name = ogonek;
 pos = (887,-1);
 },
 {
@@ -45,7 +105,7 @@ origin = (0,6);
 type = Corner;
 }
 );
-layerId = m01;
+layerId = m002;
 shapes = (
 {
 closed = 1;

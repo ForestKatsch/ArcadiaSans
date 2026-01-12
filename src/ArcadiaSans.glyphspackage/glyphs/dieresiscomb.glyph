@@ -9,10 +9,34 @@ pos = (600,1500);
 },
 {
 name = top;
-pos = (600,1800);
+pos = (600,1750);
 }
 );
 layerId = m01;
+shapes = (
+{
+pos = (-225,0);
+ref = dotaccentcomb;
+},
+{
+pos = (225,0);
+ref = dotaccentcomb;
+}
+);
+width = 1200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (600,1500);
+},
+{
+name = top;
+pos = (600,1800);
+}
+);
+layerId = m002;
 shapes = (
 {
 pos = (-225,0);

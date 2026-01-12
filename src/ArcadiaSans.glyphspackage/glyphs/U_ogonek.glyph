@@ -8,6 +8,19 @@ shapes = (
 ref = U;
 },
 {
+pos = (307,-1);
+ref = ogonekcomb;
+}
+);
+width = 1380;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = U;
+},
+{
 pos = (287,-1);
 ref = ogonekcomb;
 }

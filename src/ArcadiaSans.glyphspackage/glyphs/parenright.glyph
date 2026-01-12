@@ -11,6 +11,21 @@ alignment = 1;
 attr = {
 identifier = 3282E0F0;
 };
+pos = (648,0);
+ref = parenleft;
+scale = (-1,1);
+}
+);
+width = 648;
+},
+{
+layerId = m002;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 3282E0F0;
+};
 pos = (736,0);
 ref = parenleft;
 scale = (-1,1);

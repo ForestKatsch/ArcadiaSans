@@ -7,6 +7,67 @@ hints = (
 name = _corner.outside_sm;
 options = 2;
 origin = (0,1);
+scale = (-1.2,1.2);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (0,6);
+scale = (-1.8,1.8);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+options = 2;
+origin = (0,5);
+scale = (-1.2,1.2);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (0,2);
+scale = (-1.8,1.8);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,7);
+type = Cap;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,3);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1425,1870,l),
+(760,1870,l),
+(560,-310,l),
+(-50,-310,l),
+(-50,-370,l),
+(615,-370,l),
+(815,1810,l),
+(1425,1810,l)
+);
+}
+);
+width = 1375;
+},
+{
+hints = (
+{
+name = _corner.outside_sm;
+options = 2;
+origin = (0,1);
 scale = (-1.4,1.4);
 type = Corner;
 },
@@ -44,7 +105,7 @@ origin = (0,3);
 type = Cap;
 }
 );
-layerId = m01;
+layerId = m002;
 shapes = (
 {
 closed = 1;

@@ -13,6 +13,19 @@ ref = tildecomb;
 }
 );
 width = 1150;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (-25,-400);
+ref = tildecomb;
+}
+);
+width = 1150;
 }
 );
 unicode = 245;
