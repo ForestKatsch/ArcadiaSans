@@ -1,0 +1,35 @@
+{
+glyphname = Hbar;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = A14139F5;
+};
+pos = (160,0);
+ref = H;
+},
+{
+alignment = -1;
+attr = {
+identifier = 0D9D24A7;
+};
+piece = {
+Width = 1440;
+};
+pos = (180,390);
+ref = _part.dash;
+}
+);
+width = 1800;
+}
+);
+metricLeft = "=H";
+metricRight = "=H";
+unicode = 294;
+}

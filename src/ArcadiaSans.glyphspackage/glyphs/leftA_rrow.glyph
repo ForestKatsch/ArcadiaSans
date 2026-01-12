@@ -1,0 +1,21 @@
+{
+glyphname = leftArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 89561DEC;
+};
+pos = (1750,0);
+ref = rightArrow;
+scale = (-1,1);
+}
+);
+width = 1750;
+}
+);
+unicode = 8592;
+}

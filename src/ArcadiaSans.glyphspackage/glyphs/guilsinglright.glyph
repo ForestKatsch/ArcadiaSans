@@ -1,0 +1,21 @@
+{
+glyphname = guilsinglright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 8AF9053E;
+};
+pos = (690,0);
+ref = guilsinglleft;
+scale = (-1,1);
+}
+);
+width = 690;
+}
+);
+unicode = 8250;
+}

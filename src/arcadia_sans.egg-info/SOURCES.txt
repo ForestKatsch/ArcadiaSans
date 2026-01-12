@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/arcadia_sans.egg-info/PKG-INFO
+src/arcadia_sans.egg-info/SOURCES.txt
+src/arcadia_sans.egg-info/dependency_links.txt
+src/arcadia_sans.egg-info/requires.txt
+src/arcadia_sans.egg-info/top_level.txt

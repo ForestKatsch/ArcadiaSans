@@ -1,0 +1,23 @@
+{
+export = 0;
+glyphname = _part.arrow_head;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(976,750,l),
+(425,199,l),
+(552,72,l),
+(1230,750,l),
+(552,1428,l),
+(425,1301,l)
+);
+}
+);
+width = 1350;
+}
+);
+}

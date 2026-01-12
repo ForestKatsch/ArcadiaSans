@@ -1,0 +1,23 @@
+{
+export = 0;
+glyphname = _part.equal_bar;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 743B2582;
+};
+piece = {
+Width = 900;
+};
+pos = (150,-790);
+ref = _part.dash;
+}
+);
+width = 1200;
+}
+);
+}

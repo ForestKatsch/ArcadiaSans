@@ -1,0 +1,34 @@
+{
+glyphname = dagger;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 58E4C84E;
+};
+piece = {
+Width = 940;
+};
+pos = (70,300);
+ref = _part.dash;
+},
+{
+closed = 1;
+nodes = (
+(627,0,l),
+(627,1500,l),
+(453,1500,l),
+(453,0,l)
+);
+}
+);
+width = 1080;
+}
+);
+metricLeft = "=T";
+metricRight = "=T";
+unicode = 8224;
+}

@@ -1,0 +1,27 @@
+{
+glyphname = hyphen;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 277A42AE;
+};
+piece = {
+Width = 824;
+};
+pos = (100,-100);
+ref = _part.dash;
+}
+);
+width = 1024;
+}
+);
+metricLeft = "=100";
+metricRight = "=100";
+unicode = 45;
+}

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: arcadia-sans
+Version: 0.1.0
+Summary: Build tooling for Arcadia Sans font
+Requires-Python: >=3.9
+License-File: LICENSE.md
+Requires-Dist: fontmake>=3.8.0
+Requires-Dist: fonttools[ufo,woff]>=4.47.0
+Requires-Dist: glyphsLib>=6.0.0
+Requires-Dist: skia-pathops>=0.8.0
+Dynamic: license-file

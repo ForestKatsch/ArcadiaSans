@@ -1,0 +1,30 @@
+{
+glyphname = Eth;
+kernLeft = H;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 88C41584;
+};
+pos = (60,0);
+ref = D;
+},
+{
+piece = {
+Width = 720;
+};
+pos = (60,0);
+ref = _part.dash;
+}
+);
+width = 1380;
+}
+);
+metricRight = "=D";
+unicode = 208;
+}

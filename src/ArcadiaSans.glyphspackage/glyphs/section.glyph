@@ -1,0 +1,33 @@
+{
+glyphname = section;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 17EEEA51;
+};
+pos = (93,160);
+ref = _part.section_s;
+},
+{
+alignment = -1;
+angle = 180;
+attr = {
+identifier = 6D137BC5;
+};
+pos = (1233,1340);
+ref = _part.section_s;
+}
+);
+width = 1326;
+}
+);
+metricLeft = "=S";
+metricRight = "=S";
+unicode = 167;
+}

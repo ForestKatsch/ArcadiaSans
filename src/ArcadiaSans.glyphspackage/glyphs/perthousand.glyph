@@ -1,0 +1,48 @@
+{
+glyphname = perthousand;
+kernLeft = percent;
+kernRight = percent;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 55BACD70;
+};
+pos = (400,0);
+ref = fraction;
+},
+{
+alignment = -1;
+attr = {
+identifier = 01F7EEEC;
+};
+pos = (-280,400);
+ref = _part.percent_circle;
+},
+{
+alignment = -1;
+attr = {
+identifier = C9303424;
+};
+pos = (514,-399);
+ref = _part.percent_circle;
+},
+{
+alignment = -1;
+attr = {
+identifier = 72226A9C;
+};
+pos = (1214,-399);
+ref = _part.percent_circle;
+}
+);
+width = 2134;
+}
+);
+metricLeft = "=percent";
+metricRight = "=percent";
+unicode = 8240;
+}

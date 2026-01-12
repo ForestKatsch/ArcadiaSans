@@ -1,0 +1,25 @@
+{
+glyphname = exclamdown;
+kernLeft = exclam;
+kernRight = exclam;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 058228C2;
+};
+pos = (0,1500);
+ref = exclam;
+scale = (1,-1);
+}
+);
+width = 540;
+}
+);
+metricLeft = "=exclam";
+metricRight = "=exclam";
+unicode = 161;
+}

@@ -1,0 +1,18 @@
+{
+glyphname = northEastArrow;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 45;
+pos = (802,-258);
+ref = rightArrow;
+}
+);
+width = 1750;
+}
+);
+metricWidth = "=rightArrow";
+unicode = 8599;
+}

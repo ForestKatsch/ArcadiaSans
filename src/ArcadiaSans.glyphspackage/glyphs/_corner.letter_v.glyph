@@ -1,0 +1,30 @@
+{
+glyphname = _corner.letter_v;
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+anchors = (
+{
+name = corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(111,372,l),
+(60,195,o),
+(37,112,o),
+(0,-40,c),
+(-37,112,o),
+(-60,195,o),
+(-111,372,c)
+);
+}
+);
+width = 1140;
+}
+);
+}

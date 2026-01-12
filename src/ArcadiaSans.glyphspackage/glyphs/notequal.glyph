@@ -1,0 +1,28 @@
+{
+glyphname = notequal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 5AE1FB50;
+};
+ref = equal;
+},
+{
+closed = 1;
+nodes = (
+(213,150,l),
+(366,60,l),
+(988,1150,l),
+(835,1240,l)
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 8800;
+}

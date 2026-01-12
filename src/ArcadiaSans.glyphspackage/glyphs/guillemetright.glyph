@@ -1,0 +1,21 @@
+{
+glyphname = guillemetright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 8C8AE789;
+};
+pos = (1190,0);
+ref = guillemetleft;
+scale = (-1,1);
+}
+);
+width = 1190;
+}
+);
+unicode = 187;
+}

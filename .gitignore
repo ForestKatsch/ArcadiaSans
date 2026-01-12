@@ -1,5 +1,17 @@
 .DS_Store
 **/*.glyphspackage/UIState.plist
 **/*(Autosaved).glyphs
-.DS_Store
 .vscode/
+.claude/
+
+# Build artifacts (distributed via GitHub releases)
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
