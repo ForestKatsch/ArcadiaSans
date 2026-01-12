@@ -158,7 +158,7 @@ stemValues = (
 170
 );
 userData = {
-GSCornerRadius = 160;
+GSCornerRadius = 240;
 };
 }
 );

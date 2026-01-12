@@ -1,0 +1,20 @@
+{
+glyphname = bracketright;
+kernLeft = parenright;
+kernRight = parenright;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+pos = (784,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 784;
+}
+);
+unicode = 93;
+}

@@ -1,0 +1,22 @@
+{
+glyphname = greaterequal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,100);
+ref = greater;
+},
+{
+pos = (0,200);
+ref = _part.equal_bar;
+}
+);
+width = 1200;
+}
+);
+metricLeft = greater;
+metricRight = greater;
+unicode = 8805;
+}

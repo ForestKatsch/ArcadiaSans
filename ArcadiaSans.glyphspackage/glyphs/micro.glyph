@@ -1,0 +1,28 @@
+{
+glyphname = micro;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+closed = 1;
+nodes = (
+(334,-420,l),
+(334,480,l),
+(160,480,l),
+(160,-420,l)
+);
+}
+);
+width = 1210;
+}
+);
+metricLeft = "=u";
+metricRight = "=u";
+unicode = 181;
+}

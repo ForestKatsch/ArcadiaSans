@@ -8,6 +8,7 @@ shapes = (
 ref = E;
 },
 {
+pos = (60,0);
 ref = dotbelowcomb;
 }
 );

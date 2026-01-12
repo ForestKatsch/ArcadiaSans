@@ -1,0 +1,22 @@
+{
+glyphname = approxequal;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-200);
+ref = asciitilde;
+},
+{
+pos = (0,200);
+ref = asciitilde;
+}
+);
+width = 1400;
+}
+);
+metricLeft = "=asciitilde";
+metricRight = "=asciitilde";
+unicode = 8776;
+}

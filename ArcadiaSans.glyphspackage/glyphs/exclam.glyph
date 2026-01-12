@@ -1,5 +1,7 @@
 {
 glyphname = exclam;
+kernLeft = exclam;
+kernRight = exclam;
 layers = (
 {
 layerId = m01;

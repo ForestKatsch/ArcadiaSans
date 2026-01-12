@@ -1,0 +1,23 @@
+{
+glyphname = bullet;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,490,l),
+(490,490,l),
+(490,810,l),
+(170,810,l)
+);
+}
+);
+width = 660;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+unicode = 8226;
+}
