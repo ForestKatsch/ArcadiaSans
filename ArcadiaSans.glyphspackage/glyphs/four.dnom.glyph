@@ -1,0 +1,34 @@
+{
+glyphname = four.dnom;
+kernLeft = dnom;
+kernRight = dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,0,l),
+(810,0,l),
+(810,710,l),
+(630,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(910,370,l),
+(298,370,l),
+(680,1100,l),
+(477,1100,l),
+(100,380,l),
+(100,200,l),
+(910,200,l)
+);
+}
+);
+width = 1000;
+}
+);
+}

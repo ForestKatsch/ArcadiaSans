@@ -188,6 +188,9 @@ z = -100;
 "@MMK_R_o" = -100;
 "@MMK_R_u" = -80;
 };
+"@MMK_L_fraction" = {
+four.dnom = -160;
+};
 "@MMK_L_hyphen" = {
 Y = -100;
 };
@@ -209,6 +212,9 @@ Y = -100;
 };
 "@MMK_L_v" = {
 "@MMK_R_o" = -40;
+};
+seven.numr = {
+"@MMK_R_fraction" = -240;
 };
 };
 };

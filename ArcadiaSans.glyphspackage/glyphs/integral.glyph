@@ -1,0 +1,68 @@
+{
+glyphname = integral;
+layers = (
+{
+hints = (
+{
+name = _corner.outside_sm;
+options = 2;
+origin = (0,1);
+scale = (-1.4,1.4);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (0,6);
+scale = (-2.5,2.5);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+options = 2;
+origin = (0,5);
+scale = (-1.4,1.4);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (0,2);
+scale = (-2.5,2.5);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 2;
+origin = (0,7);
+type = Cap;
+},
+{
+name = _cap.end_md;
+options = 2;
+origin = (0,3);
+type = Cap;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1490,1870,l),
+(760,1870,l),
+(560,-200,l),
+(-10,-200,l),
+(-10,-370,l),
+(720,-370,l),
+(920,1700,l),
+(1490,1700,l)
+);
+}
+);
+width = 1480;
+}
+);
+metricRight = "=|integral";
+unicode = 8747;
+}

@@ -1,0 +1,57 @@
+{
+glyphname = pi;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+hints = (
+{
+name = _corner.outside_sm;
+origin = (2,1);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (2,4);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(342,0,l),
+(518,0,l),
+(518,1000,l),
+(342,1000,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,930,l),
+(1300,930,l),
+(1300,1100,l),
+(160,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(932,1000,l),
+(932,0,l),
+(1268,0,l),
+(1268,170,l),
+(1107,170,l),
+(1107,1000,l)
+);
+}
+);
+width = 1460;
+}
+);
+metricLeft = "=n";
+metricRight = "=n";
+unicode = 960;
+}

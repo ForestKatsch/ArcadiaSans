@@ -1,0 +1,18 @@
+{
+glyphname = nine.dnom;
+kernLeft = dnom;
+kernRight = dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (1000,1100);
+ref = six.dnom;
+}
+);
+width = 1000;
+}
+);
+}

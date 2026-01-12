@@ -1,0 +1,17 @@
+{
+glyphname = three.numr;
+kernLeft = numr;
+kernRight = numr;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,400);
+ref = three.dnom;
+}
+);
+width = 1000;
+}
+);
+}

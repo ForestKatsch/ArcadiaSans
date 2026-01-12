@@ -1,0 +1,18 @@
+{
+glyphname = threesuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,700);
+ref = three.dnom;
+}
+);
+width = 1000;
+}
+);
+metricLeft = three;
+metricRight = three;
+unicode = 179;
+}

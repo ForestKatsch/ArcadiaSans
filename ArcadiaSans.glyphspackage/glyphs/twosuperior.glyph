@@ -1,0 +1,18 @@
+{
+glyphname = twosuperior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,700);
+ref = two.dnom;
+}
+);
+width = 1000;
+}
+);
+metricLeft = two;
+metricRight = two;
+unicode = 178;
+}

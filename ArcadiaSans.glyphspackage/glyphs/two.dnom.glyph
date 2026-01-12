@@ -1,0 +1,75 @@
+{
+glyphname = two.dnom;
+kernLeft = dnom;
+kernRight = dnom;
+layers = (
+{
+hints = (
+{
+name = _corner.outside_sm;
+origin = (0,0);
+scale = (0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,1);
+scale = (-0.8,0.8);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,2);
+scale = (1,-1);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,4);
+scale = (-0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (0,6);
+scale = (0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (0,11);
+type = Corner;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(900,569,l),
+(900,1110,l),
+(100,1110,l),
+(100,940,l),
+(725,940,l),
+(725,680,l),
+(130,430,l),
+(130,0,l),
+(890,0,l),
+(890,170,l),
+(300,170,l),
+(300,317,l)
+);
+}
+);
+width = 1000;
+}
+);
+}

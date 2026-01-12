@@ -1,0 +1,33 @@
+{
+glyphname = one.dnom;
+kernLeft = dnom;
+kernRight = dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,930,l),
+(428,930,l),
+(428,100,l),
+(608,100,l),
+(608,1100,l),
+(248,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,0,l),
+(870,0,l),
+(870,175,l),
+(130,175,l)
+);
+}
+);
+width = 1000;
+}
+);
+}

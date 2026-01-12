@@ -8,8 +8,8 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (117,0);
-ref = _part.percent_slash;
+pos = (400,0);
+ref = fraction;
 },
 {
 alignment = -1;
@@ -18,11 +18,11 @@ ref = _part.percent_circle;
 },
 {
 alignment = -1;
-pos = (515,-399);
+pos = (514,-399);
 ref = _part.percent_circle;
 }
 );
-width = 1435;
+width = 1434;
 }
 );
 metricRight = "=|percent";

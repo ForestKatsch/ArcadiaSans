@@ -1,0 +1,17 @@
+{
+glyphname = zero.numr;
+kernLeft = numr;
+kernRight = numr;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,400);
+ref = zero.dnom;
+}
+);
+width = 1000;
+}
+);
+}

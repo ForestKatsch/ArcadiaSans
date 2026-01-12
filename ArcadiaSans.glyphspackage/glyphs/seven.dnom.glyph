@@ -1,0 +1,27 @@
+{
+glyphname = seven.dnom;
+kernLeft = dnom;
+kernRight = dnom;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,800,l),
+(276,800,l),
+(276,930,l),
+(683,930,l),
+(267,0,l),
+(458,0,l),
+(870,920,l),
+(870,1100,l),
+(100,1100,l)
+);
+}
+);
+width = 1000;
+}
+);
+}
