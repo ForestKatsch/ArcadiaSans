@@ -8,15 +8,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (760,0);
+pos = (680,0);
 ref = fraction;
 },
 {
-pos = (1394,0);
+pos = (1314,0);
 ref = eight.dnom;
 }
 );
-width = 2394;
+width = 2314;
 }
 );
 metricLeft = seven.numr;

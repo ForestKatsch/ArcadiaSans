@@ -1,0 +1,30 @@
+{
+glyphname = radical;
+kernLeft = v;
+kernRight = V;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(846,1500,l),
+(378,261,l),
+(232,648,l),
+(40,648,l),
+(291,0,l),
+(465,0,l),
+(973,1330,l),
+(1212,1330,l),
+(1212,1500,l)
+);
+}
+);
+width = 1252;
+}
+);
+metricLeft = "=V";
+metricRight = "=V";
+unicode = 8730;
+}

@@ -1,0 +1,28 @@
+{
+glyphname = won;
+kernLeft = V;
+kernRight = V;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = W;
+},
+{
+piece = {
+Width = 2060;
+};
+pos = (40,0);
+ref = _part.dash;
+}
+);
+width = 2140;
+}
+);
+metricLeft = "=W";
+metricRight = "=W";
+unicode = 8361;
+}
