@@ -31,32 +31,35 @@ $(UFO_DIR):
 		exit 1; \
 	fi
 
-# Build TTF
-ttf: $(VENV) $(UFO_DIR)
-	@echo "Building TTF..."
-	@mkdir -p $(EXPORT_DIR)/ttf
-	venv/bin/fontmake -u $(UFO_DIR)/*.ufo -o ttf \
-		--output-dir $(EXPORT_DIR)/ttf --no-production-names \
-		--overlaps-backend pathops
-
-# Build OTF
-otf: $(VENV) $(UFO_DIR)
-	@echo "Building OTF..."
-	@mkdir -p $(EXPORT_DIR)/otf
-	venv/bin/fontmake -u $(UFO_DIR)/*.ufo -o otf \
-		--output-dir $(EXPORT_DIR)/otf --no-production-names \
-		--overlaps-backend pathops
-
-# Build variable font
-variable: $(VENV) $(UFO_DIR)
+# Generate designspace file
+$(UFO_DIR)/Arcadia.designspace: src/ArcadiaSans.glyphspackage $(VENV) $(UFO_DIR)
 	@echo "Generating designspace..."
 	@venv/bin/python3 -c "from glyphsLib import GSFont, to_designspace; \
 		font = GSFont('src/ArcadiaSans.glyphspackage'); \
 		ds = to_designspace(font); \
 		ds.write('$(UFO_DIR)/Arcadia.designspace')" 2>&1 | grep -v "Non-existent glyph" || true
+
+# Build TTF (all instances)
+ttf: $(UFO_DIR)/Arcadia.designspace
+	@echo "Building TTF instances..."
+	@mkdir -p $(EXPORT_DIR)/ttf
+	venv/bin/fontmake -m $(UFO_DIR)/Arcadia.designspace -i -o ttf \
+		--output-dir $(EXPORT_DIR)/ttf --no-production-names \
+		--overlaps-backend pathops
+
+# Build OTF (all instances)
+otf: $(UFO_DIR)/Arcadia.designspace
+	@echo "Building OTF instances..."
+	@mkdir -p $(EXPORT_DIR)/otf
+	venv/bin/fontmake -m $(UFO_DIR)/Arcadia.designspace -i -o otf \
+		--output-dir $(EXPORT_DIR)/otf --no-production-names \
+		--overlaps-backend pathops
+
+# Build variable font
+variable: $(UFO_DIR)/Arcadia.designspace
 	@echo "Building variable..."
 	@mkdir -p $(EXPORT_DIR)/variable
-	venv/bin/fontmake -m $(UFO_DIR)/*.designspace -o variable \
+	venv/bin/fontmake -m $(UFO_DIR)/Arcadia.designspace -o variable \
 		--output-dir $(EXPORT_DIR)/variable --no-production-names \
 		--overlaps-backend pathops
 
