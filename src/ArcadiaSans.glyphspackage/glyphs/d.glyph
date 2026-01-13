@@ -7,38 +7,40 @@ layers = (
 anchors = (
 {
 name = topright;
-pos = (1622,1050);
+pos = (955,1050);
 }
 );
 layerId = m01;
 shapes = (
 {
-pos = (1080,0);
+alignment = -1;
+pos = (1115,0);
 ref = b;
 scale = (-1,1);
 }
 );
-width = 1080;
+width = 1115;
 },
 {
 anchors = (
 {
 name = topright;
-pos = (1132,1050);
+pos = (1070,1050);
 }
 );
 layerId = m002;
 shapes = (
 {
-pos = (1195,0);
+alignment = -1;
+pos = (1230,0);
 ref = b;
 scale = (-1,1);
 }
 );
-width = 1195;
+width = 1230;
 }
 );
 metricLeft = "=h";
-metricRight = "=h";
+metricRight = "=n";
 unicode = 100;
 }

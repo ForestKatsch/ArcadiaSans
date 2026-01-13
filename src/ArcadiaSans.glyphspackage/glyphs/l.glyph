@@ -15,7 +15,7 @@ pos = (190,1500);
 },
 {
 name = topright;
-pos = (325,1050);
+pos = (275,1050);
 }
 );
 layerId = m01;

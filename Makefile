@@ -18,15 +18,21 @@ $(VENV): pyproject.toml
 	venv/bin/pip install -q -e .
 	@echo "✓ Virtual environment ready!"
 
-# Generate UFO files from Glyphs source
-$(UFO_DIR): src/ArcadiaSans.glyphspackage $(VENV)
-	@echo "Generating UFO files from Glyphs source..."
-	@mkdir -p $(UFO_DIR)
-	@venv/bin/python3 scripts/generate_ufo.py src/ArcadiaSans.glyphspackage $(UFO_DIR) 2>&1 | grep -v "Non-existent glyph" || true
-	@echo "✓ UFO files generated (components decomposed)"
+# Check for manually exported UFO files
+$(UFO_DIR):
+	@if [ ! -d "$(UFO_DIR)" ] || [ -z "$$(ls -A $(UFO_DIR)/*.ufo 2>/dev/null)" ]; then \
+		echo "Error: No UFO files found in $(UFO_DIR)/"; \
+		echo ""; \
+		echo "Please export UFO files from Glyphs:"; \
+		echo "  1. Open src/ArcadiaSans.glyphspackage in Glyphs.app"; \
+		echo "  2. File → Export → UFO"; \
+		echo "  3. Export to $(UFO_DIR)/"; \
+		echo ""; \
+		exit 1; \
+	fi
 
 # Build TTF
-ttf: $(UFO_DIR)
+ttf: $(VENV) $(UFO_DIR)
 	@echo "Building TTF..."
 	@mkdir -p $(EXPORT_DIR)/ttf
 	venv/bin/fontmake -u $(UFO_DIR)/*.ufo -o ttf \
@@ -34,7 +40,7 @@ ttf: $(UFO_DIR)
 		--overlaps-backend pathops
 
 # Build OTF
-otf: $(UFO_DIR)
+otf: $(VENV) $(UFO_DIR)
 	@echo "Building OTF..."
 	@mkdir -p $(EXPORT_DIR)/otf
 	venv/bin/fontmake -u $(UFO_DIR)/*.ufo -o otf \
@@ -42,7 +48,7 @@ otf: $(UFO_DIR)
 		--overlaps-backend pathops
 
 # Build variable font
-variable: $(UFO_DIR)
+variable: $(VENV) $(UFO_DIR)
 	@echo "Generating designspace..."
 	@venv/bin/python3 -c "from glyphsLib import GSFont, to_designspace; \
 		font = GSFont('src/ArcadiaSans.glyphspackage'); \

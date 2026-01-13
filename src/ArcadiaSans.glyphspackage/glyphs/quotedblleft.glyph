@@ -8,32 +8,32 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (420,2790);
+pos = (310,2790);
 ref = quoteright;
 },
 {
 angle = 180;
-pos = (720,2790);
+pos = (610,2790);
 ref = quoteright;
 }
 );
-width = 670;
+width = 610;
 },
 {
 layerId = m002;
 shapes = (
 {
 angle = 180;
-pos = (420,2790);
+pos = (360,2790);
 ref = quoteright;
 },
 {
 angle = 180;
-pos = (720,2790);
+pos = (660,2790);
 ref = quoteright;
 }
 );
-width = 720;
+width = 660;
 }
 );
 metricLeft = "=quoteleft";

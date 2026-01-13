@@ -4,18 +4,25 @@ This document describes how to build font files from the Glyphs source.
 
 ## Prerequisites
 
-Python 3.9 or later
+- Python 3.9 or later
+- Glyphs.app (for UFO export)
 
 ## Build Process
 
-```bash
-make              # Build everything
-```
+1. **Export UFO files from Glyphs:**
+   - Open `src/ArcadiaSans.glyphspackage` in Glyphs.app
+   - File → Export → UFO
+   - Export to `build/ufo/`
+   - This handles corner components correctly
 
-The Makefile handles everything automatically:
+2. **Build fonts:**
+   ```bash
+   make              # Build everything
+   ```
+
+The Makefile automatically:
 - Creates Python virtual environment (if needed)
 - Installs dependencies (if needed)
-- Generates UFO files from Glyphs source
 - Generates designspace for variable fonts
 - Builds fonts with reproducible timestamps
 

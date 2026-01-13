@@ -7,11 +7,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (-50,-1420);
+pos = (0,-1420);
 ref = quoteright;
 }
 );
-width = 370;
+width = 310;
 },
 {
 layerId = m002;
@@ -21,7 +21,7 @@ pos = (0,-1420);
 ref = quoteright;
 }
 );
-width = 420;
+width = 360;
 }
 );
 metricLeft = "=quotedbl";

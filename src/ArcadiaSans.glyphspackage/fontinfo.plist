@@ -236,8 +236,8 @@ pos = -640;
 );
 name = Thin;
 stemValues = (
-180,
-170
+60,
+60
 );
 userData = {
 GSCornerRadius = 190;
@@ -297,6 +297,49 @@ stemValues = (
 userData = {
 GSCornerRadius = 240;
 };
+}
+);
+instances = (
+{
+axesValues = (
+100
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+m002 = 0.33333;
+m01 = 0.66667;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+m002 = 0.66667;
+m01 = 0.33333;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+m002 = 1;
+};
+name = Regular;
 }
 );
 kerningLTR = {

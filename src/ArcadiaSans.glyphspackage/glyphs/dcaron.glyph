@@ -14,28 +14,27 @@ identifier = 4C9F4005;
 ref = d;
 },
 {
-pos = (1022,-50);
+pos = (355,-50);
 ref = caroncomb.alt;
 }
 );
-width = 1537;
+width = 1315;
 },
 {
 layerId = m002;
 shapes = (
 {
-alignment = -1;
 attr = {
 identifier = 4C9F4005;
 };
 ref = d;
 },
 {
-pos = (532,-50);
+pos = (470,-50);
 ref = caroncomb.alt;
 }
 );
-width = 1492;
+width = 1230;
 }
 );
 metricLeft = "=d";

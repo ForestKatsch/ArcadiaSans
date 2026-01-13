@@ -76,7 +76,7 @@ width = 1080;
 anchors = (
 {
 name = bottom;
-pos = (650,0);
+pos = (620,0);
 }
 );
 hints = (

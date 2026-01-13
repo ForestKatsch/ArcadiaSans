@@ -11,7 +11,7 @@ pos = (600,0);
 layerId = m01;
 shapes = (
 {
-pos = (0,-2000);
+pos = (0,-1920);
 ref = macroncomb;
 }
 );
