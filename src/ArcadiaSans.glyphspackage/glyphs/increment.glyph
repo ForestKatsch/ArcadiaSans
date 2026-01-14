@@ -18,6 +18,15 @@ ref = Delta;
 }
 );
 width = 1400;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Delta;
+}
+);
+width = 1460;
 }
 );
 unicode = 8710;

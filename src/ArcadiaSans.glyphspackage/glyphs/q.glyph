@@ -24,6 +24,17 @@ scale = (-1,1);
 }
 );
 width = 1195;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (1204,0);
+ref = p;
+scale = (-1,1);
+}
+);
+width = 1204;
 }
 );
 unicode = 113;

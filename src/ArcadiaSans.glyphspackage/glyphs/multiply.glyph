@@ -22,6 +22,17 @@ ref = plus;
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+angle = -45;
+pos = (-204,544);
+ref = plus;
+}
+);
+width = 1500;
 }
 );
 unicode = 215;

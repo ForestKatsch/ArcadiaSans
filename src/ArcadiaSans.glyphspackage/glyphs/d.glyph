@@ -38,6 +38,24 @@ scale = (-1,1);
 }
 );
 width = 1230;
+},
+{
+anchors = (
+{
+name = topright;
+pos = (1010,1050);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (1170,0);
+ref = b;
+scale = (-1,1);
+}
+);
+width = 1170;
 }
 );
 metricLeft = "=h";

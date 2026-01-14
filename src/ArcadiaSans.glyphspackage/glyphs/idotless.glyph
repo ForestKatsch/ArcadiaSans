@@ -58,6 +58,35 @@ nodes = (
 }
 );
 width = 500;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (240,0);
+},
+{
+name = ogonek;
+pos = (330,0);
+},
+{
+name = top;
+pos = (240,1100);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(400,0,l),
+(400,1060,l),
+(80,1060,l)
+);
+}
+);
+width = 480;
 }
 );
 metricLeft = "=n";

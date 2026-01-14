@@ -32,6 +32,21 @@ scale = (1,-1);
 }
 );
 width = 540;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 058228C2;
+};
+pos = (0,1500);
+ref = exclam;
+scale = (1,-1);
+}
+);
+width = 680;
 }
 );
 metricLeft = "=exclam";

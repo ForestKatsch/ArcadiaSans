@@ -8,6 +8,7 @@ shapes = (
 ref = o;
 },
 {
+pos = (-25,0);
 ref = dotbelowcomb;
 },
 {
@@ -24,6 +25,7 @@ shapes = (
 ref = o;
 },
 {
+pos = (-25,0);
 ref = dotbelowcomb;
 },
 {
@@ -32,6 +34,23 @@ ref = circumflexcomb;
 }
 );
 width = 1150;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = o;
+},
+{
+pos = (-80,0);
+ref = dotbelowcomb;
+},
+{
+pos = (-80,-400);
+ref = circumflexcomb;
+}
+);
+width = 1040;
 }
 );
 unicode = 7897;

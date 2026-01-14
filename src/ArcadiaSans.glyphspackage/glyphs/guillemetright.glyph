@@ -30,6 +30,21 @@ scale = (-1,1);
 }
 );
 width = 1190;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 8C8AE789;
+};
+pos = (1590,0);
+ref = guillemetleft;
+scale = (-1,1);
+}
+);
+width = 1590;
 }
 );
 unicode = 187;

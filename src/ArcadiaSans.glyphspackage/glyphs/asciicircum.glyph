@@ -36,6 +36,24 @@ nodes = (
 }
 );
 width = 1080;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,900,l),
+(408,900,l),
+(540,1165,l),
+(672,900,l),
+(1020,900,l),
+(727,1500,l),
+(353,1500,l)
+);
+}
+);
+width = 1080;
 }
 );
 metricRight = "=|asciicircum";

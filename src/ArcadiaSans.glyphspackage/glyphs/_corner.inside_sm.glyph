@@ -31,6 +31,21 @@ nodes = (
 }
 );
 width = 420;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 0;
+nodes = (
+(75,0,l),
+(25,0,o),
+(0,25,o),
+(0,75,c)
+);
+}
+);
+width = 420;
 }
 );
 }

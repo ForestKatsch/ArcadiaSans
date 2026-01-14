@@ -32,6 +32,21 @@ scale = (-1,1);
 }
 );
 width = 895;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = DCD89B18;
+};
+pos = (1008,0);
+ref = slash;
+scale = (-1,1);
+}
+);
+width = 1008;
 }
 );
 metricLeft = "=slash";

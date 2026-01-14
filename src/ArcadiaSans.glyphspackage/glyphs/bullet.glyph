@@ -30,6 +30,21 @@ nodes = (
 }
 );
 width = 660;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,460,l),
+(560,460,l),
+(560,840,l),
+(180,840,l)
+);
+}
+);
+width = 740;
 }
 );
 metricLeft = "=period";

@@ -40,6 +40,25 @@ nodes = (
 }
 );
 width = 1272;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (66,0);
+ref = h;
+},
+{
+closed = 1;
+nodes = (
+(56,1146,l),
+(706,1146,l),
+(706,1400,l),
+(56,1400,l)
+);
+}
+);
+width = 1286;
 }
 );
 metricLeft = "=h*0.7";

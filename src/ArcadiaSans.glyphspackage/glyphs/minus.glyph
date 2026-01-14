@@ -5,15 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-attr = {
-identifier = 94436AA1;
-};
-piece = {
-Width = 1000;
-};
-pos = (100,-100);
-ref = _part.dash;
+ref = hyphen;
 }
 );
 width = 1200;
@@ -22,19 +14,22 @@ width = 1200;
 layerId = m002;
 shapes = (
 {
-alignment = -1;
-attr = {
-identifier = 94436AA1;
-};
-piece = {
-Width = 1000;
-};
-pos = (100,-100);
-ref = _part.dash;
+ref = hyphen;
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = hyphen;
 }
 );
+width = 1500;
+}
+);
+metricLeft = "=hyphen";
+metricWidth = "=hyphen";
 unicode = 8722;
 }

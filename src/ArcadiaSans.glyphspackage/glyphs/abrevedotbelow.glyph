@@ -34,6 +34,23 @@ ref = brevecomb;
 }
 );
 width = 1164;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (31,0);
+ref = dotbelowcomb;
+},
+{
+pos = (31,-400);
+ref = brevecomb;
+}
+);
+width = 1198;
 }
 );
 unicode = 7863;

@@ -8,6 +8,10 @@ width = 540;
 {
 layerId = m002;
 width = 540;
+},
+{
+layerId = m003;
+width = 660;
 }
 );
 metricWidth = "=period";

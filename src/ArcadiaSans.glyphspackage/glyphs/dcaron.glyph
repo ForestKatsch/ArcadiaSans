@@ -35,6 +35,22 @@ ref = caroncomb.alt;
 }
 );
 width = 1230;
+},
+{
+layerId = m003;
+shapes = (
+{
+attr = {
+identifier = 4C9F4005;
+};
+ref = d;
+},
+{
+pos = (410,-50);
+ref = caroncomb.alt;
+}
+);
+width = 1170;
 }
 );
 metricLeft = "=d";

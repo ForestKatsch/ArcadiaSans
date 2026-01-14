@@ -62,6 +62,36 @@ ref = _part.percent_circle;
 }
 );
 width = 1434;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 43CD385B;
+};
+pos = (500,0);
+ref = fraction;
+},
+{
+alignment = -1;
+attr = {
+identifier = AB044C2B;
+};
+pos = (-280,400);
+ref = _part.percent_circle;
+},
+{
+alignment = -1;
+attr = {
+identifier = 24D2EF76;
+};
+pos = (714,-359);
+ref = _part.percent_circle;
+}
+);
+width = 1634;
 }
 );
 metricRight = "=|percent";

@@ -116,6 +116,64 @@ nodes = (
 }
 );
 width = 1000;
+},
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,4);
+scale = (0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,5);
+scale = (-0.7,0.7);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,6);
+scale = (0.8375,0.8);
+type = Cap;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,8);
+scale = (-0.8,0.8);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,9);
+scale = (0.8,0.8);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(880,833,l),
+(880,1100,l),
+(140,1100,l),
+(140,462,l),
+(640,462,l),
+(640,268,l),
+(110,268,l),
+(110,0,l),
+(910,0,l),
+(910,710,l),
+(410,710,l),
+(410,833,l)
+);
+}
+);
+width = 1000;
 }
 );
 }

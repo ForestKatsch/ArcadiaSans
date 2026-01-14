@@ -124,6 +124,67 @@ nodes = (
 }
 );
 width = 1430;
+},
+{
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,6);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,7);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,10);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,11);
+scale = (-0.9,0.9);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,8);
+type = Cap;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,0,l),
+(440,0,l),
+(440,1180,l),
+(870,1180,l),
+(635,870,l),
+(635,555,l),
+(1110,555,l),
+(1110,320,l),
+(565,320,l),
+(565,0,l),
+(1430,0,l),
+(1430,870,l),
+(1040,870,l),
+(1395,1310,l),
+(1395,1500,l),
+(120,1500,l)
+);
+}
+);
+width = 1495;
 }
 );
 metricLeft = "=D";

@@ -21,11 +21,24 @@ shapes = (
 ref = O;
 },
 {
-pos = (70,0);
+pos = (90,0);
 ref = hungarumlautcomb;
 }
 );
-width = 1340;
+width = 1380;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (55,0);
+ref = hungarumlautcomb;
+}
+);
+width = 1310;
 }
 );
 unicode = 336;

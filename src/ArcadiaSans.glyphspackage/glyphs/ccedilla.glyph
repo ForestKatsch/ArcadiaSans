@@ -8,7 +8,7 @@ shapes = (
 ref = c;
 },
 {
-pos = (-48,0);
+pos = (-68,0);
 ref = cedillacomb;
 }
 );
@@ -21,11 +21,24 @@ shapes = (
 ref = c;
 },
 {
-pos = (-18,0);
+pos = (-38,0);
 ref = cedillacomb;
 }
 );
 width = 1044;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = c;
+},
+{
+pos = (-63,0);
+ref = cedillacomb;
+}
+);
+width = 989;
 }
 );
 unicode = 231;

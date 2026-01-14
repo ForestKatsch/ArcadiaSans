@@ -32,6 +32,21 @@ nodes = (
 }
 );
 width = 540;
+},
+{
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,0,l),
+(480,0,l),
+(480,280,l),
+(180,280,l)
+);
+}
+);
+width = 660;
 }
 );
 metricRight = "=|period";

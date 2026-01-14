@@ -22,6 +22,17 @@ scale = (-1,1);
 }
 );
 width = 1750;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (1950,0);
+ref = northEastArrow;
+scale = (-1,1);
+}
+);
+width = 1950;
 }
 );
 metricLeft = "=|northEastArrow";

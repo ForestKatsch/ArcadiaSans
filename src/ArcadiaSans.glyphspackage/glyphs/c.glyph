@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (552,0);
+pos = (532,0);
 },
 {
 name = top;
@@ -75,7 +75,7 @@ width = 1044;
 anchors = (
 {
 name = bottom;
-pos = (582,0);
+pos = (562,0);
 },
 {
 name = top;
@@ -138,6 +138,74 @@ nodes = (
 }
 );
 width = 1044;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (537,0);
+},
+{
+name = top;
+pos = (537,1100);
+}
+);
+hints = (
+{
+name = _corner.outside_md;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,7);
+type = Cap;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,3);
+scale = (1,-1);
+type = Cap;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(969,1100,l),
+(70,1100,l),
+(70,0,l),
+(969,0,l),
+(969,320,l),
+(390,320,l),
+(390,780,l),
+(969,780,l)
+);
+}
+);
+width = 989;
 }
 );
 metricLeft = "=o";

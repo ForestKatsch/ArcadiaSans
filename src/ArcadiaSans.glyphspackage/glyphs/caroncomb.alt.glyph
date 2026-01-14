@@ -32,6 +32,22 @@ ref = commaaccentcomb;
 }
 );
 width = 1200;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (600,1100);
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (230,1640);
+ref = commaaccentcomb;
+}
+);
+width = 1200;
 }
 );
 }

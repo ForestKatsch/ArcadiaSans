@@ -34,6 +34,23 @@ ref = dotbelowcomb;
 }
 );
 width = 500;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-360,-400);
+ref = dotaccentcomb;
+},
+{
+pos = (-360,0);
+ref = dotbelowcomb;
+}
+);
+width = 480;
 }
 );
 unicode = 7883;

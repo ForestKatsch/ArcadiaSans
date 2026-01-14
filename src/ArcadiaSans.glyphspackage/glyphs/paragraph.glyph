@@ -67,6 +67,39 @@ nodes = (
 }
 );
 width = 1111;
+},
+{
+hints = (
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,1);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(866,1500,l),
+(65,1500,l),
+(65,610,l),
+(536,610,l),
+(536,1330,l),
+(686,1330,l),
+(686,0,l),
+(866,0,l)
+);
+}
+);
+width = 986;
 }
 );
 metricLeft = "=|P";

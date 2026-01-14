@@ -44,7 +44,31 @@ nodes = (
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 5AE1FB50;
+};
+ref = equal;
+},
+{
+closed = 1;
+nodes = (
+(213,0,l),
+(566,-190,l),
+(1388,1300,l),
+(1035,1490,l)
+);
 }
 );
+width = 1600;
+}
+);
+metricLeft = "=equal";
+metricRight = "=equal";
 unicode = 8800;
 }

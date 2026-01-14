@@ -26,6 +26,19 @@ ref = ogonekcomb;
 }
 );
 width = 1274;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (524,0);
+ref = ogonekcomb;
+}
+);
+width = 1214;
 }
 );
 unicode = 280;

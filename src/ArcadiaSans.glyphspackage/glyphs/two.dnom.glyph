@@ -90,7 +90,7 @@ type = Corner;
 name = _cap.end_md;
 options = 10;
 origin = (0,2);
-scale = (1,-1);
+scale = (0.98235,-1);
 type = Cap;
 },
 {
@@ -134,6 +134,74 @@ nodes = (
 (890,167,l),
 (300,167,l),
 (300,348,l)
+);
+}
+);
+width = 1000;
+},
+{
+hints = (
+{
+name = _corner.outside_sm;
+origin = (0,0);
+scale = (0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 2;
+origin = (0,1);
+scale = (-0.8,0.8);
+type = Corner;
+},
+{
+name = _cap.end_md;
+options = 10;
+origin = (0,2);
+scale = (0.83438,-0.8);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+options = 2;
+origin = (0,4);
+scale = (-0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (0,6);
+scale = (0.7,0.7);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+origin = (0,11);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(900,509,l),
+(900,1110,l),
+(100,1110,l),
+(100,843,l),
+(630,843,l),
+(630,680,l),
+(130,540,l),
+(130,0,l),
+(900,0,l),
+(900,257,l),
+(400,257,l),
+(400,368,l)
 );
 }
 );

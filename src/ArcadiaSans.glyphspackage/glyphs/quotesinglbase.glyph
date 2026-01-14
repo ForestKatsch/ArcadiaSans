@@ -34,6 +34,22 @@ ref = quoteleft;
 }
 );
 width = 660;
+},
+{
+layerId = m003;
+shapes = (
+{
+angle = 180;
+pos = (440,1370);
+ref = quoteleft;
+},
+{
+angle = 180;
+pos = (740,1370);
+ref = quoteleft;
+}
+);
+width = 740;
 }
 );
 metricLeft = "=quotedbl";

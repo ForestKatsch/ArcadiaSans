@@ -13,7 +13,7 @@ pos = (0,200);
 ref = asciitilde;
 }
 );
-width = 1400;
+width = 1396;
 },
 {
 layerId = m002;
@@ -27,7 +27,21 @@ pos = (0,200);
 ref = asciitilde;
 }
 );
-width = 1400;
+width = 1396;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (0,-300);
+ref = asciitilde;
+},
+{
+pos = (0,300);
+ref = asciitilde;
+}
+);
+width = 1596;
 }
 );
 metricLeft = "=asciitilde";

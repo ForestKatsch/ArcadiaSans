@@ -17,11 +17,22 @@ layerId = m002;
 shapes = (
 {
 angle = 45;
-pos = (802,-258);
+pos = (817,-258);
 ref = rightArrow;
 }
 );
 width = 1750;
+},
+{
+layerId = m003;
+shapes = (
+{
+angle = 45;
+pos = (872,-258);
+ref = rightArrow;
+}
+);
+width = 1950;
 }
 );
 metricWidth = "=rightArrow";

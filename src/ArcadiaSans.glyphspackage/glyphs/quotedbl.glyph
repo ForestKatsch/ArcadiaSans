@@ -44,6 +44,27 @@ ref = quotesingle;
 }
 );
 width = 720;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = A515D51F;
+};
+ref = quotesingle;
+},
+{
+alignment = -1;
+attr = {
+identifier = F8DA20C4;
+};
+pos = (500,0);
+ref = quotesingle;
+}
+);
+width = 1060;
 }
 );
 metricLeft = "=quotesingle";

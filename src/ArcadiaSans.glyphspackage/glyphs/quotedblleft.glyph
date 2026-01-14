@@ -7,14 +7,9 @@ layers = (
 layerId = m01;
 shapes = (
 {
-angle = 180;
-pos = (310,2790);
-ref = quoteright;
-},
-{
-angle = 180;
-pos = (610,2790);
-ref = quoteright;
+pos = (610,0);
+ref = quotedblright;
+scale = (-1,1);
 }
 );
 width = 610;
@@ -23,17 +18,23 @@ width = 610;
 layerId = m002;
 shapes = (
 {
-angle = 180;
-pos = (360,2790);
-ref = quoteright;
-},
-{
-angle = 180;
-pos = (660,2790);
-ref = quoteright;
+pos = (660,0);
+ref = quotedblright;
+scale = (-1,1);
 }
 );
 width = 660;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (800,0);
+ref = quotedblright;
+scale = (-1,1);
+}
+);
+width = 800;
 }
 );
 metricLeft = "=quoteleft";

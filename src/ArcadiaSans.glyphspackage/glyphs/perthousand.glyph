@@ -78,6 +78,44 @@ ref = _part.percent_circle;
 }
 );
 width = 2134;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 55BACD70;
+};
+pos = (500,0);
+ref = fraction;
+},
+{
+alignment = -1;
+attr = {
+identifier = 01F7EEEC;
+};
+pos = (-280,400);
+ref = _part.percent_circle;
+},
+{
+alignment = -1;
+attr = {
+identifier = C9303424;
+};
+pos = (714,-359);
+ref = _part.percent_circle;
+},
+{
+alignment = -1;
+attr = {
+identifier = 72226A9C;
+};
+pos = (1414,-359);
+ref = _part.percent_circle;
+}
+);
+width = 2334;
 }
 );
 metricLeft = "=percent";

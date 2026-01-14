@@ -28,6 +28,20 @@ ref = _part.equal_bar;
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (0,200);
+ref = greater;
+},
+{
+pos = (0,160);
+ref = _part.equal_bar;
+}
+);
+width = 1500;
 }
 );
 metricLeft = greater;

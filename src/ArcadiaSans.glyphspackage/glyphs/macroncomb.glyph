@@ -50,6 +50,31 @@ nodes = (
 }
 );
 width = 1200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (600,1500);
+},
+{
+name = top;
+pos = (600,1800);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,1570,l),
+(1015,1570,l),
+(1015,1845,l),
+(185,1845,l)
+);
+}
+);
+width = 1200;
 }
 );
 unicode = 772;

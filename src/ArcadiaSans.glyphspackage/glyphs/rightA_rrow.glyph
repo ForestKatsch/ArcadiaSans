@@ -42,6 +42,27 @@ ref = _part.arrow_head;
 }
 );
 width = 1750;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 708DE35A;
+};
+piece = {
+Width = 1300;
+};
+pos = (120,0);
+ref = _part.dash;
+},
+{
+pos = (400,0);
+ref = _part.arrow_head;
+}
+);
+width = 1950;
 }
 );
 metricRight = "=|rightArrow";

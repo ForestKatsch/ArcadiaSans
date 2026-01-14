@@ -52,6 +52,32 @@ nodes = (
 }
 );
 width = 1200;
+},
+{
+hints = (
+{
+name = _corner.letter_v;
+options = 2;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,443,l),
+(1350,110,l),
+(1350,428,l),
+(545,650,l),
+(1350,872,l),
+(1350,1190,l),
+(150,857,l)
+);
+}
+);
+width = 1500;
 }
 );
 unicode = 60;

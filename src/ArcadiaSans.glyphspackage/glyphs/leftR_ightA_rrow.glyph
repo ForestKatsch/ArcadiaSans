@@ -52,6 +52,32 @@ scale = (-1,1);
 }
 );
 width = 2650;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = B7098C6B;
+};
+piece = {
+Width = 2000;
+};
+pos = (520,0);
+ref = _part.dash;
+},
+{
+pos = (1500,0);
+ref = _part.arrow_head;
+},
+{
+pos = (1550,0);
+ref = _part.arrow_head;
+scale = (-1,1);
+}
+);
+width = 3050;
 }
 );
 metricLeft = "=leftArrow";

@@ -18,16 +18,27 @@ layerId = m002;
 shapes = (
 {
 angle = 90;
-pos = (1751,1400);
+pos = (1736,1400);
 ref = northEastArrow;
 scale = (-1,1);
 }
 );
 width = 1750;
+},
+{
+layerId = m003;
+shapes = (
+{
+angle = 90;
+pos = (1880,1400);
+ref = northEastArrow;
+scale = (-1,1);
+}
+);
+width = 1950;
 }
 );
 metricLeft = "=|northEastArrow";
-metricRight = "=|northEastArrow";
 metricWidth = "=northEastArrow";
 unicode = 8601;
 }

@@ -52,6 +52,32 @@ nodes = (
 }
 );
 width = 1080;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 58E4C84E;
+};
+piece = {
+Width = 1040;
+};
+pos = (80,300);
+ref = _part.dash;
+},
+{
+closed = 1;
+nodes = (
+(760,0,l),
+(760,1500,l),
+(440,1500,l),
+(440,0,l)
+);
+}
+);
+width = 1200;
 }
 );
 metricLeft = "=T";

@@ -38,6 +38,24 @@ nodes = (
 }
 );
 width = 1256;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = d;
+},
+{
+closed = 1;
+nodes = (
+(594,1156,l),
+(1334,1156,l),
+(1334,1410,l),
+(594,1410,l)
+);
+}
+);
+width = 1390;
 }
 );
 metricLeft = "=d";

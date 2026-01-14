@@ -17,7 +17,7 @@ identifier = CA35AF62;
 piece = {
 Width = 800;
 };
-pos = (200,-200);
+pos = (100,-200);
 ref = _part.dash;
 },
 {
@@ -28,11 +28,11 @@ identifier = 352876E4;
 piece = {
 Width = 800;
 };
-pos = (200,-500);
+pos = (100,-500);
 ref = _part.dash;
 }
 );
-width = 1200;
+width = 1000;
 },
 {
 layerId = m002;
@@ -64,6 +64,37 @@ ref = _part.dash;
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Y;
+},
+{
+alignment = -1;
+attr = {
+identifier = CA35AF62;
+};
+piece = {
+Width = 800;
+};
+pos = (300,-100);
+ref = _part.dash;
+},
+{
+alignment = -1;
+attr = {
+identifier = 352876E4;
+};
+piece = {
+Width = 800;
+};
+pos = (300,-500);
+ref = _part.dash;
+}
+);
+width = 1400;
 }
 );
 metricLeft = "=Y";

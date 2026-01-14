@@ -38,7 +38,7 @@ type = Corner;
 name = _cap.shoulder_sm;
 options = 10;
 origin = (0,7);
-scale = (0.97059,-1);
+scale = (1,-1);
 type = Cap;
 },
 {
@@ -48,10 +48,10 @@ scale = (0.75,0.75);
 type = Corner;
 },
 {
-name = _cap.end_md;
+name = _cap.end_sm;
 options = 10;
 origin = (1,2);
-scale = (0.94118,-1);
+scale = (1,-1);
 type = Cap;
 },
 {
@@ -109,6 +109,7 @@ type = Corner;
 name = _cap.shoulder_sm;
 options = 10;
 origin = (0,3);
+scale = (0.94118,1);
 type = Cap;
 },
 {
@@ -128,7 +129,7 @@ type = Corner;
 name = _cap.shoulder_sm;
 options = 10;
 origin = (0,7);
-scale = (0.97059,-1);
+scale = (0.91176,-1);
 type = Cap;
 },
 {
@@ -138,7 +139,7 @@ scale = (0.75,0.75);
 type = Corner;
 },
 {
-name = _cap.end_md;
+name = _cap.end_sm;
 options = 10;
 origin = (1,2);
 scale = (0.94118,-1);
@@ -179,6 +180,97 @@ nodes = (
 }
 );
 width = 1084;
+},
+{
+hints = (
+{
+name = _corner.outside_sm;
+options = 2;
+origin = (0,1);
+scale = (-0.75,0.75);
+type = Corner;
+},
+{
+name = _corner.outside_sm;
+origin = (0,2);
+scale = (0.75,0.75);
+type = Corner;
+},
+{
+name = _cap.shoulder_sm;
+options = 10;
+origin = (0,3);
+scale = (1.23529,1);
+type = Cap;
+},
+{
+name = _corner.inside_sm;
+origin = (0,5);
+scale = (0.6,0.6);
+type = Corner;
+},
+{
+name = _corner.inside_sm;
+options = 2;
+origin = (0,6);
+scale = (-0.6,0.6);
+type = Corner;
+},
+{
+name = _cap.shoulder_sm;
+options = 10;
+origin = (0,7);
+scale = (1.08824,-1);
+type = Cap;
+},
+{
+name = _corner.outside_md;
+origin = (1,1);
+scale = (0.75,0.75);
+type = Corner;
+},
+{
+name = _cap.end_sm;
+options = 10;
+origin = (1,2);
+scale = (0.75,-1);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+origin = (1,4);
+scale = (0.6,0.6);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(659,1180,l),
+(180,1180,l),
+(180,670,l),
+(659,670,l),
+(659,880,l),
+(435,880,l),
+(435,995,l),
+(659,995,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(984,670,l),
+(984,1500,l),
+(190,1500,l),
+(190,1260,l),
+(719,1260,l),
+(719,670,l)
+);
+}
+);
+width = 1164;
 }
 );
 metricLeft = "=ordmasculine";

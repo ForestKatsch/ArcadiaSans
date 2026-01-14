@@ -22,7 +22,7 @@ nodes = (
 );
 }
 );
-width = 634;
+width = 520;
 },
 {
 layerId = m002;
@@ -44,6 +44,27 @@ nodes = (
 }
 );
 width = 514;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = bar;
+},
+{
+attr = {
+mask = 1;
+};
+closed = 1;
+nodes = (
+(0,570,l),
+(684,570,l),
+(684,930,l),
+(0,930,l)
+);
+}
+);
+width = 680;
 }
 );
 metricLeft = "=bar";

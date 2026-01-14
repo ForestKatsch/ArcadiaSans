@@ -70,6 +70,40 @@ nodes = (
 }
 );
 width = 1400;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (750,0);
+},
+{
+name = ogonek;
+pos = (1440,0);
+},
+{
+name = top;
+pos = (750,1500);
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (-20,1500);
+ref = V;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(237,300,l),
+(1323,300,l),
+(1213,630,l),
+(347,630,l)
+);
+}
+);
+width = 1460;
 }
 );
 metricRight = "=|A";

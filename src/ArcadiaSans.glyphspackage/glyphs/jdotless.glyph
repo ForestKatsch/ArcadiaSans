@@ -70,6 +70,41 @@ nodes = (
 }
 );
 width = 500;
+},
+{
+anchors = (
+{
+name = top;
+pos = (240,1100);
+}
+);
+hints = (
+{
+name = _corner.inside_md;
+origin = (0,0);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-130,l),
+(-281,-130,l),
+(-281,-450,l),
+(400,-450,l),
+(400,1100,l),
+(80,1100,l)
+);
+}
+);
+width = 480;
 }
 );
 metricRight = "=idotless";

@@ -21,10 +21,24 @@ shapes = (
 ref = O;
 },
 {
+pos = (20,0);
 ref = _part.Oslash;
 }
 );
-width = 1340;
+width = 1380;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = O;
+},
+{
+pos = (-15,0);
+ref = _part.Oslash;
+}
+);
+width = 1310;
 }
 );
 unicode = 216;

@@ -26,6 +26,19 @@ ref = _part.Lslash;
 }
 );
 width = 576;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (-30,0);
+ref = _part.Lslash;
+}
+);
+width = 601;
 }
 );
 unicode = 322;

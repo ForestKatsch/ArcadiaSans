@@ -297,6 +297,61 @@ stemValues = (
 userData = {
 GSCornerRadius = 240;
 };
+},
+{
+axesValues = (
+900
+);
+customParameters = (
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = "Master Icon Glyph Name";
+value = T;
+}
+);
+guides = (
+{
+lockAngle = 1;
+locked = 1;
+name = "p bottom";
+pos = (0,-420);
+}
+);
+id = m003;
+metricValues = (
+{
+over = 32;
+pos = 2000;
+},
+{
+pos = 1500;
+},
+{
+pos = 1100;
+},
+{
+over = -16;
+},
+{
+over = -64;
+pos = -640;
+}
+);
+name = Black;
+stemValues = (
+180,
+170
+);
+userData = {
+GSCornerRadius = 80;
+};
 }
 );
 instances = (
@@ -340,6 +395,61 @@ instanceInterpolations = {
 m002 = 1;
 };
 name = Regular;
+},
+{
+axesValues = (
+500
+);
+instanceInterpolations = {
+m002 = 0.8;
+m003 = 0.2;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+600
+);
+instanceInterpolations = {
+m002 = 0.6;
+m003 = 0.4;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+700
+);
+instanceInterpolations = {
+m002 = 0.4;
+m003 = 0.6;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+800
+);
+instanceInterpolations = {
+m002 = 0.2;
+m003 = 0.8;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+900
+);
+instanceInterpolations = {
+m003 = 1;
+};
+name = Black;
+weightClass = 900;
 }
 );
 kerningLTR = {
@@ -351,6 +461,10 @@ m01 = {
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -180;
+"@MMK_R_period" = -200;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -220;
@@ -406,6 +520,69 @@ m002 = {
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -160;
+"@MMK_R_period" = -200;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -220;
+"@MMK_R_n" = -150;
+"@MMK_R_o" = -150;
+"@MMK_R_p" = -150;
+"@MMK_R_u" = -150;
+"@MMK_R_v" = -120;
+"@MMK_R_x" = -100;
+z = -100;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -150;
+"@MMK_R_V" = 80;
+"@MMK_R_o" = -100;
+"@MMK_R_u" = -80;
+};
+"@MMK_L_fraction" = {
+four.dnom = -180;
+};
+"@MMK_L_hyphen" = {
+Y = -100;
+};
+"@MMK_L_k" = {
+"@MMK_R_o" = -20;
+};
+"@MMK_L_n" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_o" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_q" = {
+"@MMK_R_quote" = -40;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_n" = -100;
+"@MMK_R_o" = -120;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -40;
+};
+seven.numr = {
+"@MMK_R_fraction" = -240;
+fraction = -320;
+};
+};
+m003 = {
+"@MMK_L_A" = {
+"@MMK_R_A" = 80;
+"@MMK_R_T" = -220;
+"@MMK_R_V" = -150;
+};
+"@MMK_L_C" = {
+"@MMK_R_v" = -50;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -160;
+"@MMK_R_period" = -200;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -220;
@@ -524,6 +701,17 @@ name = horizontal;
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
+m003 = {
+HH = "320";
+HV = "320";
+OH = "320";
+OV = "320";
+nV = "320";
+nd = "320";
+oH = "320";
+oV = "320";
+tH = "320";
+};
 m01 = {
 HH = "60";
 HV = "60";

@@ -29,7 +29,7 @@ type = Corner;
 name = _cap.shoulder_md;
 options = 10;
 origin = (1,2);
-scale = (-1,-1);
+scale = (-1.08333,-1);
 target = (1,1);
 type = Cap;
 },
@@ -56,7 +56,7 @@ target = (1,1);
 type = Cap;
 },
 {
-name = _cap.end_md;
+name = _cap.end_sm;
 options = 10;
 origin = (0,2);
 type = Cap;
@@ -127,7 +127,7 @@ type = Corner;
 name = _cap.shoulder_md;
 options = 10;
 origin = (1,2);
-scale = (-1,-1);
+scale = (-1.02941,-1);
 target = (1,1);
 type = Cap;
 },
@@ -154,9 +154,10 @@ target = (1,1);
 type = Cap;
 },
 {
-name = _cap.end_md;
+name = _cap.end_sm;
 options = 10;
 origin = (0,2);
+scale = (0.94118,1);
 type = Cap;
 },
 {
@@ -198,6 +199,104 @@ nodes = (
 }
 );
 width = 1195;
+},
+{
+anchors = (
+{
+name = top;
+pos = (663,1100);
+}
+);
+hints = (
+{
+name = _corner.inside_md;
+options = 1;
+origin = (1,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_md;
+options = 1;
+origin = (1,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.shoulder_md;
+options = 10;
+origin = (1,2);
+scale = (-0.98438,-1);
+target = (1,1);
+type = Cap;
+},
+{
+name = _corner.outside_md;
+options = 1;
+origin = (1,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+options = 1;
+origin = (1,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.shoulder_md;
+options = 8;
+origin = (1,6);
+scale = (-1,1);
+target = (1,1);
+type = Cap;
+},
+{
+name = _cap.end_sm;
+options = 10;
+origin = (0,2);
+type = Cap;
+},
+{
+name = _corner.inside_md;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.outside_md;
+origin = (0,4);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(828,1100,l),
+(828,-140,l),
+(73,-140,l),
+(73,-460,l),
+(1153,-460,l),
+(1153,1100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(93,1100,l),
+(93,0,l),
+(728,0,l),
+(728,315,l),
+(418,315,l),
+(418,780,l),
+(728,780,l),
+(728,1100,l)
+);
+}
+);
+width = 1233;
 }
 );
 metricLeft = "=o";

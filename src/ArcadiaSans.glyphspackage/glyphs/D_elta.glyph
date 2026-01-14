@@ -10,10 +10,6 @@ name = bottom;
 pos = (700,0);
 },
 {
-name = ogonek;
-pos = (1360,0);
-},
-{
 name = top;
 pos = (700,1500);
 }
@@ -44,10 +40,6 @@ name = bottom;
 pos = (700,0);
 },
 {
-name = ogonek;
-pos = (1360,0);
-},
-{
 name = top;
 pos = (700,1500);
 }
@@ -70,6 +62,36 @@ nodes = (
 }
 );
 width = 1400;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (680,0);
+},
+{
+name = top;
+pos = (680,1500);
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (-20,1500);
+ref = V;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(87,0,l),
+(1353,0,l),
+(1243,320,l),
+(197,320,l)
+);
+}
+);
+width = 1460;
 }
 );
 metricLeft = "=A";

@@ -48,6 +48,30 @@ nodes = (
 }
 );
 width = 1360;
+},
+{
+anchors = (
+{
+name = top;
+pos = (627,1500);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = P;
+},
+{
+closed = 1;
+nodes = (
+(865,0,l),
+(1210,0,l),
+(929,723,l),
+(584,723,l)
+);
+}
+);
+width = 1315;
 }
 );
 metricLeft = "=P";

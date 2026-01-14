@@ -18,6 +18,15 @@ ref = zero;
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = zero;
+}
+);
+width = 1200;
 }
 );
 }

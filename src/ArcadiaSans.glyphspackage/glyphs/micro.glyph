@@ -19,7 +19,7 @@ nodes = (
 );
 }
 );
-width = 950;
+width = 1080;
 },
 {
 layerId = m002;
@@ -38,6 +38,24 @@ nodes = (
 }
 );
 width = 1210;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = u;
+},
+{
+closed = 1;
+nodes = (
+(405,-420,l),
+(405,480,l),
+(80,480,l),
+(80,-420,l)
+);
+}
+);
+width = 1160;
 }
 );
 metricLeft = "=u";

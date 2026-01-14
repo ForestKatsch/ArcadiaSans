@@ -8,6 +8,7 @@ shapes = (
 ref = s;
 },
 {
+pos = (-15,0);
 ref = commaaccentcomb;
 }
 );
@@ -20,10 +21,24 @@ shapes = (
 ref = s;
 },
 {
+pos = (-15,0);
 ref = commaaccentcomb;
 }
 );
 width = 1173;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (-57,0);
+ref = commaaccentcomb;
+}
+);
+width = 1086;
 }
 );
 unicode = 537;

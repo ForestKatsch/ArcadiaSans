@@ -5,7 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,550);
+pos = (0,605);
 ref = period;
 }
 );
@@ -20,6 +20,16 @@ ref = period;
 }
 );
 width = 540;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (0,510);
+ref = period;
+}
+);
+width = 660;
 }
 );
 metricLeft = "=period";

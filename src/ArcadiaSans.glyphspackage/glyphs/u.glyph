@@ -44,6 +44,27 @@ ref = n;
 }
 );
 width = 1210;
+},
+{
+anchors = (
+{
+name = ogonek;
+pos = (1050,0);
+},
+{
+name = top;
+pos = (605,1100);
+}
+);
+layerId = m003;
+shapes = (
+{
+angle = 180;
+pos = (1160,1100);
+ref = n;
+}
+);
+width = 1160;
 }
 );
 unicode = 117;

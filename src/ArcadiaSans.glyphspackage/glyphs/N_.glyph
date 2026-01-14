@@ -88,6 +88,49 @@ nodes = (
 }
 );
 width = 1450;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (700,0);
+},
+{
+name = top;
+pos = (700,1500);
+}
+);
+hints = (
+{
+name = _corner.letter_v;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.letter_v;
+origin = (0,6);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,0,l),
+(440,882,l),
+(940,0,l),
+(1280,0,l),
+(1280,1500,l),
+(960,1500,l),
+(960,618,l),
+(460,1500,l),
+(120,1500,l),
+(120,0,l)
+);
+}
+);
+width = 1400;
 }
 );
 metricLeft = "=H";

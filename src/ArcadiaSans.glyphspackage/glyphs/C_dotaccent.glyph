@@ -26,6 +26,18 @@ ref = dotaccentcomb;
 }
 );
 width = 1250;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = C;
+},
+{
+ref = dotaccentcomb;
+}
+);
+width = 1235;
 }
 );
 unicode = 266;

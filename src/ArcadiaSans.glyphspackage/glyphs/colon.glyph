@@ -28,10 +28,22 @@ ref = period;
 }
 );
 width = 540;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = period;
+},
+{
+pos = (0,765);
+ref = period;
 }
 );
-metricLeft = period;
-metricRight = period;
-metricWidth = period;
+width = 660;
+}
+);
+metricLeft = "=period";
+metricWidth = "=period";
 unicode = 58;
 }

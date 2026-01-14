@@ -76,6 +76,43 @@ nodes = (
 }
 );
 width = 576;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (349,0);
+},
+{
+name = top;
+pos = (240,1500);
+},
+{
+name = topright;
+pos = (440,1050);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,1500,l),
+(80,360,ls),
+(80,126,o),
+(206,0,o),
+(440,0,cs),
+(561,0,l),
+(561,320,l),
+(460,320,ls),
+(421,320,o),
+(400,341,o),
+(400,380,cs),
+(400,1500,l)
+);
+}
+);
+width = 601;
 }
 );
 metricLeft = "=idotless";

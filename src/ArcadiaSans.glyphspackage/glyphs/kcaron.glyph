@@ -8,10 +8,11 @@ shapes = (
 ref = k;
 },
 {
+pos = (-217,0);
 ref = caroncomb;
 }
 );
-width = 1067;
+width = 952;
 },
 {
 layerId = m002;
@@ -20,10 +21,24 @@ shapes = (
 ref = k;
 },
 {
+pos = (-97,0);
 ref = caroncomb;
 }
 );
 width = 1067;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = k;
+},
+{
+pos = (-47,0);
+ref = caroncomb;
+}
+);
+width = 1134;
 }
 );
 unicode = 489;

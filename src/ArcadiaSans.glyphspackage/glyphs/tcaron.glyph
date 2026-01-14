@@ -26,6 +26,19 @@ ref = caroncomb.alt;
 }
 );
 width = 923;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = t;
+},
+{
+pos = (-78,80);
+ref = caroncomb.alt;
+}
+);
+width = 923;
 }
 );
 unicode = 357;

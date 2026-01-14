@@ -48,6 +48,30 @@ ref = dotaccentcomb;
 }
 );
 width = 1200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (600,1500);
+},
+{
+name = top;
+pos = (600,1850);
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (-275,0);
+ref = dotaccentcomb;
+},
+{
+pos = (275,0);
+ref = dotaccentcomb;
+}
+);
+width = 1200;
 }
 );
 unicode = 776;

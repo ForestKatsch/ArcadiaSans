@@ -8,6 +8,10 @@ anchors = (
 {
 name = bottom;
 pos = (459,0);
+},
+{
+name = top;
+pos = (383,1500);
 }
 );
 layerId = m01;
@@ -43,6 +47,10 @@ anchors = (
 {
 name = bottom;
 pos = (534,0);
+},
+{
+name = top;
+pos = (503,1500);
 }
 );
 layerId = m002;
@@ -72,6 +80,45 @@ nodes = (
 }
 );
 width = 1067;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (599,0);
+},
+{
+name = top;
+pos = (553,1500);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,l),
+(400,0,l),
+(400,1500,l),
+(80,1500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(433,755,l),
+(390,755,l),
+(390,405,l),
+(433,405,l),
+(725,0,l),
+(1152,0,l),
+(722,579,l),
+(1154,1100,l),
+(725,1100,l)
+);
+}
+);
+width = 1134;
 }
 );
 metricLeft = "=n";

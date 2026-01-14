@@ -48,6 +48,29 @@ ref = _part.section_s;
 }
 );
 width = 1326;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+attr = {
+identifier = 17EEEA51;
+};
+pos = (28,160);
+ref = _part.section_s;
+},
+{
+alignment = -1;
+angle = 180;
+attr = {
+identifier = 6D137BC5;
+};
+pos = (1168,1340);
+ref = _part.section_s;
+}
+);
+width = 1196;
 }
 );
 metricLeft = "=S";

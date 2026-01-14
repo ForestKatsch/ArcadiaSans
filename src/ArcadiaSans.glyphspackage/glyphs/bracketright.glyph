@@ -32,6 +32,21 @@ scale = (-1,1);
 }
 );
 width = 784;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = EA85BE19;
+};
+pos = (884,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 884;
 }
 );
 unicode = 93;

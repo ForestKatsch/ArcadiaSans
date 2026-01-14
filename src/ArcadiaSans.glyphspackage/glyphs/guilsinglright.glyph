@@ -24,12 +24,27 @@ alignment = 1;
 attr = {
 identifier = 8AF9053E;
 };
-pos = (690,0);
+pos = (660,0);
 ref = guilsinglleft;
 scale = (-1,1);
 }
 );
-width = 690;
+width = 660;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+attr = {
+identifier = 8AF9053E;
+};
+pos = (790,0);
+ref = guilsinglleft;
+scale = (-1,1);
+}
+);
+width = 790;
 }
 );
 unicode = 8250;

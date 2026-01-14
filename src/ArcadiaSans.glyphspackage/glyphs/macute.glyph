@@ -26,6 +26,19 @@ ref = acutecomb;
 }
 );
 width = 1725;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = m;
+},
+{
+pos = (332,-400);
+ref = acutecomb;
+}
+);
+width = 1765;
 }
 );
 unicode = 7743;

@@ -26,6 +26,19 @@ ref = guilsinglleft;
 }
 );
 width = 1190;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (800,0);
+ref = guilsinglleft;
+},
+{
+ref = guilsinglleft;
+}
+);
+width = 1590;
 }
 );
 metricLeft = "=guilsinglleft";

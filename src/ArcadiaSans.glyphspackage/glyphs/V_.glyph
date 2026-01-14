@@ -54,6 +54,32 @@ nodes = (
 }
 );
 width = 1400;
+},
+{
+hints = (
+{
+name = _corner.letter_v;
+options = 2;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(937,0,l),
+(1460,1500,l),
+(1118,1500,l),
+(750,443,l),
+(382,1500,l),
+(40,1500,l),
+(563,0,l)
+);
+}
+);
+width = 1500;
 }
 );
 metricRight = "=|V";

@@ -45,13 +45,13 @@ scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.end_lg;
+name = _cap.end_lg_close;
 options = 10;
 origin = (0,7);
 type = Cap;
 },
 {
-name = _cap.end_lg;
+name = _cap.end_lg_close;
 options = 10;
 origin = (0,3);
 scale = (1,-1);
@@ -118,13 +118,13 @@ scale = (-1,1);
 type = Corner;
 },
 {
-name = _cap.end_lg;
+name = _cap.end_lg_close;
 options = 10;
 origin = (0,7);
 type = Cap;
 },
 {
-name = _cap.end_lg;
+name = _cap.end_lg_close;
 options = 10;
 origin = (0,3);
 scale = (1,-1);
@@ -148,6 +148,79 @@ nodes = (
 }
 );
 width = 1250;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (607,0);
+},
+{
+name = top;
+pos = (600,1500);
+}
+);
+hints = (
+{
+name = _corner.outside_lg;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.outside_lg;
+options = 2;
+origin = (0,1);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.inside_lg;
+options = 2;
+origin = (0,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _cap.end_lg_close;
+options = 10;
+origin = (0,7);
+type = Cap;
+},
+{
+name = _cap.end_lg_close;
+options = 10;
+origin = (0,3);
+scale = (1,-1);
+type = Cap;
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1185,1510,l),
+(65,1510,l),
+(65,-10,l),
+(1185,-10,l),
+(1185,310,l),
+(385,310,l),
+(385,1190,l),
+(1185,1190,l)
+);
+}
+);
+width = 1235;
 }
 );
 metricLeft = "=O";

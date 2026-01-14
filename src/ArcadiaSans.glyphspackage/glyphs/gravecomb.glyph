@@ -42,6 +42,27 @@ nodes = (
 }
 );
 width = 1200;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (600,1500);
+}
+);
+layerId = m003;
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,1640,l),
+(730,1640,l),
+(560,2000,l),
+(210,1974,l)
+);
+}
+);
+width = 1200;
 }
 );
 unicode = 768;

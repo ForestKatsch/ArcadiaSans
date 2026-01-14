@@ -78,6 +78,44 @@ nodes = (
 }
 );
 width = 256;
+},
+{
+layerId = m003;
+partSelection = {
+Width = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,590,l),
+(2048,590,l),
+(2048,910,l),
+(0,910,l)
+);
+}
+);
+width = 2048;
+},
+{
+associatedMasterId = m003;
+layerId = "75DC28F0-9A9C-4814-BD60-DC1F8BC067F1";
+name = Narrow;
+partSelection = {
+Width = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,590,l),
+(256,590,l),
+(256,910,l),
+(0,910,l)
+);
+}
+);
+width = 256;
 }
 );
 partsSettings = (

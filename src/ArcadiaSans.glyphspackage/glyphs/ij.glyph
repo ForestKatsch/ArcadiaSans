@@ -26,6 +26,19 @@ ref = j;
 }
 );
 width = 1000;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (480,0);
+ref = j;
+}
+);
+width = 960;
 }
 );
 metricLeft = "=i";

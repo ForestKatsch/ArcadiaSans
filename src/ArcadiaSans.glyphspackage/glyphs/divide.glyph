@@ -50,6 +50,31 @@ ref = period;
 }
 );
 width = 1200;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (430,120);
+ref = period;
+},
+{
+alignment = -1;
+attr = {
+identifier = F6C9F0FD;
+};
+piece = {
+Width = 1300;
+};
+pos = (100,-100);
+ref = _part.dash;
+},
+{
+pos = (430,900);
+ref = period;
+}
+);
+width = 1500;
 }
 );
 unicode = 247;
