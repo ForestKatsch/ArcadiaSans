@@ -62,13 +62,13 @@ attr = {
 identifier = B7098C6B;
 };
 piece = {
-Width = 2000;
+Width = 1800;
 };
 pos = (520,0);
 ref = _part.dash;
 },
 {
-pos = (1500,0);
+pos = (1300,0);
 ref = _part.arrow_head;
 },
 {
@@ -77,7 +77,7 @@ ref = _part.arrow_head;
 scale = (-1,1);
 }
 );
-width = 3050;
+width = 2850;
 }
 );
 metricLeft = "=leftArrow";

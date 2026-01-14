@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 angle = -90;
-pos = (48,2075);
+pos = (48,1975);
 ref = leftRightArrow;
 }
 );
@@ -28,7 +28,7 @@ layerId = m003;
 shapes = (
 {
 angle = -90;
-pos = (148,2075);
+pos = (148,2175);
 ref = leftRightArrow;
 }
 );
