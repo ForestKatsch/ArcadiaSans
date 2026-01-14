@@ -34,11 +34,11 @@ shapes = (
 ref = n;
 },
 {
-pos = (-25,-400);
+pos = (5,-400);
 ref = acutecomb;
 }
 );
-width = 1160;
+width = 1220;
 }
 );
 unicode = 324;

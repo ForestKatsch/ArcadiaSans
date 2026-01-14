@@ -64,7 +64,7 @@ pos = (10,0);
 ref = _part.dash;
 }
 );
-width = 1365;
+width = 1390;
 }
 );
 metricRight = "=D";

@@ -32,7 +32,7 @@ pos = (100,-500);
 ref = _part.dash;
 }
 );
-width = 1000;
+width = 1080;
 },
 {
 layerId = m002;

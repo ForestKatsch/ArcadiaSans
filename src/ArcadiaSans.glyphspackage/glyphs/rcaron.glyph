@@ -34,11 +34,11 @@ shapes = (
 ref = r;
 },
 {
-pos = (-20,-400);
+pos = (10,-400);
 ref = caroncomb;
 }
 );
-width = 1003;
+width = 1081;
 }
 );
 unicode = 345;

@@ -34,11 +34,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-360,-400);
+pos = (-330,-400);
 ref = dieresiscomb;
 }
 );
-width = 480;
+width = 540;
 }
 );
 unicode = 239;

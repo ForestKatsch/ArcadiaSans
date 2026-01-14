@@ -30,11 +30,11 @@ layerId = m003;
 shapes = (
 {
 angle = 180;
-pos = (1080,1100);
+pos = (1140,1100);
 ref = e;
 }
 );
-width = 1080;
+width = 1140;
 }
 );
 unicode = 601;

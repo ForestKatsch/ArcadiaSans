@@ -34,11 +34,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-80,-400);
+pos = (-40,-400);
 ref = hungarumlautcomb;
 }
 );
-width = 1040;
+width = 1120;
 }
 );
 unicode = 337;

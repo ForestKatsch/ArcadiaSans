@@ -24,12 +24,12 @@ alignment = 1;
 attr = {
 identifier = 8C8AE789;
 };
-pos = (1190,0);
+pos = (1160,0);
 ref = guillemetleft;
 scale = (-1,1);
 }
 );
-width = 1190;
+width = 1160;
 },
 {
 layerId = m003;

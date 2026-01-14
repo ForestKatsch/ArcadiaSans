@@ -42,15 +42,15 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-360,-400);
+pos = (-330,-400);
 ref = dotaccentcomb;
 },
 {
-pos = (-270,0);
+pos = (-240,0);
 ref = ogonekcomb;
 }
 );
-width = 480;
+width = 540;
 }
 );
 unicode = 303;

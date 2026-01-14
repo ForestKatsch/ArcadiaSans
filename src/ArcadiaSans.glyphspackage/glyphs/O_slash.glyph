@@ -34,11 +34,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (-15,0);
+pos = (10,0);
 ref = _part.Oslash;
 }
 );
-width = 1310;
+width = 1360;
 }
 );
 unicode = 216;

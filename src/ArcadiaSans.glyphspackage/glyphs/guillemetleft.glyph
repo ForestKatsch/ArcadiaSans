@@ -25,7 +25,7 @@ ref = guilsinglleft;
 ref = guilsinglleft;
 }
 );
-width = 1190;
+width = 1160;
 },
 {
 layerId = m003;

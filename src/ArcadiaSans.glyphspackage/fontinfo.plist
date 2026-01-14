@@ -346,8 +346,8 @@ pos = -640;
 );
 name = Black;
 stemValues = (
-180,
-170
+320,
+320
 );
 userData = {
 GSCornerRadius = 80;
@@ -462,6 +462,9 @@ m01 = {
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
 };
+"@MMK_L_O" = {
+"@MMK_R_V" = -10;
+};
 "@MMK_L_P" = {
 "@MMK_R_A" = -180;
 "@MMK_R_period" = -200;
@@ -521,6 +524,9 @@ m002 = {
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
 };
+"@MMK_L_O" = {
+"@MMK_R_V" = -20;
+};
 "@MMK_L_P" = {
 "@MMK_R_A" = -160;
 "@MMK_R_period" = -200;
@@ -579,6 +585,9 @@ m003 = {
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
+};
+"@MMK_L_O" = {
+"@MMK_R_V" = -40;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -160;

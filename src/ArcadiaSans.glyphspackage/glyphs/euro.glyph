@@ -67,25 +67,25 @@ alignment = -1;
 attr = {
 identifier = 86B8D2A5;
 };
-pos = (105,0);
+pos = (130,0);
 ref = C;
 },
 {
 piece = {
 Width = 800;
 };
-pos = (65,190);
+pos = (90,190);
 ref = _part.dash;
 },
 {
 piece = {
 Width = 800;
 };
-pos = (65,-190);
+pos = (90,-190);
 ref = _part.dash;
 }
 );
-width = 1340;
+width = 1393;
 }
 );
 metricLeft = "=C";
