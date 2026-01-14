@@ -1,4 +1,4 @@
-.PHONY: all clean ttf otf variable webfonts
+.PHONY: all clean ttf otf variable webfonts release
 
 # Paths
 UFO_DIR = build/ufo
@@ -74,6 +74,16 @@ webfonts: variable
 		echo "  $$base => woff"; \
 		venv/bin/python3 -c "from fontTools.ttLib import TTFont; f=TTFont('$$ttf'); f.flavor='woff'; f.save('$(EXPORT_DIR)/webfonts/$$base.woff')"; \
 	done
+
+# Release - build all formats and zip
+release: all
+	@echo "Creating release zip..."
+	@MAJOR=$$(grep 'versionMajor' src/ArcadiaSans.glyphspackage/fontinfo.plist | sed 's/[^0-9]//g'); \
+	MINOR=$$(grep 'versionMinor' src/ArcadiaSans.glyphspackage/fontinfo.plist | sed 's/[^0-9]//g'); \
+	VERSION="v$$MAJOR.$$(printf '%03d' $$MINOR)"; \
+	echo "  Version: $$VERSION"; \
+	cd $(EXPORT_DIR) && zip -r ../release-$$VERSION.zip . -x "*.DS_Store"; \
+	echo "✓ Created build/release-$$VERSION.zip"
 
 # Clean
 clean:
