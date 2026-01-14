@@ -26,7 +26,7 @@ shapes = (
 ref = nine;
 }
 );
-width = 1200;
+width = 1400;
 }
 );
 }

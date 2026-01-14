@@ -32,7 +32,7 @@ ref = v;
 scale = (1,-1);
 }
 );
-width = 1340;
+width = 1240;
 }
 );
 unicode = 652;

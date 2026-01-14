@@ -35,11 +35,11 @@ shapes = (
 ref = L;
 },
 {
-pos = (10,0);
+pos = (30,0);
 ref = _part.Lslash;
 }
 );
-width = 1094;
+width = 1114;
 }
 );
 metricRight = "=L";

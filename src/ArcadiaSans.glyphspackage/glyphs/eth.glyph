@@ -215,7 +215,7 @@ pos = (248,680);
 ref = _part.Lslash;
 }
 );
-width = 1280;
+width = 1275;
 }
 );
 metricLeft = "=d";

@@ -33,11 +33,11 @@ shapes = (
 ref = B;
 },
 {
-pos = (-10,0);
+pos = (10,0);
 ref = dotbelowcomb;
 }
 );
-width = 1270;
+width = 1320;
 }
 );
 unicode = 7684;

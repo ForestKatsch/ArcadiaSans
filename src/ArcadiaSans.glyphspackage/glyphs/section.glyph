@@ -57,7 +57,7 @@ alignment = -1;
 attr = {
 identifier = 17EEEA51;
 };
-pos = (53,160);
+pos = (83,160);
 ref = _part.section_s;
 },
 {
@@ -66,11 +66,11 @@ angle = 180;
 attr = {
 identifier = 6D137BC5;
 };
-pos = (1193,1340);
+pos = (1223,1340);
 ref = _part.section_s;
 }
 );
-width = 1246;
+width = 1306;
 }
 );
 metricLeft = "=S";

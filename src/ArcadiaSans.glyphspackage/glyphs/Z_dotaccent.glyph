@@ -34,11 +34,11 @@ shapes = (
 ref = Z;
 },
 {
-pos = (108,0);
+pos = (128,0);
 ref = dotaccentcomb;
 }
 );
-width = 1416;
+width = 1456;
 }
 );
 unicode = 379;

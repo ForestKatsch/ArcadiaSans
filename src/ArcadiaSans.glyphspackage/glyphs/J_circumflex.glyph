@@ -38,7 +38,7 @@ pos = (440,0);
 ref = circumflexcomb;
 }
 );
-width = 1320;
+width = 1340;
 }
 );
 unicode = 308;

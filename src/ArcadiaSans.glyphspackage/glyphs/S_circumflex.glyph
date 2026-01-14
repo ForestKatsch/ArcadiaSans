@@ -34,11 +34,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (76,0);
+pos = (106,0);
 ref = circumflexcomb;
 }
 );
-width = 1356;
+width = 1416;
 }
 );
 unicode = 348;

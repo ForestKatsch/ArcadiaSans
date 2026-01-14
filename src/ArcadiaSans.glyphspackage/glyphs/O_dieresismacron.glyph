@@ -42,15 +42,15 @@ shapes = (
 ref = O;
 },
 {
-pos = (80,0);
+pos = (110,0);
 ref = dieresiscomb;
 },
 {
-pos = (80,350);
+pos = (110,350);
 ref = macroncomb;
 }
 );
-width = 1360;
+width = 1420;
 }
 );
 unicode = 554;
