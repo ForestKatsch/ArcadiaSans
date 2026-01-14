@@ -627,6 +627,9 @@ Y = -100;
 "@MMK_L_q" = {
 "@MMK_R_quote" = -40;
 };
+"@MMK_L_quote" = {
+"@MMK_R_o" = -80;
+};
 "@MMK_L_quoteright" = {
 "@MMK_R_n" = -100;
 "@MMK_R_o" = -120;
