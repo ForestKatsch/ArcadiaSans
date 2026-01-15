@@ -713,6 +713,17 @@ name = horizontal;
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
+m002 = {
+HH = "170";
+HV = "180";
+OH = "170";
+OV = "180";
+nV = "175";
+nd = "170";
+oH = "170";
+oV = "175";
+tH = "170";
+};
 m003 = {
 HH = "320";
 HV = "320";

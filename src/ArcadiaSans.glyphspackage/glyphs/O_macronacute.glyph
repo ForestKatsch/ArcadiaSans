@@ -46,7 +46,7 @@ pos = (110,0);
 ref = macroncomb;
 },
 {
-pos = (110,300);
+pos = (110,270);
 ref = acutecomb;
 }
 );
