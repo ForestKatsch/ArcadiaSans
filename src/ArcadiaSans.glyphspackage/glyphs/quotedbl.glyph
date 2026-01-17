@@ -64,7 +64,7 @@ pos = (500,0);
 ref = quotesingle;
 }
 );
-width = 1060;
+width = 1040;
 }
 );
 metricLeft = "=quotesingle";

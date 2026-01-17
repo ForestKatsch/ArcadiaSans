@@ -456,11 +456,14 @@ kerningLTR = {
 m01 = {
 "@MMK_L_A" = {
 "@MMK_R_A" = 80;
-"@MMK_R_T" = -220;
+"@MMK_R_T" = -150;
 "@MMK_R_V" = -150;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
+};
+"@MMK_L_K" = {
+"@MMK_R_A" = 90;
 };
 "@MMK_L_O" = {
 "@MMK_R_V" = -10;
@@ -518,11 +521,14 @@ fraction = -320;
 m002 = {
 "@MMK_L_A" = {
 "@MMK_R_A" = 80;
-"@MMK_R_T" = -220;
+"@MMK_R_T" = -150;
 "@MMK_R_V" = -150;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
+};
+"@MMK_L_K" = {
+"@MMK_R_A" = 90;
 };
 "@MMK_L_O" = {
 "@MMK_R_V" = -20;
@@ -580,11 +586,14 @@ fraction = -320;
 m003 = {
 "@MMK_L_A" = {
 "@MMK_R_A" = 80;
-"@MMK_R_T" = -220;
+"@MMK_R_T" = -150;
 "@MMK_R_V" = -150;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
+};
+"@MMK_L_K" = {
+"@MMK_R_A" = 90;
 };
 "@MMK_L_O" = {
 "@MMK_R_V" = -40;
