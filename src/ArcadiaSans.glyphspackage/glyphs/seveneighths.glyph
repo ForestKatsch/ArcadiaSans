@@ -8,35 +8,18 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (580,0);
+pos = (680,0);
 ref = fraction;
 },
 {
-pos = (1190,0);
+pos = (1410,0);
 ref = eight.dnom;
 }
 );
-width = 2090;
+width = 2310;
 },
 {
 layerId = m002;
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (580,0);
-ref = fraction;
-},
-{
-pos = (1214,0);
-ref = eight.dnom;
-}
-);
-width = 2114;
-},
-{
-layerId = m003;
 shapes = (
 {
 ref = seven.numr;
@@ -46,11 +29,28 @@ pos = (680,0);
 ref = fraction;
 },
 {
-pos = (1474,0);
+pos = (1554,0);
 ref = eight.dnom;
 }
 );
-width = 2474;
+width = 2454;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (780,0);
+ref = fraction;
+},
+{
+pos = (1774,0);
+ref = eight.dnom;
+}
+);
+width = 2774;
 }
 );
 metricLeft = seven.numr;

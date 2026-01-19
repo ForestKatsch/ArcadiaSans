@@ -515,7 +515,7 @@ Y = -100;
 };
 seven.numr = {
 "@MMK_R_fraction" = -240;
-fraction = -320;
+fraction = -220;
 };
 };
 m002 = {
@@ -529,6 +529,9 @@ m002 = {
 };
 "@MMK_L_K" = {
 "@MMK_R_A" = 90;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -120;
 };
 "@MMK_L_O" = {
 "@MMK_R_V" = -20;
@@ -580,7 +583,7 @@ Y = -100;
 };
 seven.numr = {
 "@MMK_R_fraction" = -240;
-fraction = -320;
+fraction = -220;
 };
 };
 m003 = {
@@ -648,7 +651,7 @@ Y = -100;
 };
 seven.numr = {
 "@MMK_R_fraction" = -240;
-fraction = -320;
+fraction = -220;
 };
 };
 };

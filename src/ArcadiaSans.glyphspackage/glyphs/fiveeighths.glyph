@@ -12,11 +12,11 @@ pos = (900,0);
 ref = fraction;
 },
 {
-pos = (1510,0);
+pos = (1630,0);
 ref = eight.dnom;
 }
 );
-width = 2410;
+width = 2530;
 },
 {
 layerId = m002;
@@ -29,11 +29,11 @@ pos = (900,0);
 ref = fraction;
 },
 {
-pos = (1534,0);
+pos = (1774,0);
 ref = eight.dnom;
 }
 );
-width = 2434;
+width = 2674;
 },
 {
 layerId = m003;
@@ -46,11 +46,11 @@ pos = (1000,0);
 ref = fraction;
 },
 {
-pos = (1794,0);
+pos = (1994,0);
 ref = eight.dnom;
 }
 );
-width = 2794;
+width = 2994;
 }
 );
 metricLeft = five.numr;

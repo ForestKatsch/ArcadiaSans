@@ -54,7 +54,7 @@ shapes = (
 piece = {
 Group = 1;
 };
-pos = (40,0);
+pos = (20,0);
 ref = dagger;
 },
 {
@@ -65,11 +65,11 @@ identifier = 2B0C3F17;
 piece = {
 Width = 1040;
 };
-pos = (80,-300);
+pos = (60,-300);
 ref = _part.dash;
 }
 );
-width = 1240;
+width = 1180;
 }
 );
 metricLeft = "=dagger";

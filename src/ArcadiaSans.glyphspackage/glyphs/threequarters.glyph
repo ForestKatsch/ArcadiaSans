@@ -12,11 +12,11 @@ pos = (900,0);
 ref = fraction;
 },
 {
-pos = (1330,0);
+pos = (1450,0);
 ref = four.dnom;
 }
 );
-width = 2230;
+width = 2350;
 },
 {
 layerId = m002;
@@ -29,11 +29,11 @@ pos = (900,0);
 ref = fraction;
 },
 {
-pos = (1354,0);
+pos = (1594,0);
 ref = four.dnom;
 }
 );
-width = 2254;
+width = 2494;
 },
 {
 layerId = m003;
@@ -46,11 +46,11 @@ pos = (1000,0);
 ref = fraction;
 },
 {
-pos = (1614,0);
+pos = (1814,0);
 ref = four.dnom;
 }
 );
-width = 2614;
+width = 2814;
 }
 );
 metricLeft = three.numr;

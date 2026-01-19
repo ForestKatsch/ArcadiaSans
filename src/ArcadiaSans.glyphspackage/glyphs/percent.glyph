@@ -11,7 +11,7 @@ alignment = -1;
 attr = {
 identifier = 43CD385B;
 };
-pos = (400,0);
+pos = (352,0);
 ref = fraction;
 },
 {
@@ -41,7 +41,7 @@ alignment = -1;
 attr = {
 identifier = 43CD385B;
 };
-pos = (400,0);
+pos = (280,0);
 ref = fraction;
 },
 {
@@ -71,7 +71,7 @@ alignment = -1;
 attr = {
 identifier = 43CD385B;
 };
-pos = (500,0);
+pos = (320,0);
 ref = fraction;
 },
 {
