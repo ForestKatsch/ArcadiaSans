@@ -8,15 +8,15 @@ shapes = (
 ref = three.numr;
 },
 {
-pos = (1000,0);
+pos = (900,0);
 ref = fraction;
 },
 {
-pos = (1610,0);
+pos = (1510,0);
 ref = eight.dnom;
 }
 );
-width = 2610;
+width = 2410;
 },
 {
 layerId = m002;
@@ -25,15 +25,15 @@ shapes = (
 ref = three.numr;
 },
 {
-pos = (1000,0);
+pos = (900,0);
 ref = fraction;
 },
 {
-pos = (1634,0);
+pos = (1534,0);
 ref = eight.dnom;
 }
 );
-width = 2634;
+width = 2434;
 },
 {
 layerId = m003;

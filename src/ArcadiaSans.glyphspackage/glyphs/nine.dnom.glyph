@@ -8,22 +8,22 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (1000,1100);
+pos = (900,1100);
 ref = six.dnom;
 }
 );
-width = 1000;
+width = 900;
 },
 {
 layerId = m002;
 shapes = (
 {
 angle = 180;
-pos = (1000,1100);
+pos = (900,1100);
 ref = six.dnom;
 }
 );
-width = 1000;
+width = 900;
 },
 {
 layerId = m003;

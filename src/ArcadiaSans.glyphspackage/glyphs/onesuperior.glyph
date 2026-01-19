@@ -9,7 +9,7 @@ pos = (0,700);
 ref = one.dnom;
 }
 );
-width = 1000;
+width = 900;
 },
 {
 layerId = m002;
@@ -19,7 +19,7 @@ pos = (0,700);
 ref = one.dnom;
 }
 );
-width = 1000;
+width = 900;
 },
 {
 layerId = m003;
