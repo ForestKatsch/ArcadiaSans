@@ -1,5 +1,5 @@
 {
-.appVersion = "3509";
+.appVersion = "3515";
 .formatVersion = 3;
 axes = (
 {
@@ -231,7 +231,7 @@ over = -16;
 },
 {
 over = -64;
-pos = -640;
+pos = -620;
 }
 );
 name = Thin;
@@ -286,7 +286,7 @@ over = -16;
 },
 {
 over = -64;
-pos = -640;
+pos = -620;
 }
 );
 name = Regular;
@@ -341,7 +341,7 @@ over = -16;
 },
 {
 over = -64;
-pos = -640;
+pos = -620;
 }
 );
 name = Black;
