@@ -1,5 +1,5 @@
 {
-.appVersion = "3515";
+.appVersion = "3516";
 .formatVersion = 3;
 axes = (
 {
@@ -474,6 +474,7 @@ m01 = {
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -220;
+"@MMK_R_hyphen" = -120;
 "@MMK_R_n" = -150;
 "@MMK_R_o" = -150;
 "@MMK_R_p" = -150;
@@ -492,6 +493,7 @@ z = -100;
 four.dnom = -180;
 };
 "@MMK_L_hyphen" = {
+"@MMK_R_T" = -120;
 Y = -100;
 };
 "@MMK_L_k" = {
@@ -542,6 +544,7 @@ m002 = {
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -220;
+"@MMK_R_hyphen" = -120;
 "@MMK_R_n" = -150;
 "@MMK_R_o" = -150;
 "@MMK_R_p" = -150;
@@ -560,6 +563,7 @@ z = -100;
 four.dnom = -180;
 };
 "@MMK_L_hyphen" = {
+"@MMK_R_T" = -120;
 Y = -100;
 };
 "@MMK_L_k" = {
@@ -607,6 +611,7 @@ m003 = {
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -220;
+"@MMK_R_hyphen" = -100;
 "@MMK_R_n" = -150;
 "@MMK_R_o" = -150;
 "@MMK_R_p" = -150;
@@ -625,6 +630,7 @@ z = -100;
 four.dnom = -180;
 };
 "@MMK_L_hyphen" = {
+"@MMK_R_T" = -120;
 Y = -100;
 };
 "@MMK_L_k" = {

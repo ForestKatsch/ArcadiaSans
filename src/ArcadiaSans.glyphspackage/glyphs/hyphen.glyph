@@ -12,13 +12,13 @@ attr = {
 identifier = 277A42AE;
 };
 piece = {
-Width = 1000;
+Width = 700;
 };
 pos = (100,-100);
 ref = _part.dash;
 }
 );
-width = 1200;
+width = 900;
 },
 {
 layerId = m002;
@@ -29,13 +29,13 @@ attr = {
 identifier = 277A42AE;
 };
 piece = {
-Width = 1000;
+Width = 700;
 };
 pos = (100,-100);
 ref = _part.dash;
 }
 );
-width = 1200;
+width = 900;
 },
 {
 layerId = m003;
@@ -46,13 +46,13 @@ attr = {
 identifier = 277A42AE;
 };
 piece = {
-Width = 1300;
+Width = 850;
 };
 pos = (100,-100);
 ref = _part.dash;
 }
 );
-width = 1500;
+width = 1050;
 }
 );
 metricLeft = "=100";
