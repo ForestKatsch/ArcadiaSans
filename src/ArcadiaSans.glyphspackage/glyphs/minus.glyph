@@ -8,7 +8,7 @@ shapes = (
 ref = hyphen;
 }
 );
-width = 1200;
+width = 900;
 },
 {
 layerId = m002;
@@ -17,7 +17,7 @@ shapes = (
 ref = hyphen;
 }
 );
-width = 1200;
+width = 900;
 },
 {
 layerId = m003;
@@ -26,7 +26,7 @@ shapes = (
 ref = hyphen;
 }
 );
-width = 1500;
+width = 1050;
 }
 );
 metricLeft = "=hyphen";

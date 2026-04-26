@@ -7,19 +7,19 @@ layers = (
 anchors = (
 {
 name = topright;
-pos = (955,1050);
+pos = (995,1050);
 }
 );
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (1115,0);
+pos = (1155,0);
 ref = b;
 scale = (-1,1);
 }
 );
-width = 1115;
+width = 1155;
 },
 {
 anchors = (

@@ -42,15 +42,14 @@ shapes = (
 ref = e;
 },
 {
-pos = (-20,0);
 ref = dotbelowcomb;
 },
 {
-pos = (-20,-400);
+pos = (0,-400);
 ref = circumflexcomb;
 }
 );
-width = 1140;
+width = 1180;
 }
 );
 unicode = 7879;

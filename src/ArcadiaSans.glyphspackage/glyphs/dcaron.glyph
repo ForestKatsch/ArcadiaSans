@@ -14,7 +14,7 @@ identifier = 4C9F4005;
 ref = d;
 },
 {
-pos = (355,-50);
+pos = (395,-50);
 ref = caroncomb.alt;
 }
 );

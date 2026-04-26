@@ -6,11 +6,11 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (1200,1500);
+pos = (1230,1500);
 ref = question;
 }
 );
-width = 1200;
+width = 1230;
 },
 {
 layerId = m002;
@@ -28,11 +28,11 @@ layerId = m003;
 shapes = (
 {
 angle = 180;
-pos = (1200,1500);
+pos = (1255,1500);
 ref = question;
 }
 );
-width = 1200;
+width = 1255;
 }
 );
 metricLeft = "=|question";

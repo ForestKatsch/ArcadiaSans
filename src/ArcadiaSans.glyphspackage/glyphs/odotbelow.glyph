@@ -8,11 +8,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-25,0);
+pos = (-45,0);
 ref = dotbelowcomb;
 }
 );
-width = 1150;
+width = 1110;
 },
 {
 layerId = m002;

@@ -1,5 +1,5 @@
 {
-.appVersion = "3516";
+.appVersion = "3517";
 .formatVersion = 3;
 axes = (
 {
@@ -458,6 +458,7 @@ m01 = {
 "@MMK_R_A" = 80;
 "@MMK_R_T" = -150;
 "@MMK_R_V" = -150;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
@@ -508,12 +509,16 @@ Y = -100;
 "@MMK_L_q" = {
 "@MMK_R_quote" = -40;
 };
+"@MMK_L_quote" = {
+"@MMK_R_o" = -100;
+};
 "@MMK_L_quoteright" = {
 "@MMK_R_n" = -100;
 "@MMK_R_o" = -120;
 };
 "@MMK_L_v" = {
 "@MMK_R_o" = -40;
+"@MMK_R_quote" = 40;
 };
 seven.numr = {
 "@MMK_R_fraction" = -240;
@@ -525,6 +530,7 @@ m002 = {
 "@MMK_R_A" = 80;
 "@MMK_R_T" = -150;
 "@MMK_R_V" = -150;
+"@MMK_R_o" = -20;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
@@ -578,12 +584,16 @@ Y = -100;
 "@MMK_L_q" = {
 "@MMK_R_quote" = -40;
 };
+"@MMK_L_quote" = {
+"@MMK_R_o" = -100;
+};
 "@MMK_L_quoteright" = {
 "@MMK_R_n" = -100;
 "@MMK_R_o" = -120;
 };
 "@MMK_L_v" = {
 "@MMK_R_o" = -40;
+"@MMK_R_quote" = 30;
 };
 seven.numr = {
 "@MMK_R_fraction" = -240;
@@ -595,6 +605,7 @@ m003 = {
 "@MMK_R_A" = 80;
 "@MMK_R_T" = -150;
 "@MMK_R_V" = -150;
+"@MMK_R_o" = -10;
 };
 "@MMK_L_C" = {
 "@MMK_R_v" = -50;
@@ -654,6 +665,7 @@ Y = -100;
 };
 "@MMK_L_v" = {
 "@MMK_R_o" = -40;
+"@MMK_R_quote" = 30;
 };
 seven.numr = {
 "@MMK_R_fraction" = -240;

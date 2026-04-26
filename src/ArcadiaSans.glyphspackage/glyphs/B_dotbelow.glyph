@@ -37,7 +37,7 @@ pos = (10,0);
 ref = dotbelowcomb;
 }
 );
-width = 1320;
+width = 1300;
 }
 );
 unicode = 7684;

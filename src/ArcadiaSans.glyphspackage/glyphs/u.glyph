@@ -18,11 +18,11 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (1080,1100);
+pos = (1120,1100);
 ref = n;
 }
 );
-width = 1080;
+width = 1120;
 },
 {
 anchors = (

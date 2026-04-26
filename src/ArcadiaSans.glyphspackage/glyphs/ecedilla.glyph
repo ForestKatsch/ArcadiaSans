@@ -34,11 +34,10 @@ shapes = (
 ref = e;
 },
 {
-pos = (-20,0);
 ref = cedillacomb;
 }
 );
-width = 1140;
+width = 1180;
 }
 );
 unicode = 553;

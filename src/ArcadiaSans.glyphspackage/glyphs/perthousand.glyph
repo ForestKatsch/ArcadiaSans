@@ -87,7 +87,7 @@ alignment = -1;
 attr = {
 identifier = 55BACD70;
 };
-pos = (320,0);
+pos = (360,0);
 ref = fraction;
 },
 {
@@ -103,7 +103,7 @@ alignment = -1;
 attr = {
 identifier = C9303424;
 };
-pos = (714,-359);
+pos = (754,-359);
 ref = _part.percent_circle;
 },
 {
@@ -111,11 +111,11 @@ alignment = -1;
 attr = {
 identifier = 72226A9C;
 };
-pos = (1414,-359);
+pos = (1454,-359);
 ref = _part.percent_circle;
 }
 );
-width = 2334;
+width = 2414;
 }
 );
 metricLeft = "=percent";

@@ -8,15 +8,15 @@ shapes = (
 ref = E;
 },
 {
-pos = (30,0);
+pos = (20,0);
 ref = dotbelowcomb;
 },
 {
-pos = (30,0);
+pos = (20,0);
 ref = circumflexcomb;
 }
 );
-width = 1214;
+width = 1194;
 },
 {
 layerId = m002;
@@ -25,15 +25,15 @@ shapes = (
 ref = E;
 },
 {
-pos = (60,0);
+pos = (50,0);
 ref = dotbelowcomb;
 },
 {
-pos = (60,0);
+pos = (50,0);
 ref = circumflexcomb;
 }
 );
-width = 1274;
+width = 1254;
 },
 {
 layerId = m003;
@@ -50,7 +50,7 @@ pos = (20,0);
 ref = circumflexcomb;
 }
 );
-width = 1274;
+width = 1244;
 }
 );
 unicode = 7878;

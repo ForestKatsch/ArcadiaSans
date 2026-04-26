@@ -43,7 +43,7 @@ pos = (180,-380);
 ref = _part.dash;
 }
 );
-width = 1490;
+width = 1470;
 },
 {
 layerId = m003;
@@ -64,7 +64,7 @@ pos = (140,-430);
 ref = _part.dash;
 }
 );
-width = 1550;
+width = 1510;
 }
 );
 metricLeft = "=P";

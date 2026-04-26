@@ -151,7 +151,7 @@ nodes = (
 );
 }
 );
-width = 1380;
+width = 1360;
 }
 );
 metricLeft = H;
