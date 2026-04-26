@@ -2,6 +2,8 @@
 
 A modern hybrid geometric font with angled corners and variable weight.
 
+![An image containing various examples of Arcadia Sans](preview.png)
+
 ## Features
 
 * Variable weight
