@@ -1,46 +1,21 @@
 # Building Arcadia Sans
 
-This document describes how to build font files from the Glyphs source.
-
-## Prerequisites
-
-- Python 3.9 or later
-- Glyphs.app (for UFO export)
-
-## Build Process
-
-1. **Export UFO files from Glyphs:**
-   - Open `src/ArcadiaSans.glyphspackage` in Glyphs.app
-   - File → Export → UFO
-   - Export to `build/ufo/`
-   - This handles corner components correctly
-
-2. **Build fonts:**
-   ```bash
-   make              # Build everything
-   ```
-
-The Makefile automatically:
-- Creates Python virtual environment (if needed)
-- Installs dependencies (if needed)
-- Generates designspace for variable fonts
-- Builds fonts with reproducible timestamps
-
-You can also build specific formats:
+Fonts are built straight from `src/ArcadiaSans.glyphspackage`. Glyphs.app isn't needed, only Python 3.9 or later.
 
 ```bash
-make ttf          # Static TTF instances
-make otf          # Static OTF instances
-make variable     # Variable font
-make webfonts     # WOFF/WOFF2
+make          # builds everything into build/
+make clean    # removes build/ and venv/
 ```
 
-## Cleaning
+The first run creates `venv/` with the pinned versions from `requirements.txt`. `make` produces:
 
-```bash
-make clean        # Remove build/ and venv/
-```
+- `build/exports/ttf/`, `build/exports/otf/`: static instances
+- `build/exports/variable/`: the variable font
+- `build/exports/webfonts/`: WOFF and WOFF2 of the variable font
+- `build/release-vX.YYY.zip`: all of the above, for GitHub releases
 
-## Reproducible Builds
+## How it works
 
-Builds use `SOURCE_DATE_EPOCH=0` for reproducible timestamps and `--no-production-names` to ensure consistent output across different environments.
+`build.py` converts the Glyphs source to UFO masters with glyphsLib, then runs fontmake. glyphsLib can't apply corner and cap components the way Glyphs does, so `smart_components.py` does that first, along with the other outline changes Glyphs makes on export (decomposing mirrored components). Its rules were checked against UFOs exported from Glyphs 4. Outlines match except for a few 1-unit rounding differences.
+
+Builds set `SOURCE_DATE_EPOCH=0`, so the same source and dependency versions produce identical files.
