@@ -11,7 +11,7 @@ ref = D;
 ref = macronbelowcomb;
 }
 );
-width = 1320;
+width = 1330;
 },
 {
 layerId = m002;
@@ -36,7 +36,7 @@ pos = (0,10);
 ref = macronbelowcomb;
 }
 );
-width = 1320;
+width = 1360;
 }
 );
 unicode = 7694;

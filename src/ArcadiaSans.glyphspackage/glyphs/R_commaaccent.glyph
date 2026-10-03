@@ -23,7 +23,7 @@ ref = R;
 ref = commaaccentcomb;
 }
 );
-width = 1360;
+width = 1340;
 },
 {
 layerId = m003;
@@ -35,7 +35,7 @@ ref = R;
 ref = commaaccentcomb;
 }
 );
-width = 1360;
+width = 1370;
 }
 );
 unicode = 342;

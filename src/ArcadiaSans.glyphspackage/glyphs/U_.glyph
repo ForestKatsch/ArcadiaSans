@@ -26,11 +26,6 @@ type = Corner;
 },
 {
 name = _corner.outside_lg;
-origin = (0,1);
-type = Corner;
-},
-{
-name = _corner.outside_lg;
 options = 2;
 origin = (0,2);
 scale = (-1,1);
@@ -90,11 +85,6 @@ type = Corner;
 },
 {
 name = _corner.outside_lg;
-origin = (0,1);
-type = Corner;
-},
-{
-name = _corner.outside_lg;
 options = 2;
 origin = (0,2);
 scale = (-1,1);
@@ -147,11 +137,6 @@ pos = (700,1500);
 }
 );
 hints = (
-{
-name = _corner.outside_lg;
-origin = (0,1);
-type = Corner;
-},
 {
 name = _corner.outside_lg;
 origin = (0,1);

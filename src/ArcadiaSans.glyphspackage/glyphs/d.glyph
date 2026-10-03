@@ -14,6 +14,9 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 53C2461E;
+};
 pos = (1155,0);
 ref = b;
 scale = (-1,1);
@@ -32,6 +35,9 @@ layerId = m002;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = AC815583;
+};
 pos = (1230,0);
 ref = b;
 scale = (-1,1);
@@ -50,6 +56,9 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = "77057082";
+};
 pos = (1230,0);
 ref = b;
 scale = (-1,1);

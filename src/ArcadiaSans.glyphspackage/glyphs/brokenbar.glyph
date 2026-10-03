@@ -11,6 +11,7 @@ ref = bar;
 },
 {
 attr = {
+identifier = 970B8393;
 mask = 1;
 };
 closed = 1;
@@ -32,6 +33,7 @@ ref = bar;
 },
 {
 attr = {
+identifier = ECAD2226;
 mask = 1;
 };
 closed = 1;
@@ -53,6 +55,7 @@ ref = bar;
 },
 {
 attr = {
+identifier = 6BFF1CA1;
 mask = 1;
 };
 closed = 1;

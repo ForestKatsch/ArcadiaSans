@@ -11,7 +11,7 @@ ref = D;
 ref = caroncomb;
 }
 );
-width = 1320;
+width = 1330;
 },
 {
 layerId = m002;
@@ -35,7 +35,7 @@ ref = D;
 ref = caroncomb;
 }
 );
-width = 1320;
+width = 1360;
 }
 );
 unicode = 270;

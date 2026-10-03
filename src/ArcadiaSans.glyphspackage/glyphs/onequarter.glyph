@@ -25,15 +25,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (900,0);
+pos = (800,0);
 ref = fraction;
 },
 {
-pos = (1594,0);
+pos = (1494,0);
 ref = four.dnom;
 }
 );
-width = 2494;
+width = 2394;
 },
 {
 layerId = m003;

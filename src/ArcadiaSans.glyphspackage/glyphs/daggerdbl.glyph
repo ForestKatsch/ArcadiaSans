@@ -5,9 +5,6 @@ layers = (
 layerId = m01;
 shapes = (
 {
-piece = {
-Group = 1;
-};
 ref = dagger;
 },
 {
@@ -28,9 +25,6 @@ width = 1080;
 layerId = m002;
 shapes = (
 {
-piece = {
-Group = 1;
-};
 ref = dagger;
 },
 {
@@ -51,9 +45,6 @@ width = 1080;
 layerId = m003;
 shapes = (
 {
-piece = {
-Group = 1;
-};
 pos = (20,0);
 ref = dagger;
 },

@@ -11,7 +11,7 @@ ref = n;
 ref = circumflexbelowcomb;
 }
 );
-width = 1210;
+width = 1120;
 },
 {
 layerId = m002;
@@ -35,7 +35,7 @@ ref = n;
 ref = circumflexbelowcomb;
 }
 );
-width = 1210;
+width = 1220;
 }
 );
 unicode = 7755;

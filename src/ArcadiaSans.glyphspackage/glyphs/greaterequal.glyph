@@ -9,7 +9,6 @@ pos = (0,100);
 ref = greater;
 },
 {
-pos = (0,200);
 ref = _part.equal_bar;
 }
 );
@@ -23,7 +22,6 @@ pos = (0,100);
 ref = greater;
 },
 {
-pos = (0,200);
 ref = _part.equal_bar;
 }
 );
@@ -37,7 +35,6 @@ pos = (0,200);
 ref = greater;
 },
 {
-pos = (0,160);
 ref = _part.equal_bar;
 }
 );
