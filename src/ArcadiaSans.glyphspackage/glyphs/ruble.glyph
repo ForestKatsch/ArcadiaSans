@@ -22,7 +22,7 @@ pos = (180,-380);
 ref = _part.dash;
 }
 );
-width = 1510;
+width = 1490;
 },
 {
 layerId = m002;

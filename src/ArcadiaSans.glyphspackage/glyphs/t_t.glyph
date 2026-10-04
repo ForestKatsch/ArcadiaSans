@@ -1,0 +1,58 @@
+{
+glyphname = t_t;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = t;
+},
+{
+alignment = -1;
+attr = {
+identifier = FEC36A35;
+};
+pos = (533,0);
+ref = t;
+}
+);
+width = 1296;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = t;
+},
+{
+alignment = -1;
+attr = {
+identifier = 16B53FDD;
+};
+pos = (573,0);
+ref = t;
+}
+);
+width = 1376;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = t;
+},
+{
+alignment = -1;
+attr = {
+identifier = A85CEEA8;
+};
+pos = (593,0);
+ref = t;
+}
+);
+width = 1336;
+}
+);
+metricLeft = "=t";
+metricRight = "=t";
+}

@@ -8,11 +8,17 @@ shapes = (
 ref = f;
 },
 {
-pos = (803,0);
-ref = i;
+alignment = -1;
+pos = (703,0);
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (293,-270);
+ref = dotaccentcomb;
 }
 );
-width = 1183;
+width = 1083;
 },
 {
 layerId = m002;
@@ -21,11 +27,17 @@ shapes = (
 ref = f;
 },
 {
-pos = (803,0);
-ref = i;
+alignment = -1;
+pos = (693,0);
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (343,-330);
+ref = dotaccentcomb;
 }
 );
-width = 1303;
+width = 1193;
 },
 {
 layerId = m003;
@@ -34,11 +46,19 @@ shapes = (
 ref = f;
 },
 {
-pos = (838,0);
-ref = i;
+alignment = -1;
+pos = (788,0);
+ref = idotless;
+scale = (1,1.0377);
+},
+{
+alignment = -1;
+pos = (458,-552);
+ref = dotaccentcomb;
+scale = (1,1.1154);
 }
 );
-width = 1378;
+width = 1328;
 }
 );
 metricLeft = f;

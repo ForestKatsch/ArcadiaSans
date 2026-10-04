@@ -8,11 +8,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (-88,0);
+pos = (-158,0);
 ref = circumflexbelowcomb;
 }
 );
-width = 883;
+width = 763;
 },
 {
 layerId = m002;
@@ -21,11 +21,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (-88,0);
+pos = (-148,0);
 ref = circumflexbelowcomb;
 }
 );
-width = 923;
+width = 803;
 },
 {
 layerId = m003;
@@ -34,11 +34,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (-118,0);
+pos = (-188,0);
 ref = circumflexbelowcomb;
 }
 );
-width = 873;
+width = 743;
 }
 );
 unicode = 7793;
