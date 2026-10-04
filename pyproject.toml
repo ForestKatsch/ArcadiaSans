@@ -1,0 +1,16 @@
+[project]
+name = "arcadia-sans"
+version = "0.1.0"
+description = "Build tooling for Arcadia Sans font"
+requires-python = ">=3.9"
+
+dependencies = [
+    "fontmake>=3.8.0",
+    "fonttools[woff,ufo]>=4.47.0",
+    "glyphsLib>=6.0.0",
+    "skia-pathops>=0.8.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

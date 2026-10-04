@@ -1,0 +1,4 @@
+fontmake>=3.8.0
+fonttools[ufo,woff]>=4.47.0
+glyphsLib>=6.0.0
+skia-pathops>=0.8.0

@@ -1,8 +1,0 @@
-# Pinned for reproducible builds. Upgrade deliberately and compare output.
-brotli==1.2.0
-fontmake==3.11.1
-fonttools==4.60.2
-glyphsLib==6.12.6
-skia-pathops==0.8.0.post2
-ufo2ft==3.6.9
-ufoLib2==0.18.1
